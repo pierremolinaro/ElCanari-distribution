@@ -8,6 +8,8 @@ import Foundation
 // ElCanari RSS : https://raw.githubusercontent.com/pierremolinaro/ElCanari-distribution/master/rss.xml
 // https://fr.wikipedia.org/wiki/RSS
 // https://sparkle-project.org
+// Example: https://version.cyberduck.io//changelog.rss
+// https://htmlpreview.github.com/?https://github.com/pierremolinaro/ElCanari-distribution/master/ElCanari.app.0.3.0.html
 //——————————————————————————————————————————————————————————————————————————————————————————————————————————————————————
 
 func header () -> [String] {
@@ -261,11 +263,12 @@ for (major, minor, patch) in sortedReleases {
 //  descriptionElement.setChildren ([cdata])
 //  item.addChild (descriptionElement)
 
-//---
-  let url = "https://raw.githubusercontent.com/pierremolinaro/ElCanari-distribution/master/ElCanari.app.\(version).tar.bz2"
-  item.addChild (XMLElement (name: "link", stringValue: url))
-//---
+//--- sparkle:releaseNotesLink
+  let htmlLink = "https://htmlpreview.github.com/?https://github.com/pierremolinaro/ElCanari-distribution/master/ElCanari.app.\(version).html"
+  item.addChild (XMLElement (name: "sparkle:releaseNotesLink", stringValue: htmlLink))
+//--- enclosure
   let enclosure = XMLElement (name: "enclosure")
+  let url = "https://raw.githubusercontent.com/pierremolinaro/ElCanari-distribution/master/ElCanari.app.\(version).tar.bz2"
   enclosure.addAttribute (XMLNode.attribute (withName: "url", stringValue:url) as! XMLNode)
   enclosure.addAttribute (XMLNode.attribute (withName: "type", stringValue:"application/octet-stream") as! XMLNode)
   let archiveSum = getString (infos, "archive-sum", #line)
