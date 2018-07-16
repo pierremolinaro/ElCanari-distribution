@@ -4,6 +4,7 @@
 
 import Foundation
 
+// RSS : https://raw.githubusercontent.com/pierremolinaro/ElCanari-distribution/master/rss.xml
 //——————————————————————————————————————————————————————————————————————————————————————————————————————————————————————
 
 func auth () -> [String] {

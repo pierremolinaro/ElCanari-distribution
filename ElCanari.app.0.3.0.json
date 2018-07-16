@@ -1,7 +1,11 @@
 {
-  "NOTE" : ["First release of ElCanari"],
-  "BUGFIX" : [],
-  "CHANGE" : [],
-  "NEW" : [],
-  "ENHANCEMENT" : []
+  "BUGFIX": [], 
+  "NOTE": [
+    "No new feature, just for checking the update mechanism"
+  ], 
+  "ENHANCEMENT": [], 
+  "archive-sum": "MC0CFDsrN2IIheDuvnumW5QTEY+QE2xPAhUAmjQHfzevE5Qgv0oysa0iojkTIJo=", 
+  "NEW": [], 
+  "CHANGE": [], 
+  "build": "2A15"
 }
