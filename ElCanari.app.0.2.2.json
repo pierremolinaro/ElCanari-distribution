@@ -1,7 +1,0 @@
-{
-  "BUGFIX" : ["Résolution du crash au démarrage sous Sierra (<a href=\"https://stackoverflow.com/questions/39927501/xcode-successfully-builds-but-fails-to-run-macos-app\">lien indiquant la cause</a>)."],
-  "CHANGE" : ["Déplacement de la bibliothèque principale dans l'espace utilisateur."],
-  "NOTE" : [],
-  "NEW" : [],
-  "ENHANCEMENT" : []
-}

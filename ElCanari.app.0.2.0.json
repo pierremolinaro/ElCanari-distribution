@@ -1,7 +1,0 @@
-{
-  "ENHANCEMENT" : ["Utilisation de Sparkle version 1.14.0"],
-  "NEW" : ["Implémentation du document Font", "Importation des documents <span class=\"ttt\">.CanariFont</span> de Canari</li>"],
-  "NOTE" : [],
-  "BUGFIX" : [],
-  "CHANGE" : []
-}
