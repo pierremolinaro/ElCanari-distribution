@@ -251,11 +251,13 @@ for (major, minor, patch) in sortedReleases {
   ])
   let infos = loadJsonFile (filePath: infoJSON)
   let infoString = analyzeInfos (infos)
-//  let cdata = XMLNode (kind: .text, options:.nodeIsCDATA)
-//  cdata.stringValue = infoString
-//  let descriptionElement = XMLElement (name: "description")
-//  descriptionElement.setChildren ([cdata])
-//  item.addChild (descriptionElement)
+
+  let cdata = XMLNode (kind: .text, options:.nodeIsCDATA)
+  cdata.stringValue = infoString
+  let descriptionElement = XMLElement (name: "description")
+  descriptionElement.setChildren ([cdata])
+  item.addChild (descriptionElement)
+
 //---
   let url = "https://raw.githubusercontent.com/pierremolinaro/ElCanari-distribution/master/ElCanari.app.\(version).tar.bz2"
   item.addChild (XMLElement (name: "link", stringValue: url))
