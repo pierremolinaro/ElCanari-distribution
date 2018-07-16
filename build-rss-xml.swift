@@ -267,6 +267,8 @@ for (major, minor, patch) in sortedReleases {
   let url = "https://raw.githubusercontent.com/pierremolinaro/ElCanari-distribution/master/ElCanari.app.\(version).tar.bz2"
   enclosure.addAttribute (XMLNode.attribute (withName: "url", stringValue:url) as! XMLNode)
   enclosure.addAttribute (XMLNode.attribute (withName: "type", stringValue:"application/octet-stream") as! XMLNode)
+  let archiveSum = getString (infos, "archive-sum", #line)
+  enclosure.addAttribute (XMLNode.attribute (withName: "sparkle:dsaSignature", stringValue:archiveSum) as! XMLNode)
   let fileSize = releaseSizeDict [version]!
   enclosure.addAttribute (XMLNode.attribute (withName: "length", stringValue:"\(fileSize)") as! XMLNode)
   print ("\(enclosure.kind)")
