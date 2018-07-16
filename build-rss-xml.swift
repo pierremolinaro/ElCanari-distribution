@@ -251,14 +251,16 @@ for (major, minor, patch) in sortedReleases {
   ])
   let infos = loadJsonFile (filePath: infoJSON)
   let infoString = analyzeInfos (infos)
-  let cdata = XMLNode (kind: .text, options:.nodeIsCDATA)
-  cdata.stringValue = infoString
-  let descriptionElement = XMLElement (name: "description")
-  descriptionElement.setChildren ([cdata])
-  item.addChild (descriptionElement)
+//  let cdata = XMLNode (kind: .text, options:.nodeIsCDATA)
+//  cdata.stringValue = infoString
+//  let descriptionElement = XMLElement (name: "description")
+//  descriptionElement.setChildren ([cdata])
+//  item.addChild (descriptionElement)
+//---
+  let url = "https://raw.githubusercontent.com/pierremolinaro/ElCanari-distribution/master/ElCanari.app.\(version).tar.bz2"
+  item.addChild (XMLElement (name: "link", stringValue: url))
 //---
   let enclosure = XMLElement (name: "enclosure")
-  let url = "https://raw.githubusercontent.com/pierremolinaro/ElCanari-distribution/master/ElCanari.app.\(version).tar.bz2"
   enclosure.addAttribute (XMLNode.attribute (withName: "url", stringValue:url) as! XMLNode)
   enclosure.addAttribute (XMLNode.attribute (withName: "type", stringValue:"application/octet-stream") as! XMLNode)
   let archiveSum = getString (infos, "archive-sum", #line)
@@ -266,7 +268,6 @@ for (major, minor, patch) in sortedReleases {
   enclosure.addAttribute (XMLNode.attribute (withName: "sparkle:version", stringValue:version) as! XMLNode)
   let fileSize = releaseSizeDict [version]!
   enclosure.addAttribute (XMLNode.attribute (withName: "length", stringValue:"\(fileSize)") as! XMLNode)
-  print ("\(enclosure.kind)")
   item.addChild (enclosure)
 //---
   channel.addChild (item)
