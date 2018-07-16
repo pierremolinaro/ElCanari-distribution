@@ -3,12 +3,9 @@
 
 #——————————————————————————————————————————————————————————————————————————————————————————————————————————————————————*
 
-import shutil, os, sys, subprocess, datetime, plistlib, urllib, time, json
+import shutil, os, sys, subprocess, datetime, time, json, tempfile
 import xml.etree.ElementTree as ET
 from xml.dom import minidom
-
-#-------------------- Version ElCanari
-VERSION_CANARI = "0.3.0"
 
 #——————————————————————————————————————————————————————————————————————————————————————————————————————————————————————*
 #   FOR PRINTING IN COLOR                                                                                              *
@@ -86,21 +83,48 @@ def dictionaryFromJsonFile (file) :
     sys.exit (1)
   return result
 
+#——————————————————————————————————————————————————————————————————————————————————————————————————————————————————————*
+
+def findDictionaryForVersion (listOfFileDictionaries, version) :
+  resultDictionary = {}
+  archiveName = "ElCanari.app." + version + ".tar.bz2"
+  print ("archiveName " + archiveName)
+  for entry in listOfFileDictionaries :
+    print ("PATH " + entry ["path"])
+    if entry ["path"] == archiveName:
+      resultDictionary = entry
+      break
+  return resultDictionary
 
 #——————————————————————————————————————————————————————————————————————————————————————————————————————————————————————*
 
-#--- Get script absolute path
+#-------------------- Get script absolute path
 scriptDir = os.path.dirname (os.path.abspath (sys.argv [0]))
-#-------------------- Supprimer une distribution existante
-TEMP_DIR = scriptDir + "/../DISTRIBUTION_EL_CANARI_" + VERSION_CANARI
-os.chdir (scriptDir + "/..")
-while os.path.isdir (TEMP_DIR):
-  shutil.rmtree (TEMP_DIR)
-#-------------------- Creer le repertoire contenant la distribution
-os.mkdir (TEMP_DIR)
-os.chdir (TEMP_DIR)
+#-------------------- Make temporary directory
+temporaryDir = tempfile.mkdtemp ()
+#-------------------- Download the Json file of master branch
+masterJsonFilePath = temporaryDir + "/master.json"
+runCommand (["curl", "-L",
+             "https://api.github.com/repos/pierremolinaro/ElCanari-distribution/branches/master",
+             "-o", masterJsonFilePath])
+masterDictionary = dictionaryFromJsonFile (masterJsonFilePath)
+commitDict = masterDictionary ["commit"]
+masterSHA = commitDict ["sha"]
+print (BOLD_BLUE + "SHA master " + masterSHA + ENDC)
+#-------------------- Download the Json file of all files of the master branch
+fileDescriptionJsonFilePath = temporaryDir + "/files.json"
+runCommand (["curl", "-L",
+             "https://api.github.com/repos/pierremolinaro/ElCanari-distribution/git/trees/" + masterSHA,
+             "-o", fileDescriptionJsonFilePath])
+fileDictionary = dictionaryFromJsonFile (fileDescriptionJsonFilePath)
+listOfFileDictionaries = fileDictionary ["tree"]
+#-------------------- Download versions.json from repository
+versionJsonFilePath = temporaryDir + "/versions.json"
+runCommand (["curl", "-L",
+             "https://raw.githubusercontent.com/pierremolinaro/ElCanari-distribution/master/versions.json",
+             "-o", versionJsonFilePath])
 #-------------------- Construire le fichier xml - rss
-versionDictionary = dictionaryFromJsonFile (scriptDir + "/versions.json")
+versionDictionary = dictionaryFromJsonFile (versionJsonFilePath)
 xmlString  = '<?xml version="1.0" encoding="utf-8"?>\n'
 xmlString += '<rss version="2.0" xmlns:sparkle="http://www.andymatuschak.org/xml-namespaces/sparkle"'
 xmlString += ' xmlns:dc="http://purl.org/dc/elements/1.1/">\n'
@@ -113,26 +137,13 @@ for entry in versionDictionary:
   xmlString += '    <item>\n'
   xmlString += '      <title>Version ' + version + '</title>\n'
   xmlString += '      <sparkle:minimumSystemVersion>10.11</sparkle:minimumSystemVersion>\n'
+  resultDictionary = findDictionaryForVersion (listOfFileDictionaries, version)
+  print ("Version " + version + ", length " + str (resultDictionary ["size"]))
   xmlString += '    </item>\n'
 xmlString += '  </channel>\n'
 xmlString += '</rss>\n'
 f = open (scriptDir + "/rss.xml", "w")
 f.write (xmlString)
 f.close ()
-#-------------------- Vérifier si l'application est signée
-# runCommand (["xattr", "-r", "-d", "com.apple.quarantine", "ElCanari.app])
-# runCommand (["spctl", "-a", "-vv", "ElCanari.app"])
-#-------------------- Créer l'archive de Cocoa canari
-nomArchive = "ElCanari-" + VERSION_CANARI
-runCommand (["mkdir", nomArchive])
-runCommand (["mv", "ElCanari.app", nomArchive + "/ElCanari.app"])
-runCommand (["ln", "-s", "/Applications", nomArchive + "/Applications"])
-runCommand (["hdiutil", "create", "-srcfolder", nomArchive, nomArchive + ".dmg"])
-runCommand (["mv", nomArchive + ".dmg", "../" + nomArchive + ".dmg"])
-#--- Supprimer les répertoires intermédiaires
-while os.path.isdir (TEMP_DIR + "/COCOA-CANARI"):
-  shutil.rmtree (TEMP_DIR + "/COCOA-CANARI")
-while os.path.isdir (TEMP_DIR + "/ElCanari-dev-master"):
-  shutil.rmtree (TEMP_DIR + "/ElCanari-dev-master")
 
 #——————————————————————————————————————————————————————————————————————————————————————————————————————————————————————*
