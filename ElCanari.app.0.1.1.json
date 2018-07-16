@@ -1,4 +1,8 @@
 {
-  "NOTE" : ["Aucune fonctionalité nouvelle, simplement pour vérifier que la mise à jour à partir de la version précédente s'effectue correctement"]
+  "NOTE" : ["Aucune fonctionalité nouvelle, simplement pour vérifier que la mise à jour à partir de la version précédente s'effectue correctement"],
+  "BUGFIX" : [],
+  "CHANGE" : [],
+  "NEW" : [],
+  "ENHANCEMENT" : []
 }
 

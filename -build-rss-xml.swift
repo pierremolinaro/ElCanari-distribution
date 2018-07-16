@@ -119,6 +119,28 @@ func getInt (_ inObject: Any, _ key : String, _ line : Int) -> Int {
 }
 
 //——————————————————————————————————————————————————————————————————————————————————————————————————————————————————————
+//   getStringArray fromDictionary
+//——————————————————————————————————————————————————————————————————————————————————————————————————————————————————————
+
+func getStringArray (_ inObject: Any, _ key : String, _ line : Int) -> [String] {
+  if let dictionary = inObject as? NSDictionary {
+    let r = dictionary [key]
+    if r == nil {
+      print (RED + "line \(line) : no \(key) key in dictionary" + ENDC)
+      exit (1)
+    }else if let s = r as? [String] {
+      return s
+    }else{
+      print (RED + "line \(line) : \(key) key value is not a string array" + ENDC)
+      exit (1)
+    }
+  }else{
+    print (RED + "line \(line) : object is not a dictionary" + ENDC)
+    exit (1)
+  }
+}
+
+//——————————————————————————————————————————————————————————————————————————————————————————————————————————————————————
 
 func getListOfReleases (_ listOfFileDictionaries : Any, _ line : Int) -> ([(Int, Int, Int)], [String : Int]) {
   if let array = listOfFileDictionaries as? [NSDictionary] {
@@ -140,6 +162,16 @@ func getListOfReleases (_ listOfFileDictionaries : Any, _ line : Int) -> ([(Int,
     print (RED + "line \(line) : object is not an array of dictionaries" + ENDC)
     exit (1)
   }
+}
+
+//——————————————————————————————————————————————————————————————————————————————————————————————————————————————————————
+
+func analyzeInfos (_ dictionary : Any) -> String {
+  let notes = getStringArray (dictionary, "NOTE", #line)
+  for note in notes {
+    print ("NOTE \(note)")
+  }
+  return ""
 }
 
 //——————————————————————————————————————————————————————————————————————————————————————————————————————————————————————
@@ -178,11 +210,6 @@ let sortedReleases = releases.sorted (by: {
   ($0.0 > $1.0) || (($0.0 == $1.0) && ($0.1 > $1.1)) || (($0.0 == $1.0) && ($0.1 == $1.1) && ($0.2 > $1.2))
 } )
 print (sortedReleases)
-//-------------------- Download versions.json from repository
-//versionJsonFilePath = temporaryDir + "/versions.json"
-//runCommand (["curl", "-L",
-//             "https://raw.githubusercontent.com/pierremolinaro/ElCanari-distribution/master/versions.json",
-//             "-o", versionJsonFilePath])
 //-------------------- Construire le fichier xml - rss
 let channel = XMLElement (name: "channel")
 channel.addChild (XMLElement(name: "title", stringValue:"ElCanari Changelog"))
@@ -194,7 +221,7 @@ for (major, minor, patch) in sortedReleases {
   item.addChild (XMLElement(name: "title", stringValue:"Version \(version)"))
   item.addChild (XMLElement(name: "sparkle:minimumSystemVersion", stringValue:"10.11"))
 //--- Find infos of last commit of the file
-  let commitJSON = temporaryDir + "/" + version + ".json"
+  let commitJSON = temporaryDir + "/app-" + version + ".json"
   runCommand (cmd:"/usr/bin/curl", args: [
     "-L",
     "https://api.github.com/repos/pierremolinaro/ElCanari-distribution/commits?path=ElCanari.app.\(version).tar.bz2",
@@ -207,6 +234,16 @@ for (major, minor, patch) in sortedReleases {
   let lastCommitAuthor = get (lastCommit, "committer", #line)
   let lastCommitDate : String = getString (lastCommitAuthor, "date", #line)
   item.addChild (XMLElement(name: "pubDate", stringValue:lastCommitDate))
+//--- Find infos of last commit of the file
+  let infoJSON = temporaryDir + "/info-" + version + ".json"
+  runCommand (cmd:"/usr/bin/curl", args: [
+    "-L",
+    "https://raw.githubusercontent.com/pierremolinaro/ElCanari-distribution/master/ElCanari.app.\(version).json",
+    "-o", infoJSON
+  ])
+  let infos = loadJsonFile (filePath: infoJSON)
+  let s = analyzeInfos (infos)
+  print ("\(s)")
 //---
   let enclosure = XMLElement (name: "enclosure")
   let url = "https://raw.githubusercontent.com/pierremolinaro/ElCanari-distribution/master/ElCanari.app.\(version).tar.bz2"
