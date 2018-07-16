@@ -1,8 +1,11 @@
 {
-  "NOTE" : ["No new feature, just for checking the update mechanism"],
-  "BUGFIX" : [],
-  "CHANGE" : [],
-  "NEW" : [],
-  "ENHANCEMENT" : []
+  "BUGFIX": [], 
+  "NOTE": [
+    "No new feature, just for checking the update mechanism"
+  ], 
+  "ENHANCEMENT": [], 
+  "archive-sum": "MCwCFEpDHXaP74lCf7SA9TfocQ7pwO0eAhQDCLFGiUNb7EXJFDQGDtcqz9f3Mg==", 
+  "NEW": [], 
+  "CHANGE": [], 
+  "build": "2A15"
 }
-
