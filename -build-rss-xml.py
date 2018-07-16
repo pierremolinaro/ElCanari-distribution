@@ -88,9 +88,9 @@ def dictionaryFromJsonFile (file) :
 def findDictionaryForVersion (listOfFileDictionaries, version) :
   resultDictionary = {}
   archiveName = "ElCanari.app." + version + ".tar.bz2"
-  print ("archiveName " + archiveName)
+  # print ("archiveName " + archiveName)
   for entry in listOfFileDictionaries :
-    print ("PATH " + entry ["path"])
+    # print ("PATH " + entry ["path"])
     if entry ["path"] == archiveName:
       resultDictionary = entry
       break
@@ -134,11 +134,29 @@ xmlString += '    <description>Most recent changes with links to updates.</descr
 xmlString += '    <language>en</language>\n'
 for entry in versionDictionary:
   version = entry ["VERSION"]
+  print (BOLD_BLUE + version + ENDC)
   xmlString += '    <item>\n'
-  xmlString += '      <title>Version ' + version + '</title>\n'
   xmlString += '      <sparkle:minimumSystemVersion>10.11</sparkle:minimumSystemVersion>\n'
+  xmlString += '      <title>Version ' + version + '</title>\n'
+#--- Find date of last commit of the file
+  commitJSON = temporaryDir + "/" + version + ".json"
+  runCommand (["curl", "-L",
+               "https://api.github.com/repos/pierremolinaro/ElCanari-distribution/commits?path=ElCanari.app." + version + ".tar.bz2",
+               "-o", commitJSON])
+  commitDictionary = dictionaryFromJsonFile (commitJSON)
+  lastCommitDict = commitDictionary [0]
+  lastCommit = lastCommitDict ["commit"]
+  lastCommitAuthor = lastCommit ["committer"]
+  lastCommitDate = lastCommitAuthor ["date"]
+  print ("  Last commit date " + lastCommitDate)
+  xmlString += '      <pubDate>' + lastCommitDate + '</pubDate>\n'
+#---
   resultDictionary = findDictionaryForVersion (listOfFileDictionaries, version)
-  print ("Version " + version + ", length " + str (resultDictionary ["size"]))
+  size = str (resultDictionary ["size"])
+  print ("  size " + size + " bytes")
+  url = "https://raw.githubusercontent.com/pierremolinaro/ElCanari-distribution/master/ElCanari.app." + version + ".tar.bz2"
+  print ("  File URL " + url)
+  xmlString += '      <enclosure url="' + url + '" sparkle:version="' + version + '" length="' + size + '" type="application/octet-stream" />\n'
   xmlString += '    </item>\n'
 xmlString += '  </channel>\n'
 xmlString += '</rss>\n'
