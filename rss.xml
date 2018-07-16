@@ -1,44 +1,44 @@
-<?xml version="1.0" encoding="utf-8"?>
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
 <rss version="2.0" xmlns:sparkle="http://www.andymatuschak.org/xml-namespaces/sparkle" xmlns:dc="http://purl.org/dc/elements/1.1/">
-  <channel>
-    <title>ElCanari Changelog</title>
-    <description>Most recent changes with links to updates.</description>
-    <language>en</language>
-    <item>
-      <sparkle:minimumSystemVersion>10.11</sparkle:minimumSystemVersion>
-      <title>Version 0.2.2</title>
-      <pubDate>2018-07-16T11:11:12Z</pubDate>
-      <enclosure url="https://raw.githubusercontent.com/pierremolinaro/ElCanari-distribution/master/ElCanari.app.0.2.2.tar.bz2" sparkle:version="0.2.2" length="5164061" type="application/octet-stream" />
-    </item>
-    <item>
-      <sparkle:minimumSystemVersion>10.11</sparkle:minimumSystemVersion>
-      <title>Version 0.2.1</title>
-      <pubDate>2018-07-16T11:11:12Z</pubDate>
-      <enclosure url="https://raw.githubusercontent.com/pierremolinaro/ElCanari-distribution/master/ElCanari.app.0.2.1.tar.bz2" sparkle:version="0.2.1" length="7130839" type="application/octet-stream" />
-    </item>
-    <item>
-      <sparkle:minimumSystemVersion>10.11</sparkle:minimumSystemVersion>
-      <title>Version 0.2.0</title>
-      <pubDate>2018-07-16T11:11:12Z</pubDate>
-      <enclosure url="https://raw.githubusercontent.com/pierremolinaro/ElCanari-distribution/master/ElCanari.app.0.2.0.tar.bz2" sparkle:version="0.2.0" length="7135565" type="application/octet-stream" />
-    </item>
-    <item>
-      <sparkle:minimumSystemVersion>10.11</sparkle:minimumSystemVersion>
-      <title>Version 0.1.2</title>
-      <pubDate>2018-07-16T11:11:12Z</pubDate>
-      <enclosure url="https://raw.githubusercontent.com/pierremolinaro/ElCanari-distribution/master/ElCanari.app.0.1.2.tar.bz2" sparkle:version="0.1.2" length="5619981" type="application/octet-stream" />
-    </item>
-    <item>
-      <sparkle:minimumSystemVersion>10.11</sparkle:minimumSystemVersion>
-      <title>Version 0.1.1</title>
-      <pubDate>2018-07-16T11:11:12Z</pubDate>
-      <enclosure url="https://raw.githubusercontent.com/pierremolinaro/ElCanari-distribution/master/ElCanari.app.0.1.1.tar.bz2" sparkle:version="0.1.1" length="5627807" type="application/octet-stream" />
-    </item>
-    <item>
-      <sparkle:minimumSystemVersion>10.11</sparkle:minimumSystemVersion>
-      <title>Version 0.1.0</title>
-      <pubDate>2018-07-16T11:11:12Z</pubDate>
-      <enclosure url="https://raw.githubusercontent.com/pierremolinaro/ElCanari-distribution/master/ElCanari.app.0.1.0.tar.bz2" sparkle:version="0.1.0" length="5628098" type="application/octet-stream" />
-    </item>
-  </channel>
+    <channel>
+        <title>ElCanari Changelog</title>
+        <description>Most recent changes with links to updates</description>
+        <language>en</language>
+        <item>
+            <title>Version 0.2.2</title>
+            <sparkle:minimumSystemVersion>10.11</sparkle:minimumSystemVersion>
+            <pubDate>2018-07-16T11:11:12Z</pubDate>
+            <enclosure url="https://raw.githubusercontent.com/pierremolinaro/ElCanari-distribution/master/ElCanari.app.0.2.2.tar.bz2" type="application/octet-stream" length="5164061"></enclosure>
+        </item>
+        <item>
+            <title>Version 0.2.1</title>
+            <sparkle:minimumSystemVersion>10.11</sparkle:minimumSystemVersion>
+            <pubDate>2018-07-16T11:11:12Z</pubDate>
+            <enclosure url="https://raw.githubusercontent.com/pierremolinaro/ElCanari-distribution/master/ElCanari.app.0.2.1.tar.bz2" type="application/octet-stream" length="7130839"></enclosure>
+        </item>
+        <item>
+            <title>Version 0.2.0</title>
+            <sparkle:minimumSystemVersion>10.11</sparkle:minimumSystemVersion>
+            <pubDate>2018-07-16T11:11:12Z</pubDate>
+            <enclosure url="https://raw.githubusercontent.com/pierremolinaro/ElCanari-distribution/master/ElCanari.app.0.2.0.tar.bz2" type="application/octet-stream" length="7135565"></enclosure>
+        </item>
+        <item>
+            <title>Version 0.1.2</title>
+            <sparkle:minimumSystemVersion>10.11</sparkle:minimumSystemVersion>
+            <pubDate>2018-07-16T11:11:12Z</pubDate>
+            <enclosure url="https://raw.githubusercontent.com/pierremolinaro/ElCanari-distribution/master/ElCanari.app.0.1.2.tar.bz2" type="application/octet-stream" length="5619981"></enclosure>
+        </item>
+        <item>
+            <title>Version 0.1.1</title>
+            <sparkle:minimumSystemVersion>10.11</sparkle:minimumSystemVersion>
+            <pubDate>2018-07-16T11:11:12Z</pubDate>
+            <enclosure url="https://raw.githubusercontent.com/pierremolinaro/ElCanari-distribution/master/ElCanari.app.0.1.1.tar.bz2" type="application/octet-stream" length="5627807"></enclosure>
+        </item>
+        <item>
+            <title>Version 0.1.0</title>
+            <sparkle:minimumSystemVersion>10.11</sparkle:minimumSystemVersion>
+            <pubDate>2018-07-16T11:11:12Z</pubDate>
+            <enclosure url="https://raw.githubusercontent.com/pierremolinaro/ElCanari-distribution/master/ElCanari.app.0.1.0.tar.bz2" type="application/octet-stream" length="5628098"></enclosure>
+        </item>
+    </channel>
 </rss>
