@@ -4,7 +4,10 @@
 
 import Foundation
 
-// RSS : https://raw.githubusercontent.com/pierremolinaro/ElCanari-distribution/master/rss.xml
+//——————————————————————————————————————————————————————————————————————————————————————————————————————————————————————
+// ElCanari RSS : https://raw.githubusercontent.com/pierremolinaro/ElCanari-distribution/master/rss.xml
+// https://fr.wikipedia.org/wiki/RSS
+// https://sparkle-project.org
 //——————————————————————————————————————————————————————————————————————————————————————————————————————————————————————
 
 func header () -> [String] {
@@ -16,14 +19,14 @@ func header () -> [String] {
 //——————————————————————————————————————————————————————————————————————————————————————————————————————————————————————
 
 let BLACK   = "\u{001B}[0;30m"
-let RED     = "\u{001B}[0;31m" // "\033[91m"
-let GREEN   = "\u{001B}[0;32m" // "\033[92m"
+let RED     = "\u{001B}[0;31m"
+let GREEN   = "\u{001B}[0;32m"
 let YELLOW  = "\u{001B}[0;33m"
-let BLUE    = "\u{001B}[0;34m" // "\033[94m"
-let MAGENTA = "\u{001B}[0;35m" // "\033[95m"
-let CYAN    = "\u{001B}[0;36m" // "\033[95m"
-let ENDC = "\u{001B}[0;0m" // "\033[0m"
-let BOLD = "\u{001B}[0;1m" // "\033[1m"
+let BLUE    = "\u{001B}[0;34m"
+let MAGENTA = "\u{001B}[0;35m"
+let CYAN    = "\u{001B}[0;36m"
+let ENDC    = "\u{001B}[0;0m"
+let BOLD    = "\u{001B}[0;1m"
 //let UNDERLINE = "\033[4m"
 let BOLD_MAGENTA = BOLD + MAGENTA
 let BOLD_BLUE = BOLD + BLUE
