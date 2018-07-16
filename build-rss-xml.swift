@@ -269,6 +269,7 @@ for (major, minor, patch) in sortedReleases {
   enclosure.addAttribute (XMLNode.attribute (withName: "type", stringValue:"application/octet-stream") as! XMLNode)
   let archiveSum = getString (infos, "archive-sum", #line)
   enclosure.addAttribute (XMLNode.attribute (withName: "sparkle:dsaSignature", stringValue:archiveSum) as! XMLNode)
+  enclosure.addAttribute (XMLNode.attribute (withName: "sparkle:version", stringValue:version) as! XMLNode)
   let fileSize = releaseSizeDict [version]!
   enclosure.addAttribute (XMLNode.attribute (withName: "length", stringValue:"\(fileSize)") as! XMLNode)
   print ("\(enclosure.kind)")
@@ -293,44 +294,5 @@ do{
   print (BOLD_RED + "Error \(error) writing rss.xml file" + ENDC)
   exit (1)
 }
-//versionDictionary = loadJsonFile (versionJsonFilePath)
-//xmlString  = '<?xml version="1.0" encoding="utf-8"?>\n'
-//xmlString += '<rss version="2.0" xmlns:sparkle="http://www.andymatuschak.org/xml-namespaces/sparkle"'
-//xmlString += ' xmlns:dc="http://purl.org/dc/elements/1.1/">\n'
-//xmlString += '  <channel>\n'
-//xmlString += '    <title>ElCanari Changelog</title>\n'
-//xmlString += '    <description>Most recent changes with links to updates.</description>\n'
-//xmlString += '    <language>en</language>\n'
-//for entry in versionDictionary:
-//  version = entry ["VERSION"]
-//  print (BOLD_BLUE + version + ENDC)
-//  xmlString += '    <item>\n'
-//  xmlString += '      <sparkle:minimumSystemVersion>10.11</sparkle:minimumSystemVersion>\n'
-//  xmlString += '      <title>Version ' + version + '</title>\n'
-//--- Find date of last commit of the file
-//  commitJSON = temporaryDir + "/" + version + ".json"
-//  runCommand (["curl", "-L",
-//               "https://api.github.com/repos/pierremolinaro/ElCanari-distribution/commits?path=ElCanari.app." + version + ".tar.bz2",
-//               "-o", commitJSON])
-//  commitDictionary = loadJsonFile (commitJSON)
-//  lastCommitDict = commitDictionary [0]
-//  lastCommit = lastCommitDict ["commit"]
-//  lastCommitAuthor = lastCommit ["committer"]
-//  lastCommitDate = lastCommitAuthor ["date"]
-//  print ("  Last commit date " + lastCommitDate)
-//  xmlString += '      <pubDate>' + lastCommitDate + '</pubDate>\n'
-//---
-//  resultDictionary = findDictionaryForVersion (listOfFileDictionaries, version)
-//  size = str (resultDictionary ["size"])
-//  print ("  size " + size + " bytes")
-//  url = "https://raw.githubusercontent.com/pierremolinaro/ElCanari-distribution/master/ElCanari.app." + version + ".tar.bz2"
-//  print ("  File URL " + url)
-//  xmlString += '      <enclosure url="' + url + '" sparkle:version="' + version + '" length="' + size + '" type="application/octet-stream" />\n'
-//  xmlString += '    </item>\n'
-//xmlString += '  </channel>\n'
-//xmlString += '</rss>\n'
-//f = open (scriptDir + "/rss.xml", "w")
-//f.write (xmlString)
-//f.close ()
 
 //——————————————————————————————————————————————————————————————————————————————————————————————————————————————————————
