@@ -1,0 +1,5 @@
+{
+  "BUGFIX" : ["Correction du fonctionnement du menu « Check for Application Updates… »"],
+  "ENHANCEMENT" : ["Amélioration de la présentation des préférences"],
+  "ENHANCEMENT" : ["Finalisation de la gestion des librairies utilisateur"]
+}
