@@ -7,12 +7,6 @@ import Foundation
 // RSS : https://raw.githubusercontent.com/pierremolinaro/ElCanari-distribution/master/rss.xml
 //——————————————————————————————————————————————————————————————————————————————————————————————————————————————————————
 
-func auth () -> [String] {
-  return []
-}
-
-//——————————————————————————————————————————————————————————————————————————————————————————————————————————————————————
-
 func header () -> [String] {
   return [] // ["-H", "\"Accept: application/vnd.github.v3+json\""]
 }
@@ -202,7 +196,7 @@ runCommand (cmd:"/usr/bin/curl", args: header () + [
   "-L",
   "https://api.github.com/repos/pierremolinaro/ElCanari-distribution/branches/master",
   "-o", masterJsonFilePath
-] + auth ())
+])
 let masterDictionary = loadJsonFile (filePath: masterJsonFilePath)
 //print (masterDictionary)
 let commitDict = get (masterDictionary, "commit", #line)
@@ -214,7 +208,7 @@ runCommand (cmd:"/usr/bin/curl", args: header () + [
   "-L",
   "https://api.github.com/repos/pierremolinaro/ElCanari-distribution/git/trees/" + masterSHA,
   "-o", fileDescriptionJsonFilePath
-] + auth ())
+])
 let fileDictionary = loadJsonFile (filePath: fileDescriptionJsonFilePath)
 //--- Get sorted list of releases
 let listOfFileDictionaries = get (fileDictionary, "tree", #line)
@@ -240,7 +234,7 @@ for (major, minor, patch) in sortedReleases {
     "-L",
     "https://api.github.com/repos/pierremolinaro/ElCanari-distribution/commits?path=ElCanari.app.\(version).tar.bz2",
     "-o", commitJSON
-  ] + auth ())
+  ])
   let commit = loadJsonFile (filePath: commitJSON)
   // print ("\(commit)")
   let lastCommitDict = (commit as! [NSDictionary]) [0]
@@ -254,7 +248,7 @@ for (major, minor, patch) in sortedReleases {
     "-L",
     "https://raw.githubusercontent.com/pierremolinaro/ElCanari-distribution/master/ElCanari.app.\(version).json",
     "-o", infoJSON
-  ] + auth ())
+  ])
   let infos = loadJsonFile (filePath: infoJSON)
   let infoString = analyzeInfos (infos)
   let cdata = XMLNode (kind: .text, options:.nodeIsCDATA)
