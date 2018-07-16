@@ -1,0 +1,27 @@
+[
+  { "VERSION" : "0.3.0",
+    "NEW" : ["Added Merger document"]
+  },
+  { "VERSION" : "0.2.2",
+    "BUGFIX" : ["Résolution du crash au démarrage sous Sierra (<a href=\"https://stackoverflow.com/questions/39927501/xcode-successfully-builds-but-fails-to-run-macos-app\">lien indiquant la cause</a>)."],
+    "CHANGE" : ["Déplacement de la bibliothèque principale dans l'espace utilisateur."]
+  },
+  { "VERSION" : "0.2.1",
+    "ENHANCEMENT" : ["L'application ElCanari est maintenant signée par un <i>développeur identifié</i>, de façon à faciliter son ouverture sous Sierra"]
+  },
+  { "VERSION" : "0.2.0",
+    "ENHANCEMENT" : ["Utilisation de Sparkle version 1.14.0"],
+    "NEW" : ["Implémentation du document Font", "Importation des documents <span class=\"ttt\">.CanariFont</span> de Canari</li>"]
+  },
+  { "VERSION" : "0.1.2",
+    "BUGFIX" : ["Correction du fonctionnement du menu « Check for Application Updates… »"],
+    "ENHANCEMENT" : ["Amélioration de la présentation des préférences"],
+    "ENHANCEMENT" : ["Finalisation de la gestion des librairies utilisateur"]
+  },
+  { "VERSION" : "0.1.1",
+    "NOTE" : ["Aucune fonctionalité nouvelle, simplement pour vérifier que la mise à jour à partir de la version précédente s'effectue correctement"]
+  },
+  { "VERSION" : "0.1.0",
+    "NOTE" : ["Première version publiée de ElCanari"]
+  }
+]
