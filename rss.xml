@@ -8,14 +8,14 @@
             <title>Version 0.3.1</title>
             <sparkle:minimumSystemVersion>10.11</sparkle:minimumSystemVersion>
             <pubDate>2018-07-16T18:52:34Z</pubDate>
-            <sparkle:releaseNotesLink>https://version.cyberduck.io//changelog.html</sparkle:releaseNotesLink>
+            <sparkle:releaseNotesLink>https://www.pcmolinaro.name/ElCanari-release-notes.html</sparkle:releaseNotesLink>
             <enclosure url="https://raw.githubusercontent.com/pierremolinaro/ElCanari-distribution/master/ElCanari.app.0.3.1.tar.bz2" type="application/octet-stream" sparkle:dsaSignature="MCwCFEpDHXaP74lCf7SA9TfocQ7pwO0eAhQDCLFGiUNb7EXJFDQGDtcqz9f3Mg==" sparkle:version="0.3.1" length="10898343"></enclosure>
         </item>
         <item>
             <title>Version 0.3.0</title>
             <sparkle:minimumSystemVersion>10.11</sparkle:minimumSystemVersion>
             <pubDate>2018-07-16T18:52:34Z</pubDate>
-            <sparkle:releaseNotesLink>https://version.cyberduck.io//changelog.html</sparkle:releaseNotesLink>
+            <sparkle:releaseNotesLink>https://www.pcmolinaro.name/ElCanari-release-notes.html</sparkle:releaseNotesLink>
             <enclosure url="https://raw.githubusercontent.com/pierremolinaro/ElCanari-distribution/master/ElCanari.app.0.3.0.tar.bz2" type="application/octet-stream" sparkle:dsaSignature="MC0CFDsrN2IIheDuvnumW5QTEY+QE2xPAhUAmjQHfzevE5Qgv0oysa0iojkTIJo=" sparkle:version="0.3.0" length="10898656"></enclosure>
         </item>
     </channel>
