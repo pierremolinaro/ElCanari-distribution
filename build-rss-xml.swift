@@ -17,6 +17,10 @@ func header () -> [String] {
 }
 
 //——————————————————————————————————————————————————————————————————————————————————————————————————————————————————————
+
+let changeLogURL = "https://version.cyberduck.io//changelog.html"
+
+//——————————————————————————————————————————————————————————————————————————————————————————————————————————————————————
 //   FOR PRINTING IN COLOR
 //——————————————————————————————————————————————————————————————————————————————————————————————————————————————————————
 
@@ -257,8 +261,8 @@ for (major, minor, patch) in sortedReleases {
   let infos = loadJsonFile (filePath: infoJSON)
   let infoString = analyzeInfos (infos)
 //--- sparkle:releaseNotesLink
-  let htmlLink = "https://htmlpreview.github.com/?https://github.com/pierremolinaro/ElCanari-distribution/master/ElCanari.app.\(version).html"
-  item.addChild (XMLElement (name: "sparkle:releaseNotesLink", stringValue: htmlLink))
+  // let htmlLink = "https://htmlpreview.github.com/?https://github.com/pierremolinaro/ElCanari-distribution/master/ElCanari.app.\(version).html"
+  item.addChild (XMLElement (name: "sparkle:releaseNotesLink", stringValue: changeLogURL))
 //--- enclosure
   let enclosure = XMLElement (name: "enclosure")
   let url = "https://raw.githubusercontent.com/pierremolinaro/ElCanari-distribution/master/ElCanari.app.\(version).tar.bz2"
