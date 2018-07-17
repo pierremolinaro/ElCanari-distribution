@@ -157,6 +157,68 @@ func getStringArray (_ inObject: Any, _ key : String, _ line : Int) -> [String] 
 }
 
 //——————————————————————————————————————————————————————————————————————————————————————————————————————————————————————
+//    Release Notes
+//——————————————————————————————————————————————————————————————————————————————————————————————————————————————————————
+
+var releaseNotesHTML = "<!DOCTYPE html PUBLIC \"-//W3C//DTD XHTML 1.0 Strict//EN\" \"http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd\">\n"
+releaseNotesHTML += "<html xmlns=\"http://www.w3.org/1999/xhtml\" xml:lang=\"en\" lang=\"en\">\n"
+releaseNotesHTML += "  <head>\n"
+releaseNotesHTML += "    <meta http-equiv=\"content-type\" content=\"text/html; charset=utf-8\" />\n"
+releaseNotesHTML += "    <title>ElCanari Release Notes</title>\n"
+releaseNotesHTML += "    <style type=\"text/css\">\n"
+releaseNotesHTML += "      body {\n"
+releaseNotesHTML += "       font-family: \"Lucida Grande\", sans-serif ;\n"
+releaseNotesHTML += "       font-size: 12px ;\n"
+releaseNotesHTML += "      }\n"
+releaseNotesHTML += "      .version-title {\n"
+releaseNotesHTML += "        display: inline;\n"
+releaseNotesHTML += "        padding: .2em .6em .3em;\n"
+releaseNotesHTML += "        font-weight: bold;\n"
+releaseNotesHTML += "        line-height: 1;\n"
+releaseNotesHTML += "        text-align: left ;\n"
+releaseNotesHTML += "        white-space: nowrap;\n"
+releaseNotesHTML += "        vertical-align: baseline;\n"
+releaseNotesHTML += "        border-radius: .25em;\n"
+releaseNotesHTML += "        padding: .2em .6em .3em;\n"
+releaseNotesHTML += "        color: #000000 ;\n"
+releaseNotesHTML += "        background-color: #FFFFCC ;\n"
+releaseNotesHTML += "      }\n"
+releaseNotesHTML += "      .box {\n"
+releaseNotesHTML += "        display: inline ;\n"
+releaseNotesHTML += "        padding: .2em .6em .3em ;\n"
+releaseNotesHTML += "        font-size: 75% ;\n"
+releaseNotesHTML += "        font-weight: normal ;\n"
+releaseNotesHTML += "        line-height: 1 ;\n"
+releaseNotesHTML += "        color: #FFFFFF ;\n"
+releaseNotesHTML += "        text-align: center ;\n"
+releaseNotesHTML += "        white-space: nowrap ;\n"
+releaseNotesHTML += "        vertical-align: baseline ;\n"
+releaseNotesHTML += "        border-radius: .5em ;\n"
+releaseNotesHTML += "        min-width: 150px ;\n"
+releaseNotesHTML += "      }\n"
+releaseNotesHTML += "      .bugfix {\n"
+releaseNotesHTML += "        background-color: #FFCC00 ;\n"
+releaseNotesHTML += "      }\n"
+releaseNotesHTML += "      .new {\n"
+releaseNotesHTML += "        background-color: #0099FF ;\n"
+releaseNotesHTML += "      }\n"
+releaseNotesHTML += "      .note {\n"
+releaseNotesHTML += "        background-color: #000000 ;\n"
+releaseNotesHTML += "      }\n"
+releaseNotesHTML += "      .change {\n"
+releaseNotesHTML += "        background-color: #993300 ;\n"
+releaseNotesHTML += "      }\n"
+releaseNotesHTML += "      ul li {\n"
+releaseNotesHTML += "        list-style-type: none;\n"
+releaseNotesHTML += "        line-height: 1.5em;\n"
+releaseNotesHTML += "      }\n"
+releaseNotesHTML += "    </style>\n"
+releaseNotesHTML += "  </head>\n"
+releaseNotesHTML += "    <body>\n"
+
+//——————————————————————————————————————————————————————————————————————————————————————————————————————————————————————
+//    getListOfReleases
+//——————————————————————————————————————————————————————————————————————————————————————————————————————————————————————
 
 func getListOfReleases (_ listOfFileDictionaries : Any, _ line : Int) -> ([(Int, Int, Int)], [String : Int]) {
   if let array = listOfFileDictionaries as? [NSDictionary] {
@@ -181,13 +243,49 @@ func getListOfReleases (_ listOfFileDictionaries : Any, _ line : Int) -> ([(Int,
 }
 
 //——————————————————————————————————————————————————————————————————————————————————————————————————————————————————————
+//  HTML encode
+// https://gist.github.com/SebastianMecklenburg/4f72d0ca1d5bd8638633
+//——————————————————————————————————————————————————————————————————————————————————————————————————————————————————————
+
+let enc:  [Character:String] = [" ":"&emsp;", " ":"&ensp;", " ":"&nbsp;", " ":"&thinsp;", "‾":"&oline;", "–":"&ndash;", "—":"&mdash;", "¡":"&iexcl;", "¿":"&iquest;", "…":"&hellip;", "·":"&middot;", "'":"&apos;", "‘":"&lsquo;", "’":"&rsquo;", "‚":"&sbquo;", "‹":"&lsaquo;", "›":"&rsaquo;", "‎":"&lrm;", "‏":"&rlm;", "­":"&shy;", "‍":"&zwj;", "‌":"&zwnj;", "\"":"&quot;", "“":"&ldquo;", "”":"&rdquo;", "„":"&bdquo;", "«":"&laquo;", "»":"&raquo;", "⌈":"&lceil;", "⌉":"&rceil;", "⌊":"&lfloor;", "⌋":"&rfloor;", "〈":"&lang;", "〉":"&rang;", "§":"&sect;", "¶":"&para;", "&":"&amp;", "‰":"&permil;", "†":"&dagger;", "‡":"&Dagger;", "•":"&bull;", "′":"&prime;", "″":"&Prime;", "´":"&acute;", "˜":"&tilde;", "¯":"&macr;", "¨":"&uml;", "¸":"&cedil;", "ˆ":"&circ;", "°":"&deg;", "©":"&copy;", "®":"&reg;", "℘":"&weierp;", "←":"&larr;", "→":"&rarr;", "↑":"&uarr;", "↓":"&darr;", "↔":"&harr;", "↵":"&crarr;", "⇐":"&lArr;", "⇑":"&uArr;", "⇒":"&rArr;", "⇓":"&dArr;", "⇔":"&hArr;", "∀":"&forall;", "∂":"&part;", "∃":"&exist;", "∅":"&empty;", "∇":"&nabla;", "∈":"&isin;", "∉":"&notin;", "∋":"&ni;", "∏":"&prod;", "∑":"&sum;", "±":"&plusmn;", "÷":"&divide;", "×":"&times;", "<":"&lt;", "≠":"&ne;", ">":"&gt;", "¬":"&not;", "¦":"&brvbar;", "−":"&minus;", "⁄":"&frasl;", "∗":"&lowast;", "√":"&radic;", "∝":"&prop;", "∞":"&infin;", "∠":"&ang;", "∧":"&and;", "∨":"&or;", "∩":"&cap;", "∪":"&cup;", "∫":"&int;", "∴":"&there4;", "∼":"&sim;", "≅":"&cong;", "≈":"&asymp;", "≡":"&equiv;", "≤":"&le;", "≥":"&ge;", "⊄":"&nsub;", "⊂":"&sub;", "⊃":"&sup;", "⊆":"&sube;", "⊇":"&supe;", "⊕":"&oplus;", "⊗":"&otimes;", "⊥":"&perp;", "⋅":"&sdot;", "◊":"&loz;", "♠":"&spades;", "♣":"&clubs;", "♥":"&hearts;", "♦":"&diams;", "¤":"&curren;", "¢":"&cent;", "£":"&pound;", "¥":"&yen;", "€":"&euro;", "¹":"&sup1;", "½":"&frac12;", "¼":"&frac14;", "²":"&sup2;", "³":"&sup3;", "¾":"&frac34;", "á":"&aacute;", "Á":"&Aacute;", "â":"&acirc;", "Â":"&Acirc;", "à":"&agrave;", "À":"&Agrave;", "å":"&aring;", "Å":"&Aring;", "ã":"&atilde;", "Ã":"&Atilde;", "ä":"&auml;", "Ä":"&Auml;", "ª":"&ordf;", "æ":"&aelig;", "Æ":"&AElig;", "ç":"&ccedil;", "Ç":"&Ccedil;", "ð":"&eth;", "Ð":"&ETH;", "é":"&eacute;", "É":"&Eacute;", "ê":"&ecirc;", "Ê":"&Ecirc;", "è":"&egrave;", "È":"&Egrave;", "ë":"&euml;", "Ë":"&Euml;", "ƒ":"&fnof;", "í":"&iacute;", "Í":"&Iacute;", "î":"&icirc;", "Î":"&Icirc;", "ì":"&igrave;", "Ì":"&Igrave;", "ℑ":"&image;", "ï":"&iuml;", "Ï":"&Iuml;", "ñ":"&ntilde;", "Ñ":"&Ntilde;", "ó":"&oacute;", "Ó":"&Oacute;", "ô":"&ocirc;", "Ô":"&Ocirc;", "ò":"&ograve;", "Ò":"&Ograve;", "º":"&ordm;", "ø":"&oslash;", "Ø":"&Oslash;", "õ":"&otilde;", "Õ":"&Otilde;", "ö":"&ouml;", "Ö":"&Ouml;", "œ":"&oelig;", "Œ":"&OElig;", "ℜ":"&real;", "š":"&scaron;", "Š":"&Scaron;", "ß":"&szlig;", "™":"&trade;", "ú":"&uacute;", "Ú":"&Uacute;", "û":"&ucirc;", "Û":"&Ucirc;", "ù":"&ugrave;", "Ù":"&Ugrave;", "ü":"&uuml;", "Ü":"&Uuml;", "ý":"&yacute;", "Ý":"&Yacute;", "ÿ":"&yuml;", "Ÿ":"&Yuml;", "þ":"&thorn;", "Þ":"&THORN;", "α":"&alpha;", "Α":"&Alpha;", "β":"&beta;", "Β":"&Beta;", "γ":"&gamma;", "Γ":"&Gamma;", "δ":"&delta;", "Δ":"&Delta;", "ε":"&epsilon;", "Ε":"&Epsilon;", "ζ":"&zeta;", "Ζ":"&Zeta;", "η":"&eta;", "Η":"&Eta;", "θ":"&theta;", "Θ":"&Theta;", "ϑ":"&thetasym;", "ι":"&iota;", "Ι":"&Iota;", "κ":"&kappa;", "Κ":"&Kappa;", "λ":"&lambda;", "Λ":"&Lambda;", "µ":"&micro;", "μ":"&mu;", "Μ":"&Mu;", "ν":"&nu;", "Ν":"&Nu;", "ξ":"&xi;", "Ξ":"&Xi;", "ο":"&omicron;", "Ο":"&Omicron;", "π":"&pi;", "Π":"&Pi;", "ϖ":"&piv;", "ρ":"&rho;", "Ρ":"&Rho;", "σ":"&sigma;", "Σ":"&Sigma;", "ς":"&sigmaf;", "τ":"&tau;", "Τ":"&Tau;", "ϒ":"&upsih;", "υ":"&upsilon;", "Υ":"&Upsilon;", "φ":"&phi;", "Φ":"&Phi;", "χ":"&chi;", "Χ":"&Chi;", "ψ":"&psi;", "Ψ":"&Psi;", "ω":"&omega;", "Ω":"&Omega;", "ℵ":"&alefsym;"]
+
+extension String {
+    var html: String {
+        get {
+            var html = ""
+            for c in self.characters {
+                if let entity = enc[c] {
+                    html.append (entity)
+                } else {
+                    html.append(c)
+                }
+            }
+            return html
+        }
+    }
+}
+
+//——————————————————————————————————————————————————————————————————————————————————————————————————————————————————————
 
 func analyzeInfos (_ dictionary : Any) -> String {
-  var s = ""
-  let notes = getStringArray (dictionary, "NOTE", #line)
-  for note in notes {
-    s += "<p>" + note + "</p>"
+  var s = "  <ul>\n"
+  let bugFixes = getStringArray (dictionary, "BUGFIX", #line)
+  let news = getStringArray (dictionary, "NEW", #line)
+  for str in news {
+    s += "    <li><span class=\"box new\">New</span> \(str.html)</li>\n"
   }
+  for str in bugFixes {
+    s += "    <li><span class=\"box bugfix\">Bugfix</span> \(str.html)</li>\n"
+  }
+  let changes = getStringArray (dictionary, "CHANGE", #line)
+  for str in changes {
+    s += "    <li><span class=\"box change\">Changed</span> \(str.html)</li>\n"
+  }
+  let notes = getStringArray (dictionary, "NOTE", #line)
+  for str in notes {
+    s += "    <li><span class=\"box note\">Note</span> \(str.html)</li>\n"
+  }
+  s += "  </ul>\n"
   return s
 }
 
@@ -259,7 +357,6 @@ for (major, minor, patch) in sortedReleases {
     "-o", infoJSON
   ])
   let infos = loadJsonFile (filePath: infoJSON)
-  let infoString = analyzeInfos (infos)
 //--- sparkle:releaseNotesLink
   item.addChild (XMLElement (name: "sparkle:releaseNotesLink", stringValue: changeLogURL))
 //--- enclosure
@@ -275,6 +372,11 @@ for (major, minor, patch) in sortedReleases {
   item.addChild (enclosure)
 //---
   channel.addChild (item)
+//--- Release notes
+  let buildString = getString (infos, "build", #line)
+  releaseNotesHTML += "\n  <p>\n    <span class=\"version-title\">Version \(version) (build \(buildString))</span>\n  </p>\n"
+  let infoHTMLString = analyzeInfos (infos)
+  releaseNotesHTML += infoHTMLString
 }
 let rss = XMLElement (name: "rss")
 rss.addChild (channel)
@@ -293,5 +395,20 @@ do{
   print (BOLD_RED + "Error \(error) writing rss.xml file" + ENDC)
   exit (1)
 }
+//--- Terminer le fichier release-notes.html
+releaseNotesHTML +=  "  </body>\n"
+releaseNotesHTML +=  "</html>\n"
+if let releaseNotesData = releaseNotesHTML.data (using: .utf8) {
+  do{
+    try releaseNotesData.write (to: scriptDir.appendingPathComponent ("ElCanari-release-notes.html"))
+  }catch let error {
+    print (BOLD_RED + "Error \(error) writing ElCanari-release-notes.html file" + ENDC)
+    exit (1)
+  }
+}else{
+  print (BOLD_RED + "Release notes source is not an UTF-8 string" + ENDC)
+  exit (1)
+}
+
 
 //——————————————————————————————————————————————————————————————————————————————————————————————————————————————————————
