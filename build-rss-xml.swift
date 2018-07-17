@@ -18,8 +18,7 @@ func header () -> [String] {
 
 //——————————————————————————————————————————————————————————————————————————————————————————————————————————————————————
 
-let changeLogURL = "https://version.cyberduck.io//changelog.html"
-  // let htmlLink = "https://htmlpreview.github.com/?https://github.com/pierremolinaro/ElCanari-distribution/master/ElCanari.app.\(version).html"
+let changeLogURL = "https://www.pcmolinaro.name/ElCanari-release-notes.html"
 
 //——————————————————————————————————————————————————————————————————————————————————————————————————————————————————————
 //   FOR PRINTING IN COLOR
