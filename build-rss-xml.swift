@@ -18,7 +18,7 @@ func header () -> [String] {
 
 //——————————————————————————————————————————————————————————————————————————————————————————————————————————————————————
 
-let changeLogURL = "https://www.pcmolinaro.name/ElCanari-release-notes.html"
+let changeLogURL = "https://pierremolinaro.github.io/ElCanari-distribution/release-notes.html"
 
 //——————————————————————————————————————————————————————————————————————————————————————————————————————————————————————
 //   FOR PRINTING IN COLOR
@@ -400,9 +400,9 @@ releaseNotesHTML +=  "  </body>\n"
 releaseNotesHTML +=  "</html>\n"
 if let releaseNotesData = releaseNotesHTML.data (using: .utf8) {
   do{
-    try releaseNotesData.write (to: scriptDir.appendingPathComponent ("ElCanari-release-notes.html"))
+    try releaseNotesData.write (to: scriptDir.appendingPathComponent ("docs/release-notes.html"))
   }catch let error {
-    print (BOLD_RED + "Error \(error) writing ElCanari-release-notes.html file" + ENDC)
+    print (BOLD_RED + "Error \(error) writing docs/release-notes.html file" + ENDC)
     exit (1)
   }
 }else{
