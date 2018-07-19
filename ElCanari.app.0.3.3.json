@@ -1,0 +1,10 @@
+{
+  "BUGFIX": [], 
+  "NOTE": [], 
+  "build": "2A91", 
+  "archive-sum": "MC0CFGrn3MHCXxjRXigGFPpznLnQIsFLAhUAjf4CzkPonvZMygv1drAjZ9+iWtI=", 
+  "NEW": [], 
+  "CHANGE": [
+    "Merger: speed up board instance dragging in board view"
+  ]
+}
