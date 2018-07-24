@@ -5,6 +5,13 @@
         <description>Most recent changes with links to updates</description>
         <language>en</language>
         <item>
+            <title>Version 0.3.4</title>
+            <sparkle:minimumSystemVersion>10.11</sparkle:minimumSystemVersion>
+            <pubDate>2018-07-24T16:07:43Z</pubDate>
+            <sparkle:releaseNotesLink>https://pierremolinaro.github.io/ElCanari-distribution/release-notes.html</sparkle:releaseNotesLink>
+            <enclosure url="https://raw.githubusercontent.com/pierremolinaro/ElCanari-distribution/master/ElCanari.app.0.3.4.tar.bz2" type="application/octet-stream" sparkle:dsaSignature="MCwCFCYkURpsEephaNdRDMwhMFGBD6gDAhRKygW9ZvQ4HAL6H/BYRQ3LtRezwA==" sparkle:version="0.3.4" length="10963843"></enclosure>
+        </item>
+        <item>
             <title>Version 0.3.3</title>
             <sparkle:minimumSystemVersion>10.11</sparkle:minimumSystemVersion>
             <pubDate>2018-07-19T10:28:13Z</pubDate>
