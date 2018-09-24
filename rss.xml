@@ -11,54 +11,5 @@
             <sparkle:releaseNotesLink>https://pierremolinaro.github.io/ElCanari-distribution/release-notes.html</sparkle:releaseNotesLink>
             <enclosure url="https://raw.githubusercontent.com/pierremolinaro/ElCanari-distribution/master/ElCanari.app.0.3.7.tar.bz2" type="application/octet-stream" sparkle:dsaSignature="MCwCFFlC/xRiDXG+xV5nRoVE8gKDhKSlAhRXV0X5ijYAUA3hdesevx5qeZITvQ==" sparkle:version="0.3.7" length="14541890"></enclosure>
         </item>
-        <item>
-            <title>Version 0.3.6</title>
-            <sparkle:minimumSystemVersion>10.11</sparkle:minimumSystemVersion>
-            <pubDate>2018-07-30T09:01:56Z</pubDate>
-            <sparkle:releaseNotesLink>https://pierremolinaro.github.io/ElCanari-distribution/release-notes.html</sparkle:releaseNotesLink>
-            <enclosure url="https://raw.githubusercontent.com/pierremolinaro/ElCanari-distribution/master/ElCanari.app.0.3.6.tar.bz2" type="application/octet-stream" sparkle:dsaSignature="MCwCFBgtKGWxDcfMhBhaec5DCsQcCWqFAhR0kpPih2+75rN9S6Ij+DplnNMKGw==" sparkle:version="0.3.6" length="11011993"></enclosure>
-        </item>
-        <item>
-            <title>Version 0.3.5</title>
-            <sparkle:minimumSystemVersion>10.11</sparkle:minimumSystemVersion>
-            <pubDate>2018-07-25T19:42:41Z</pubDate>
-            <sparkle:releaseNotesLink>https://pierremolinaro.github.io/ElCanari-distribution/release-notes.html</sparkle:releaseNotesLink>
-            <enclosure url="https://raw.githubusercontent.com/pierremolinaro/ElCanari-distribution/master/ElCanari.app.0.3.5.tar.bz2" type="application/octet-stream" sparkle:dsaSignature="MCwCFHUenW6BXsd/qPYIM3P0iTKd4S6rAhRyfbp0VUbKAC7ZnN3aGh2vGcDOIg==" sparkle:version="0.3.5" length="11008916"></enclosure>
-        </item>
-        <item>
-            <title>Version 0.3.4</title>
-            <sparkle:minimumSystemVersion>10.11</sparkle:minimumSystemVersion>
-            <pubDate>2018-07-24T16:07:43Z</pubDate>
-            <sparkle:releaseNotesLink>https://pierremolinaro.github.io/ElCanari-distribution/release-notes.html</sparkle:releaseNotesLink>
-            <enclosure url="https://raw.githubusercontent.com/pierremolinaro/ElCanari-distribution/master/ElCanari.app.0.3.4.tar.bz2" type="application/octet-stream" sparkle:dsaSignature="MCwCFCYkURpsEephaNdRDMwhMFGBD6gDAhRKygW9ZvQ4HAL6H/BYRQ3LtRezwA==" sparkle:version="0.3.4" length="10963843"></enclosure>
-        </item>
-        <item>
-            <title>Version 0.3.3</title>
-            <sparkle:minimumSystemVersion>10.11</sparkle:minimumSystemVersion>
-            <pubDate>2018-07-19T10:28:13Z</pubDate>
-            <sparkle:releaseNotesLink>https://pierremolinaro.github.io/ElCanari-distribution/release-notes.html</sparkle:releaseNotesLink>
-            <enclosure url="https://raw.githubusercontent.com/pierremolinaro/ElCanari-distribution/master/ElCanari.app.0.3.3.tar.bz2" type="application/octet-stream" sparkle:dsaSignature="MC0CFGrn3MHCXxjRXigGFPpznLnQIsFLAhUAjf4CzkPonvZMygv1drAjZ9+iWtI=" sparkle:version="0.3.3" length="11004454"></enclosure>
-        </item>
-        <item>
-            <title>Version 0.3.2</title>
-            <sparkle:minimumSystemVersion>10.11</sparkle:minimumSystemVersion>
-            <pubDate>2018-07-18T08:14:45Z</pubDate>
-            <sparkle:releaseNotesLink>https://pierremolinaro.github.io/ElCanari-distribution/release-notes.html</sparkle:releaseNotesLink>
-            <enclosure url="https://raw.githubusercontent.com/pierremolinaro/ElCanari-distribution/master/ElCanari.app.0.3.2.tar.bz2" type="application/octet-stream" sparkle:dsaSignature="MC4CFQCQ3KifBoUeZdyROUJGrkoklmB4/wIVAJwrzAW88aAQ7MrxyWy4hUuV/L81" sparkle:version="0.3.2" length="10879798"></enclosure>
-        </item>
-        <item>
-            <title>Version 0.3.1</title>
-            <sparkle:minimumSystemVersion>10.11</sparkle:minimumSystemVersion>
-            <pubDate>2018-07-16T18:52:34Z</pubDate>
-            <sparkle:releaseNotesLink>https://pierremolinaro.github.io/ElCanari-distribution/release-notes.html</sparkle:releaseNotesLink>
-            <enclosure url="https://raw.githubusercontent.com/pierremolinaro/ElCanari-distribution/master/ElCanari.app.0.3.1.tar.bz2" type="application/octet-stream" sparkle:dsaSignature="MCwCFEpDHXaP74lCf7SA9TfocQ7pwO0eAhQDCLFGiUNb7EXJFDQGDtcqz9f3Mg==" sparkle:version="0.3.1" length="10898343"></enclosure>
-        </item>
-        <item>
-            <title>Version 0.3.0</title>
-            <sparkle:minimumSystemVersion>10.11</sparkle:minimumSystemVersion>
-            <pubDate>2018-07-16T18:52:34Z</pubDate>
-            <sparkle:releaseNotesLink>https://pierremolinaro.github.io/ElCanari-distribution/release-notes.html</sparkle:releaseNotesLink>
-            <enclosure url="https://raw.githubusercontent.com/pierremolinaro/ElCanari-distribution/master/ElCanari.app.0.3.0.tar.bz2" type="application/octet-stream" sparkle:dsaSignature="MC0CFDsrN2IIheDuvnumW5QTEY+QE2xPAhUAmjQHfzevE5Qgv0oysa0iojkTIJo=" sparkle:version="0.3.0" length="10898656"></enclosure>
-        </item>
     </channel>
 </rss>
