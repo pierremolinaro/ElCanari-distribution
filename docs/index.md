@@ -9,8 +9,8 @@ It is written in Swift and runs only on OSX from Yosemite (10.10).
 
 ElCanari is an application that can edit seven types of documents:
 
-- **[currently not implemented]** symbol (*ElCanariSymbol*): element of schematics, for example *and2* is an 2-input and gate;
-- **[currently not implemented]** package (*ElCanariPackage*): defines the geometrical characteristic of the pins of a package, as well as the drawing appearing on the screen printing: for example, the library defines the DIL14, TO92, packages;
+- symbol (*ElCanariSymbol*): element of schematics, for example *and2* is an 2-input and gate;
+- package (*ElCanariPackage*): defines the geometrical characteristic of the pins of a package, as well as the drawing appearing on the screen printing: for example, the library defines the DIL14, TO92, packages;
 - **[currently not implemented]** device (*ElCanariDevice*): a device groups symbols and packages, and assigns the pins of the packages to the symbol signals; for example,, the component *7400* imports the *DIL14* package, four *nand2* symbols and one *vcc-gnd* symbol (for power) and defines the correspondence between the pins of the package and the symbol signals; it can also contain illustrative images and documentation in PDF format;
 - font (*ElCanariFont*): the OSX fonts are not suited to texts of a printed circuit board, this type of document allows you to create your own fonts; 
 - artwork (*ElCanariArtwork*): an artwork document defines all the production constraints of a printed circuit board manufacturer;
