@@ -1,0 +1,14 @@
+{
+  "BUGFIX": [
+    "Fixed symbol document metadata status", 
+    "Fixed package document metadata status"
+  ], 
+  "NOTE": [], 
+  "build": "2L61", 
+  "archive-sum": "MC0CFQCSDKu7xZc1VPPwGxWm8A3T7jdcXAIUL1TIX7B9k3jzgPnMjGBxUfKf8vA=", 
+  "NEW": [
+    "Added \"Open Symbol in Library\"", 
+    "Added \"Open Package in Library\""
+  ], 
+  "CHANGE": []
+}
