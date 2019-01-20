@@ -1,0 +1,11 @@
+{
+  "BUGFIX": [
+    "Imported artwork in Merger document was not retained", 
+    "Spacing between boards on \"Insert an array of Boards\u2026\" action"
+  ], 
+  "NOTE": [], 
+  "build": "2L61", 
+  "archive-sum": "MCwCFGIdYVufH1jdbOuWyJpynEaJc1E1AhQJfmLSiwibfDRMkoSpQzl8sFVmfw==", 
+  "NEW": [], 
+  "CHANGE": []
+}
