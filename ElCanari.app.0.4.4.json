@@ -1,0 +1,10 @@
+{
+  "BUGFIX": [], 
+  "NOTE": [], 
+  "build": "2L61", 
+  "archive-sum": "MC0CFGGjoHzNpwlkqJBOlLJhwxvuKB0GAhUAkkmV0rKSIFxfjFHxIc2+RXs7eEo=", 
+  "NEW": [], 
+  "CHANGE": [
+    "New library management"
+  ]
+}
