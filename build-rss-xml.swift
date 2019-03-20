@@ -375,7 +375,7 @@ for (major, minor, patch, kind) in sortedReleases {
     ])
   }
   let commit = loadJsonFile (filePath: commitJSON)
-  print ("commit \(commit)")
+  // print ("commit \(commit)")
   let lastCommitDict = (commit as! [NSDictionary]) [0]
   let lastCommit = get (lastCommitDict, "commit", #line)
   let lastCommitAuthor = get (lastCommit, "committer", #line)
@@ -392,7 +392,7 @@ for (major, minor, patch, kind) in sortedReleases {
 //--- sparkle:releaseNotesLink
   item.addChild (XMLElement (name: "sparkle:releaseNotesLink", stringValue: changeLogURL))
 //--- enclosure
-  print ("-- ENCLOSURE --")
+  // print ("-- ENCLOSURE --")
   let enclosure = XMLElement (name: "enclosure")
   let url : String
   switch kind {

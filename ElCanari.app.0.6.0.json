@@ -1,0 +1,10 @@
+{
+  "BUGFIX": [],
+  "NOTE": [],
+  "build": "2L61",
+  "archive-signature": "sparkle:edSignature=\"0/4iSsfN7QeS/4WX4UBkWn3rrd/doj1YYYdgSLeBc0TQO5FGg2zBAJ+uFATn32iXdfYWbnuxy+0Q4FtINSVuBg==\" length=\"19760070\"",
+  "NEW": [],
+  "CHANGE": [
+    "New distribution via .pkg"
+  ]
+}
