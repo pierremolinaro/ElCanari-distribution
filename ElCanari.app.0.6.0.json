@@ -1,9 +1,9 @@
 {
-  "BUGFIX": [],
-  "NOTE": [],
-  "build": "2L61",
-  "archive-signature": "sparkle:edSignature=\"0/4iSsfN7QeS/4WX4UBkWn3rrd/doj1YYYdgSLeBc0TQO5FGg2zBAJ+uFATn32iXdfYWbnuxy+0Q4FtINSVuBg==\" length=\"19760070\"",
-  "NEW": [],
+  "BUGFIX": [], 
+  "NOTE": [], 
+  "build": "2L61", 
+  "archive-sum": "SoN/RHKhMsZbk78xTY5DEWBqbE6OYzvAYKGR6p6PBTr1KT3u7qZtI0zQqIzrSbpbOB+6TuZa+NvEmMdUwdglBg==", 
+  "NEW": [], 
   "CHANGE": [
     "New distribution via .pkg"
   ]
