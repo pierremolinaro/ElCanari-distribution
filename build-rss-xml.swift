@@ -226,8 +226,13 @@ func getListOfReleases (_ listOfFileDictionaries : Any, _ line : Int) -> ([(Int,
     for entry in array {
       let name = getString (entry, "path", #line)
       let nameElements = name.components (separatedBy: ".")
-      if (nameElements.count == 7) && (nameElements [0] == "ElCanari") && (nameElements [1] == "app")
-                                   && (nameElements [5] == "tar") && (nameElements [6] == "bz2") {
+      let acceptBZ2 = (nameElements.count == 7)
+         && (nameElements [0] == "ElCanari") && (nameElements [1] == "app")
+         && (nameElements [5] == "tar") && (nameElements [6] == "bz2")
+      let acceptPKG = (nameElements.count == 6)
+         && (nameElements [0] == "ElCanari") && (nameElements [1] == "app")
+         && (nameElements [5] == "pkg")
+      if acceptBZ2 || acceptPKG {
         if let major = Int (nameElements [2]), let minor = Int (nameElements [3]), let patch = Int (nameElements [4]) {
           let size = getInt (entry, "size", #line)
           result.0.append ((major, minor, patch))
