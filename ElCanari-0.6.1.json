@@ -1,0 +1,11 @@
+{
+  "BUGFIX": [], 
+  "NOTE": [], 
+  "archive-length": "23787514", 
+  "archive-sum": "NYjIH7b76jQlt80x+ARhbdO0A7K1VK15YwP+Esog9oOTtvVUw7VE5McAkTvb6060IwPM6IG5R6/bWrrpPlKTCA==", 
+  "NEW": [], 
+  "CHANGE": [
+    "New distribution via .pkg"
+  ], 
+  "build": "2L61"
+}
