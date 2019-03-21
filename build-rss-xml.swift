@@ -353,7 +353,7 @@ let channel = XMLElement (name: "channel")
 channel.addChild (XMLElement(name: "title", stringValue:"ElCanari Changelog"))
 channel.addChild (XMLElement(name: "description", stringValue:"Most recent changes with links to updates"))
 channel.addChild (XMLElement(name: "language", stringValue:"en"))
-for (major, minor, patch, kind) in sortedReleases {
+for (major, minor, patch) in sortedReleases {
   let version = "\(major).\(minor).\(patch)"
   let item = XMLElement (name: "item")
   item.addChild (XMLElement(name: "title", stringValue:"Version \(version)"))
@@ -399,7 +399,7 @@ for (major, minor, patch, kind) in sortedReleases {
 //  case .bz2 :
 //    url = "https://raw.githubusercontent.com/pierremolinaro/ElCanari-distribution/master/ElCanari.app.\(version).tar.bz2"
 //  case .pkg :
-    url = "https://raw.githubusercontent.com/pierremolinaro/ElCanari-distribution/master/ElCanari-\(version).dmg"
+  let url = "https://raw.githubusercontent.com/pierremolinaro/ElCanari-distribution/master/ElCanari-\(version).dmg"
 //  }
   enclosure.addAttribute (XMLNode.attribute (withName: "url", stringValue:url) as! XMLNode)
   enclosure.addAttribute (XMLNode.attribute (withName: "type", stringValue:"application/octet-stream") as! XMLNode)
