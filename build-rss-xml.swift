@@ -404,7 +404,7 @@ for (major, minor, patch) in sortedReleases {
   enclosure.addAttribute (XMLNode.attribute (withName: "url", stringValue:url) as! XMLNode)
   enclosure.addAttribute (XMLNode.attribute (withName: "type", stringValue:"application/octet-stream") as! XMLNode)
   let archiveSum = getString (infos, "archive-sum", #line)
-  enclosure.addAttribute (XMLNode.attribute (withName: "sparkle:dsaSignature", stringValue:archiveSum) as! XMLNode)
+  enclosure.addAttribute (XMLNode.attribute (withName: "sparkle:edSignature", stringValue:archiveSum) as! XMLNode)
   enclosure.addAttribute (XMLNode.attribute (withName: "sparkle:version", stringValue:version) as! XMLNode)
   let fileSize = releaseSizeDict [version]!
   enclosure.addAttribute (XMLNode.attribute (withName: "length", stringValue:"\(fileSize)") as! XMLNode)
