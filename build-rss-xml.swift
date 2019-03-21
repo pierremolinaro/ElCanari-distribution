@@ -242,20 +242,20 @@ func getListOfReleases (_ listOfFileDictionaries : Any, _ line : Int) -> ([(Int,
         let size = getInt (entry, "size", #line)
         result.0.append ((major, minor, patch, .bz2))
         result.1 ["\(major).\(minor).\(patch)"] = size
-      }else{
-        let pkgNameElements = name.components (separatedBy: "-")
-        if pkgNameElements.count == 2, pkgNameElements [0] == "ElCanari" {
-          let extensionElements = pkgNameElements [1].components (separatedBy: ".")
-          if extensionElements.count == 4,
-             extensionElements [3] == "pkg",
-             let major = Int (extensionElements [0]),
-             let minor = Int (extensionElements [1]),
-             let patch = Int (extensionElements [2]) {
-            let size = getInt (entry, "size", #line)
-            result.0.append ((major, minor, patch, .pkg))
-            result.1 ["\(major).\(minor).\(patch)"] = size
-          }
-        }
+//      }else{
+//        let pkgNameElements = name.components (separatedBy: "-")
+//        if pkgNameElements.count == 2, pkgNameElements [0] == "ElCanari" {
+//          let extensionElements = pkgNameElements [1].components (separatedBy: ".")
+//          if extensionElements.count == 4,
+//             extensionElements [3] == "pkg",
+//             let major = Int (extensionElements [0]),
+//             let minor = Int (extensionElements [1]),
+//             let patch = Int (extensionElements [2]) {
+//            let size = getInt (entry, "size", #line)
+//            result.0.append ((major, minor, patch, .pkg))
+//            result.1 ["\(major).\(minor).\(patch)"] = size
+//          }
+//        }
       }
     }
     return result
