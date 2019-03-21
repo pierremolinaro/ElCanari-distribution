@@ -219,43 +219,43 @@ releaseNotesHTML += "    <body>\n"
 //——————————————————————————————————————————————————————————————————————————————————————————————————————————————————————
 //    getListOfReleases
 //——————————————————————————————————————————————————————————————————————————————————————————————————————————————————————
-
-enum ReleaseType {
-  case bz2
-  case pkg
-}
+//
+//enum ReleaseType {
+//  case bz2
+//  case pkg
+//}
 
 //——————————————————————————————————————————————————————————————————————————————————————————————————————————————————————
 
-func getListOfReleases (_ listOfFileDictionaries : Any, _ line : Int) -> ([(Int, Int, Int, ReleaseType)], [String : Int]) {
+func getListOfReleases (_ listOfFileDictionaries : Any, _ line : Int) -> ([(Int, Int, Int)], [String : Int]) {
   if let array = listOfFileDictionaries as? [NSDictionary] {
-    var result = ([(Int, Int, Int, ReleaseType)] (), [String : Int] ())
+    var result = ([(Int, Int, Int)] (), [String : Int] ())
     for entry in array {
       let name = getString (entry, "path", #line)
-      let bz2NameElements = name.components (separatedBy: ".")
-      if (bz2NameElements.count == 7)
-         && (bz2NameElements [0] == "ElCanari") && (bz2NameElements [1] == "app")
-         && (bz2NameElements [5] == "tar") && (bz2NameElements [6] == "bz2"),
-         let major = Int (bz2NameElements [2]),
-         let minor = Int (bz2NameElements [3]),
-         let patch = Int (bz2NameElements [4]) {
-        let size = getInt (entry, "size", #line)
-        result.0.append ((major, minor, patch, .bz2))
-        result.1 ["\(major).\(minor).\(patch)"] = size
+//      let bz2NameElements = name.components (separatedBy: ".")
+ //     if (bz2NameElements.count == 7)
+//         && (bz2NameElements [0] == "ElCanari") && (bz2NameElements [1] == "app")
+//         && (bz2NameElements [5] == "tar") && (bz2NameElements [6] == "bz2"),
+//         let major = Int (bz2NameElements [2]),
+//         let minor = Int (bz2NameElements [3]),
+//         let patch = Int (bz2NameElements [4]) {
+//        let size = getInt (entry, "size", #line)
+//        result.0.append ((major, minor, patch, .bz2))
+//        result.1 ["\(major).\(minor).\(patch)"] = size
 //      }else{
-//        let pkgNameElements = name.components (separatedBy: "-")
-//        if pkgNameElements.count == 2, pkgNameElements [0] == "ElCanari" {
-//          let extensionElements = pkgNameElements [1].components (separatedBy: ".")
-//          if extensionElements.count == 4,
-//             extensionElements [3] == "pkg",
-//             let major = Int (extensionElements [0]),
-//             let minor = Int (extensionElements [1]),
-//             let patch = Int (extensionElements [2]) {
-//            let size = getInt (entry, "size", #line)
-//            result.0.append ((major, minor, patch, .pkg))
-//            result.1 ["\(major).\(minor).\(patch)"] = size
-//          }
-//        }
+       let pkgNameElements = name.components (separatedBy: "-")
+       if pkgNameElements.count == 2, pkgNameElements [0] == "ElCanari" {
+         let extensionElements = pkgNameElements [1].components (separatedBy: ".")
+         if extensionElements.count == 4,
+            extensionElements [3] == "dmg",
+            let major = Int (extensionElements [0]),
+            let minor = Int (extensionElements [1]),
+            let patch = Int (extensionElements [2]) {
+           let size = getInt (entry, "size", #line)
+           result.0.append ((major, minor, patch))
+           result.1 ["\(major).\(minor).\(patch)"] = size
+         }
+ //      }
       }
     }
     return result
@@ -360,20 +360,20 @@ for (major, minor, patch, kind) in sortedReleases {
   item.addChild (XMLElement(name: "sparkle:minimumSystemVersion", stringValue:"10.9"))
 //--- Find infos of last commit of the file
   let commitJSON = temporaryDir + "/app-" + version + ".json"
-  switch kind {
-  case .bz2 :
+//  switch kind {
+//  case .bz2 :
+//    runCommand (cmd:"/usr/bin/curl", args:header () + [
+//      "-L",
+//      "https://api.github.com/repos/pierremolinaro/ElCanari-distribution/commits?path=ElCanari.app.\(version).tar.bz2",
+//      "-o", commitJSON
+//    ])
+//  case .pkg :
     runCommand (cmd:"/usr/bin/curl", args:header () + [
       "-L",
-      "https://api.github.com/repos/pierremolinaro/ElCanari-distribution/commits?path=ElCanari.app.\(version).tar.bz2",
+      "https://api.github.com/repos/pierremolinaro/ElCanari-distribution/commits?path=ElCanari-\(version).dmg",
       "-o", commitJSON
     ])
-  case .pkg :
-    runCommand (cmd:"/usr/bin/curl", args:header () + [
-      "-L",
-      "https://api.github.com/repos/pierremolinaro/ElCanari-distribution/commits?path=ElCanari-\(version).pkg",
-      "-o", commitJSON
-    ])
-  }
+//  }
   let commit = loadJsonFile (filePath: commitJSON)
   // print ("commit \(commit)")
   let lastCommitDict = (commit as! [NSDictionary]) [0]
@@ -394,13 +394,13 @@ for (major, minor, patch, kind) in sortedReleases {
 //--- enclosure
   // print ("-- ENCLOSURE --")
   let enclosure = XMLElement (name: "enclosure")
-  let url : String
-  switch kind {
-  case .bz2 :
-    url = "https://raw.githubusercontent.com/pierremolinaro/ElCanari-distribution/master/ElCanari.app.\(version).tar.bz2"
-  case .pkg :
-    url = "https://raw.githubusercontent.com/pierremolinaro/ElCanari-distribution/master/ElCanari-\(version).pkg"
-  }
+//  let url : String
+//  switch kind {
+//  case .bz2 :
+//    url = "https://raw.githubusercontent.com/pierremolinaro/ElCanari-distribution/master/ElCanari.app.\(version).tar.bz2"
+//  case .pkg :
+    url = "https://raw.githubusercontent.com/pierremolinaro/ElCanari-distribution/master/ElCanari-\(version).dmg"
+//  }
   enclosure.addAttribute (XMLNode.attribute (withName: "url", stringValue:url) as! XMLNode)
   enclosure.addAttribute (XMLNode.attribute (withName: "type", stringValue:"application/octet-stream") as! XMLNode)
   let archiveSum = getString (infos, "archive-sum", #line)
