@@ -1,8 +1,8 @@
 {
   "BUGFIX": [], 
   "NOTE": [], 
-  "archive-length": "23787960", 
-  "archive-sum": "Q4mqJgNybTzxTNEkPh2IBXT8IO3HxuRkSXXAz0lCoCyGG+AgdEuRWLpG0GV6E2PFzoil1/SuR64Ct3zwEFmPBQ==", 
+  "archive-length": "23788023", 
+  "archive-sum": "Erz5htQ97Tuuz6eYFKB5IXeeBQk+Eh95vygOMA96Dzl+rZHHab2XnoOxbOIGh8rVxNjUXHjfFjVLInIKaSsSAA==", 
   "NEW": [], 
   "CHANGE": [
     "New distribution via .pkg"
