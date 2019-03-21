@@ -1,11 +1,12 @@
 {
-  "BUGFIX": [], 
-  "NOTE": [], 
-  "build": "2L61", 
-  "archive-sum": "MCwCFBsQnSQz7nUKh2ZH5mdzUfmGdNudAhQdo/LGUECq+FtTdmfo3jfXC1pUFg==", 
+  "BUGFIX": [],
+  "NOTE": [],
+  "build": "2L61",
+  "archive-length" : 22042725,
+  "archive-sum": "MCwCFBsQnSQz7nUKh2ZH5mdzUfmGdNudAhQdo/LGUECq+FtTdmfo3jfXC1pUFg==",
   "NEW": [
     "Added Device document"
-  ], 
+  ],
   "CHANGE": [
     ""
   ]
