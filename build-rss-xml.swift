@@ -385,7 +385,7 @@ for (major, minor, patch) in sortedReleases {
   let infoJSON = temporaryDir + "/info-" + version + ".json"
   runCommand (cmd:"/usr/bin/curl", args: header () + [
     "-L",
-    "https://raw.githubusercontent.com/pierremolinaro/ElCanari-distribution/master/ElCanari.app.\(version).json",
+    "https://raw.githubusercontent.com/pierremolinaro/ElCanari-distribution/master/ElCanari.\(version).json",
     "-o", infoJSON
   ])
   let infos = loadJsonFile (filePath: infoJSON)
