@@ -40,123 +40,6 @@ let BOLD_GREEN = BOLD + GREEN
 let BOLD_RED = BOLD + RED
 
 //——————————————————————————————————————————————————————————————————————————————————————————————————————————————————————
-//   runCommand
-//——————————————————————————————————————————————————————————————————————————————————————————————————————————————————————
-
-func runCommand (cmd : String, args : [String]) {
-  var str = "+ " + cmd
-  for s in args {
-    str += " " + s
-  }
-  print (BOLD_MAGENTA + str + ENDC)
-  let task = Process.launchedProcess (launchPath:cmd, arguments:args)
-  task.waitUntilExit ()
-  let status = task.terminationStatus
-  if status != 0 {
-    print (BOLD_RED + "Error \(status)" + ENDC)
-    exit (status)
-  }
-}
-
-//——————————————————————————————————————————————————————————————————————————————————————————————————————————————————————
-//   loadJsonFile
-//——————————————————————————————————————————————————————————————————————————————————————————————————————————————————————
-
-func loadJsonFile (filePath : String) -> Any {
-  do{
-    let data = try Data (contentsOf: URL (fileURLWithPath:filePath))
-    return try JSONSerialization.jsonObject (with:data)
-  }catch let error {
-    print (RED + "Error \(error) while processing \(filePath) file" + ENDC)
-    exit (1)
-  }
-}
-
-//——————————————————————————————————————————————————————————————————————————————————————————————————————————————————————
-//   get fromDictionary
-//——————————————————————————————————————————————————————————————————————————————————————————————————————————————————————
-
-func get (_ inObject: Any, _ key : String, _ line : Int) -> Any {
-  if let dictionary = inObject as? NSDictionary {
-    if let r = dictionary [key] {
-      return r
-    }else{
-      print (RED + "line \(line) : no \(key) key in dictionary" + ENDC)
-      exit (1)
-    }
-  }else{
-    print (RED + "line \(line) : object is not a dictionary" + ENDC)
-    exit (1)
-  }
-}
-
-//——————————————————————————————————————————————————————————————————————————————————————————————————————————————————————
-//   getString fromDictionary
-//——————————————————————————————————————————————————————————————————————————————————————————————————————————————————————
-
-func getString (_ inObject: Any, _ key : String, _ line : Int) -> String {
-  if let dictionary = inObject as? NSDictionary {
-    let r = dictionary [key]
-    if r == nil {
-      print (RED + "line \(line) : no \(key) key in dictionary" + ENDC)
-      exit (1)
-    }else if let s = r as? String {
-      return s
-    }else{
-      print (RED + "line \(line) : \(key) key value is not a string" + ENDC)
-      exit (1)
-    }
-  }else{
-    print (RED + "line \(line) : object is not a dictionary" + ENDC)
-    exit (1)
-  }
-}
-
-//——————————————————————————————————————————————————————————————————————————————————————————————————————————————————————
-//   getInt fromDictionary
-//——————————————————————————————————————————————————————————————————————————————————————————————————————————————————————
-
-func getInt (_ inObject: Any, _ key : String, _ line : Int) -> Int {
-  if let dictionary = inObject as? NSDictionary {
-    let r = dictionary [key]
-    if r == nil {
-      print (RED + "line \(line) : no \(key) key in dictionary" + ENDC)
-      exit (1)
-    }else if let s = r as? Int {
-      return s
-    }else{
-      print (RED + "line \(line) : \(key) key value is not an int" + ENDC)
-      exit (1)
-    }
-  }else{
-    print (RED + "line \(line) : object is not a dictionary" + ENDC)
-    exit (1)
-  }
-}
-
-//——————————————————————————————————————————————————————————————————————————————————————————————————————————————————————
-//   getStringArray fromDictionary
-//——————————————————————————————————————————————————————————————————————————————————————————————————————————————————————
-
-func getStringArray (_ inObject: Any, _ key : String, _ line : Int) -> [String] {
-  if let dictionary = inObject as? NSDictionary {
-    let r = dictionary [key]
-    if r == nil {
-      print (RED + "line \(line) : no \(key) key in dictionary" + ENDC)
-      exit (1)
-    }else if let s = r as? [String] {
-      return s
-    }else{
-      print (RED + "line \(line) : \(key) key value is not a string array" + ENDC)
-      exit (1)
-    }
-  }else{
-    print (RED + "line \(line) : object is not a dictionary" + ENDC)
-    exit (1)
-  }
-}
-
-//——————————————————————————————————————————————————————————————————————————————————————————————————————————————————————
 //    Release Notes
 //——————————————————————————————————————————————————————————————————————————————————————————————————————————————————————
 
@@ -219,48 +102,30 @@ releaseNotesHTML += "    <body>\n"
 //——————————————————————————————————————————————————————————————————————————————————————————————————————————————————————
 //    getListOfReleases
 //——————————————————————————————————————————————————————————————————————————————————————————————————————————————————————
-//
-//enum ReleaseType {
-//  case bz2
-//  case pkg
-//}
 
-//——————————————————————————————————————————————————————————————————————————————————————————————————————————————————————
-
-func getListOfReleases (_ listOfFileDictionaries : Any, _ line : Int) -> ([(Int, Int, Int)], [String : Int]) {
-  if let array = listOfFileDictionaries as? [NSDictionary] {
-    var result = ([(Int, Int, Int)] (), [String : Int] ())
-    for entry in array {
-      let name = getString (entry, "path", #line)
-//      let bz2NameElements = name.components (separatedBy: ".")
- //     if (bz2NameElements.count == 7)
-//         && (bz2NameElements [0] == "ElCanari") && (bz2NameElements [1] == "app")
-//         && (bz2NameElements [5] == "tar") && (bz2NameElements [6] == "bz2"),
-//         let major = Int (bz2NameElements [2]),
-//         let minor = Int (bz2NameElements [3]),
-//         let patch = Int (bz2NameElements [4]) {
-//        let size = getInt (entry, "size", #line)
-//        result.0.append ((major, minor, patch, .bz2))
-//        result.1 ["\(major).\(minor).\(patch)"] = size
-//      }else{
-       let pkgNameElements = name.components (separatedBy: "-")
-       if pkgNameElements.count == 2, pkgNameElements [0] == "ElCanari" {
-         let extensionElements = pkgNameElements [1].components (separatedBy: ".")
+func getOrderedListOfReleases (_ scriptDir : String) -> [(Int, Int, Int)] {
+  let fm = FileManager ()
+  if let fileArray = fm.subpaths (atPath: scriptDir) {
+    var releases = [(Int, Int, Int)] ()
+    for entry in fileArray { // Search for ElCanari-X.Y.Z.json
+      let components = entry.components (separatedBy: "-")
+      if components.count == 2, components [0] == "ElCanari" {
+         let extensionElements = components [1].components (separatedBy: ".")
          if extensionElements.count == 4,
-            extensionElements [3] == "dmg",
+            extensionElements [3] == "json",
             let major = Int (extensionElements [0]),
             let minor = Int (extensionElements [1]),
             let patch = Int (extensionElements [2]) {
-           let size = getInt (entry, "size", #line)
-           result.0.append ((major, minor, patch))
-           result.1 ["\(major).\(minor).\(patch)"] = size
+           releases.append ((major, minor, patch))
          }
- //      }
       }
     }
-    return result
+    let sortedReleases = releases.sorted (by: {
+      ($0.0 > $1.0) || (($0.0 == $1.0) && ($0.1 > $1.1)) || (($0.0 == $1.0) && ($0.1 == $1.1) && ($0.2 > $1.2))
+    } )
+    return sortedReleases
   }else{
-    print (RED + "line \(line) : object is not an array of dictionaries" + ENDC)
+    print (RED + "line \(#line) : object is not an array of dictionaries" + ENDC)
     exit (1)
   }
 }
@@ -290,133 +155,108 @@ extension String {
 
 //——————————————————————————————————————————————————————————————————————————————————————————————————————————————————————
 
-func analyzeInfos (_ dictionary : Any) -> String {
-  var s = "  <ul>\n"
-  let bugFixes = getStringArray (dictionary, "BUGFIX", #line)
-  let news = getStringArray (dictionary, "NEW", #line)
-  for str in news {
-    s += "    <li><span class=\"box new\">New</span> \(str.html)</li>\n"
-  }
-  for str in bugFixes {
-    s += "    <li><span class=\"box bugfix\">Bugfix</span> \(str.html)</li>\n"
-  }
-  let changes = getStringArray (dictionary, "CHANGE", #line)
-  for str in changes {
-    s += "    <li><span class=\"box change\">Changed</span> \(str.html)</li>\n"
-  }
-  let notes = getStringArray (dictionary, "NOTE", #line)
-  for str in notes {
-    s += "    <li><span class=\"box note\">Note</span> \(str.html)</li>\n"
-  }
-  s += "  </ul>\n"
-  return s
+struct VersionDescriptor : Codable {
+  var bugfixes = [String] ()
+  var notes = [String] ()
+  var length = ""
+  var edSignature = ""
+  var news = [String] ()
+  var changes = [String] ()
+  var build = ""
+  var date = ""
 }
 
 //——————————————————————————————————————————————————————————————————————————————————————————————————————————————————————
 
 //-------------------- Get script absolute path
-let scriptDir = URL (fileURLWithPath:CommandLine.arguments [0]).deletingLastPathComponent ()
-print ("scriptDir \(scriptDir)")
+let scriptURL = URL (fileURLWithPath: CommandLine.arguments [0]).deletingLastPathComponent ()
+print ("scriptURL \(scriptURL)")
 //-------------------- Make temporary directory
 let temporaryDir = NSTemporaryDirectory ()
 print ("Temporary dir \(temporaryDir)")
-//-------------------- Download the Json file of master branch
-let masterJsonFilePath = temporaryDir + "master.json"
-runCommand (cmd:"/usr/bin/curl", args: header () + [
-  "-L",
-  "https://api.github.com/repos/pierremolinaro/ElCanari-distribution/branches/master",
-  "-o", masterJsonFilePath
-])
-let masterDictionary = loadJsonFile (filePath: masterJsonFilePath)
-//print ("masterDictionary : \(masterDictionary)")
-let commitDict = get (masterDictionary, "commit", #line)
-let masterSHA = getString (commitDict, "sha", #line)
-print (BOLD_BLUE + "SHA master " + masterSHA + ENDC)
-//-------------------- Download the Json file of all files of the master branch
-let fileDescriptionJsonFilePath = temporaryDir + "/files.json"
-runCommand (cmd:"/usr/bin/curl", args: header () + [
-  "-L",
-  "https://api.github.com/repos/pierremolinaro/ElCanari-distribution/git/trees/" + masterSHA,
-  "-o", fileDescriptionJsonFilePath
-])
-let fileDictionary = loadJsonFile (filePath: fileDescriptionJsonFilePath)
-//--- Get sorted list of releases
-let listOfFileDictionaries = get (fileDictionary, "tree", #line)
-//print ("listOfFileDictionaries : \(listOfFileDictionaries)")
-let (releases, releaseSizeDict) = getListOfReleases (listOfFileDictionaries, #line)
-let sortedReleases = releases.sorted (by: {
-  ($0.0 > $1.0) || (($0.0 == $1.0) && ($0.1 > $1.1)) || (($0.0 == $1.0) && ($0.1 == $1.1) && ($0.2 > $1.2))
-} )
-print (sortedReleases)
+//-------------------- Get sorted list of releases
+let sortedReleases = getOrderedListOfReleases (scriptURL.path)
+print ("Releases: \(sortedReleases)")
 //-------------------- Construire le fichier xml - rss
 let channel = XMLElement (name: "channel")
 channel.addChild (XMLElement(name: "title", stringValue:"ElCanari Changelog"))
 channel.addChild (XMLElement(name: "description", stringValue:"Most recent changes with links to updates"))
 channel.addChild (XMLElement(name: "language", stringValue:"en"))
+let fm = FileManager ()
 for (major, minor, patch) in sortedReleases {
   let version = "\(major).\(minor).\(patch)"
   let item = XMLElement (name: "item")
   item.addChild (XMLElement(name: "title", stringValue:"Version \(version)"))
   item.addChild (XMLElement(name: "sparkle:minimumSystemVersion", stringValue:"10.9"))
-//--- Find infos of last commit of the file
-  let commitJSON = temporaryDir + "/app-" + version + ".json"
-//  switch kind {
-//  case .bz2 :
-//    runCommand (cmd:"/usr/bin/curl", args:header () + [
-//      "-L",
-//      "https://api.github.com/repos/pierremolinaro/ElCanari-distribution/commits?path=ElCanari.app.\(version).tar.bz2",
-//      "-o", commitJSON
-//    ])
-//  case .pkg :
-    runCommand (cmd:"/usr/bin/curl", args:header () + [
-      "-L",
-      "https://api.github.com/repos/pierremolinaro/ElCanari-distribution/commits?path=ElCanari-\(version).dmg",
-      "-o", commitJSON
-    ])
-//  }
-  let commit = loadJsonFile (filePath: commitJSON)
-  // print ("commit \(commit)")
-  let lastCommitDict = (commit as! [NSDictionary]) [0]
-  let lastCommit = get (lastCommitDict, "commit", #line)
-  let lastCommitAuthor = get (lastCommit, "committer", #line)
-  let lastCommitDate : String = getString (lastCommitAuthor, "date", #line)
-  item.addChild (XMLElement(name: "pubDate", stringValue:lastCommitDate))
-//--- Find infos of last commit of the file
-  let infoJSON = temporaryDir + "/info-" + version + ".json"
-  runCommand (cmd:"/usr/bin/curl", args: header () + [
-    "-L",
-    "https://raw.githubusercontent.com/pierremolinaro/ElCanari-distribution/master/ElCanari-\(version).json",
-    "-o", infoJSON
-  ])
-  let infos = loadJsonFile (filePath: infoJSON)
+//--- Explore JSON file
+  let jsonFilePath = scriptURL.path + "/ElCanari-" + version + ".json"
+  let jsonFileContents : Data
+  if let data = try? Data (contentsOf: URL (fileURLWithPath: jsonFilePath)) {
+    jsonFileContents = data
+  }else{
+    print (RED + "line \(#line) : cannot read \(jsonFilePath) file" + ENDC)
+    exit (1)
+  }
+  let decoder = JSONDecoder ()
+  let versionDescriptor : VersionDescriptor
+  if let x = try? decoder.decode (VersionDescriptor.self, from: jsonFileContents) {
+    versionDescriptor = x
+  }else{
+    print (RED + "line \(#line) : cannot decode \(jsonFilePath) file" + ENDC)
+    exit (1)
+  }
+//--- Check the dmg file exists, and has the good length
+  let dmgFilePath = scriptURL.path + "/ElCanari-" + version + ".dmg"
+  let dmgFileLength : Int
+  if let attributes = try? fm.attributesOfItem (atPath: dmgFilePath) {
+    if let lg = attributes [.size] as? Int {
+      dmgFileLength = lg
+    }else{
+      print (RED + "line \(#line) : cannot get size of \(dmgFilePath) file" + ENDC)
+      exit (1)
+    }
+  }else{
+    print (RED + "line \(#line) : cannot read \(dmgFilePath) file" + ENDC)
+    exit (1)
+  }
+//--- Check dmg length is equal to version descriptor length
+  if dmgFileLength != Int (versionDescriptor.length) {
+    print (RED + "line \(#line) : incorrect \(dmgFilePath) file size, \(dmgFileLength), expected \(versionDescriptor.length)" + ENDC)
+    exit (1)
+  }
+//--- Add build date
+  item.addChild (XMLElement(name: "pubDate", stringValue: versionDescriptor.date))
 //--- sparkle:releaseNotesLink
   item.addChild (XMLElement (name: "sparkle:releaseNotesLink", stringValue: changeLogURL))
 //--- enclosure
-  // print ("-- ENCLOSURE --")
   let enclosure = XMLElement (name: "enclosure")
-//  let url : String
-//  switch kind {
-//  case .bz2 :
-//    url = "https://raw.githubusercontent.com/pierremolinaro/ElCanari-distribution/master/ElCanari.app.\(version).tar.bz2"
-//  case .pkg :
   let url = "https://raw.githubusercontent.com/pierremolinaro/ElCanari-distribution/master/ElCanari-\(version).dmg"
-//  }
   enclosure.addAttribute (XMLNode.attribute (withName: "url", stringValue:url) as! XMLNode)
   enclosure.addAttribute (XMLNode.attribute (withName: "type", stringValue:"application/octet-stream") as! XMLNode)
-  let archiveSum = getString (infos, "archive-sum", #line)
-  enclosure.addAttribute (XMLNode.attribute (withName: "sparkle:edSignature", stringValue:archiveSum) as! XMLNode)
+  enclosure.addAttribute (XMLNode.attribute (withName: "sparkle:edSignature", stringValue:versionDescriptor.edSignature) as! XMLNode)
   enclosure.addAttribute (XMLNode.attribute (withName: "sparkle:version", stringValue:version) as! XMLNode)
-  let fileSize = releaseSizeDict [version]!
-  enclosure.addAttribute (XMLNode.attribute (withName: "length", stringValue:"\(fileSize)") as! XMLNode)
+  enclosure.addAttribute (XMLNode.attribute (withName: "length", stringValue:"\(dmgFileLength)") as! XMLNode)
   item.addChild (enclosure)
 //---
   channel.addChild (item)
 //--- Release notes
-  let buildString = getString (infos, "build", #line)
-  releaseNotesHTML += "\n  <p>\n    <span class=\"version-title\">Version \(version) (build \(buildString))</span>\n  </p>\n"
-  let infoHTMLString = analyzeInfos (infos)
-  releaseNotesHTML += infoHTMLString
+  releaseNotesHTML += "\n  <p>\n    <span class=\"version-title\">Version \(version) (build \(versionDescriptor.build))</span>\n  </p>\n"
+  releaseNotesHTML += "  <ul>\n"
+  for str in versionDescriptor.bugfixes {
+    releaseNotesHTML += "    <li><span class=\"box new\">New</span> \(str.html)</li>\n"
+  }
+  for str in versionDescriptor.news {
+    releaseNotesHTML += "    <li><span class=\"box new\">New</span> \(str.html)</li>\n"
+  }
+  for str in versionDescriptor.changes {
+    releaseNotesHTML += "    <li><span class=\"box new\">New</span> \(str.html)</li>\n"
+  }
+  for str in versionDescriptor.notes {
+    releaseNotesHTML += "    <li><span class=\"box new\">New</span> \(str.html)</li>\n"
+  }
+  releaseNotesHTML += "  </ul>\n"
 }
+//--- Build rss file
 let rss = XMLElement (name: "rss")
 rss.addChild (channel)
 rss.addAttribute (XMLNode.attribute (withName: "version", stringValue: "2.0") as! XMLNode)
@@ -429,7 +269,7 @@ print (xml.xmlString (options: [.nodePrettyPrint]))
 //print (xml.xmlString)
 let data = xml.xmlData (options: [.nodePrettyPrint])
 do{
-  try data.write (to: scriptDir.appendingPathComponent ("rss.xml"))
+  try data.write (to: scriptURL.appendingPathComponent ("rss.xml"))
 }catch let error {
   print (BOLD_RED + "Error \(error) writing rss.xml file" + ENDC)
   exit (1)
@@ -439,7 +279,7 @@ releaseNotesHTML +=  "  </body>\n"
 releaseNotesHTML +=  "</html>\n"
 if let releaseNotesData = releaseNotesHTML.data (using: .utf8) {
   do{
-    try releaseNotesData.write (to: scriptDir.appendingPathComponent ("docs/release-notes.html"))
+    try releaseNotesData.write (to: scriptURL.appendingPathComponent ("docs/release-notes.html"))
   }catch let error {
     print (BOLD_RED + "Error \(error) writing docs/release-notes.html file" + ENDC)
     exit (1)
