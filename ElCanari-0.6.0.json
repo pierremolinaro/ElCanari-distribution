@@ -1,11 +1,18 @@
 {
-  "BUGFIX": [], 
-  "NOTE": [], 
-  "archive-length": "23788023", 
-  "archive-sum": "Erz5htQ97Tuuz6eYFKB5IXeeBQk+Eh95vygOMA96Dzl+rZHHab2XnoOxbOIGh8rVxNjUXHjfFjVLInIKaSsSAA==", 
-  "NEW": [], 
-  "CHANGE": [
+  "edSignature" : "a2SpeD8RsNYlCQXS4Y3Ggl+MUVxDFM+R7JBcaBkslNDYL04sxo3hKT\/\/s7Tnbl6xGgcsy7B4Rry4vkU0KeqMAQ==",
+  "length" : "21041283",
+  "bugfixes" : [
+
+  ],
+  "build" : "2L61",
+  "notes" : [
+
+  ],
+  "changes" : [
     "New distribution via .pkg"
-  ], 
-  "build": "2L61"
+  ],
+  "news" : [
+
+  ],
+  "date" : "2019-03-22T19:30:43Z"
 }
