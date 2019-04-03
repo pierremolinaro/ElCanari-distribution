@@ -7,9 +7,9 @@
         <item>
             <title>Version 0.6.2</title>
             <sparkle:minimumSystemVersion>10.9</sparkle:minimumSystemVersion>
-            <pubDate>2019-04-03T16:30:58Z</pubDate>
+            <pubDate>2019-04-03T17:41:34Z</pubDate>
             <sparkle:releaseNotesLink>https://pierremolinaro.github.io/ElCanari-distribution/release-notes.html</sparkle:releaseNotesLink>
-            <enclosure url="https://raw.githubusercontent.com/pierremolinaro/ElCanari-distribution/master/ElCanari-0.6.2.dmg" type="application/octet-stream" sparkle:edSignature="dhoUAYFDs1i3u3Ymta1aqpXWh/t8cgAExh+P+W8Q8roVGQzZxKAF072AfSQDsYb3B0DupN1iwhrDbIhKsjEBCw==" sparkle:version="0.6.2" length="23877554"></enclosure>
+            <enclosure url="https://raw.githubusercontent.com/pierremolinaro/ElCanari-distribution/master/ElCanari-0.6.2.dmg" type="application/octet-stream" sparkle:edSignature="jfTY0BqmlIZFuJ/Lmevv4I3/TIEABXC7xwm2d0URQDHkCh0WPBwF5JTycps41Spn7SlJuqoirgTtiNvQEFukBA==" sparkle:version="0.6.2" length="23877594"></enclosure>
         </item>
         <item>
             <title>Version 0.6.1</title>
