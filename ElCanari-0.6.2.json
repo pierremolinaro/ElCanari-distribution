@@ -1,0 +1,18 @@
+{
+  "edSignature" : "dhoUAYFDs1i3u3Ymta1aqpXWh\/t8cgAExh+P+W8Q8roVGQzZxKAF072AfSQDsYb3B0DupN1iwhrDbIhKsjEBCw==",
+  "length" : "23877554",
+  "bugfixes" : [
+
+  ],
+  "build" : "2L61",
+  "notes" : [
+    "Several memory leaks fixed"
+  ],
+  "changes" : [
+    "Better handling of Font documents"
+  ],
+  "news" : [
+
+  ],
+  "date" : "2019-04-03T16:30:58Z"
+}
