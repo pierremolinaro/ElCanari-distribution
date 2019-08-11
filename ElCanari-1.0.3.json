@@ -1,0 +1,18 @@
+{
+  "edSignature" : "sF6DenG85Rfz2K37hhKWGfDyMAH\/nKNrF2YegsI0O4ua8wxWaQrgVxBAGB4Dh9TzhpsSZiA0iRv9YDebUE2SBQ==",
+  "length" : "67336217",
+  "bugfixes" : [
+
+  ],
+  "build" : "5S4",
+  "notes" : [
+
+  ],
+  "changes" : [
+    "FreeRouter: the size has been slightly reduced"
+  ],
+  "news" : [
+    "Package: counterclock autonumbering start angle"
+  ],
+  "date" : "2019-08-11T20:40:24Z"
+}
