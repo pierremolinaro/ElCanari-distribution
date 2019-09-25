@@ -1,0 +1,18 @@
+{
+  "edSignature" : "WA\/\/V8FktBb0G2o1HRhcg1Le4GnSf\/8odQRo3p7u4BthbAoCnIRekOB4WMD1jieogveT4bPZy6pytLabWnyGAQ==",
+  "length" : "68077594",
+  "bugfixes" : [
+    "Fixed crash when opening some project documents"
+  ],
+  "build" : "5W16",
+  "notes" : [
+    "Same as 1.0.9, but use optimize-for-speed, instead of optimize-for-size"
+  ],
+  "changes" : [
+
+  ],
+  "news" : [
+
+  ],
+  "date" : "2019-09-25T16:50:47Z"
+}
