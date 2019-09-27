@@ -1,0 +1,19 @@
+{
+  "edSignature" : "jIoDDQ\/gOzHqQ\/GtEzyb5pJTXkvywyXwoztdxYDiz1ielF\/pxadv5UyY2auBO7GoH4lWYd+kwNP3t7YVijXOAA==",
+  "length" : "68077597",
+  "bugfixes" : [
+    "Project: component renaming sometimes was leading to name collision"
+  ],
+  "build" : "5W55",
+  "notes" : [
+
+  ],
+  "changes" : [
+
+  ],
+  "news" : [
+    "Project: added conditional check Clearance between Pads of the same Net",
+    "Project: added delete key handling for removing component in component table view"
+  ],
+  "date" : "2019-09-27T09:20:37Z"
+}

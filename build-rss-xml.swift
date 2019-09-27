@@ -243,16 +243,16 @@ for (major, minor, patch) in sortedReleases {
   releaseNotesHTML += "\n  <p>\n    <span class=\"version-title\">Version \(version) (build \(versionDescriptor.build))</span>\n  </p>\n"
   releaseNotesHTML += "  <ul>\n"
   for str in versionDescriptor.bugfixes {
-    releaseNotesHTML += "    <li><span class=\"box new\">New</span> \(str.html)</li>\n"
+    releaseNotesHTML += "    <li><span class=\"box new\">Bug Fix</span> \(str.html)</li>\n"
   }
   for str in versionDescriptor.news {
     releaseNotesHTML += "    <li><span class=\"box new\">New</span> \(str.html)</li>\n"
   }
   for str in versionDescriptor.changes {
-    releaseNotesHTML += "    <li><span class=\"box new\">New</span> \(str.html)</li>\n"
+    releaseNotesHTML += "    <li><span class=\"box new\">Change</span> \(str.html)</li>\n"
   }
   for str in versionDescriptor.notes {
-    releaseNotesHTML += "    <li><span class=\"box new\">New</span> \(str.html)</li>\n"
+    releaseNotesHTML += "    <li><span class=\"box new\">Note</span> \(str.html)</li>\n"
   }
   releaseNotesHTML += "  </ul>\n"
 }
