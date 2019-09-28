@@ -1,0 +1,18 @@
+{
+  "edSignature" : "Sxhf94ZlcCtW4y6tIzrnz9cRB3WXf8X1UvbpWkIpe5lDvSDFaaC2w7U3QUSCeWgxZeU8AvlrA5i6+yu8Q6gpAg==",
+  "length" : "68077594",
+  "bugfixes" : [
+
+  ],
+  "build" : "5X66",
+  "notes" : [
+
+  ],
+  "changes" : [
+    "FreeRouting resolution: 1\/300 mm -> 1\/1000 mm"
+  ],
+  "news" : [
+    "Project: populated Board Objects menu"
+  ],
+  "date" : "2019-09-28T18:56:11Z"
+}
