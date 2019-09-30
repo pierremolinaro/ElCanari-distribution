@@ -1,0 +1,18 @@
+{
+  "edSignature" : "sIpZe95BDJE5yT7troko2B9ZcwCTYiNV6OZ5dPckzv5dr5LJZZKPTaDkoVlnxFcpffIYTkuJSKdWUuprPJeuAg==",
+  "length" : "68081692",
+  "bugfixes" : [
+    "Fixed crash on ElCapitan"
+  ],
+  "build" : "5Y74",
+  "notes" : [
+
+  ],
+  "changes" : [
+
+  ],
+  "news" : [
+
+  ],
+  "date" : "2019-09-30T14:25:30Z"
+}
