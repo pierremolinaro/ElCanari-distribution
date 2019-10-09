@@ -1,0 +1,20 @@
+{
+  "edSignature" : "y3iG4YnRFP\/6\/Gqa0cktbSqvZ\/jwG5S8WcgeaduHEDXDtT3WhqZNwp85dMliNQFCKGKtRk\/2qXLixxT8vrhKDQ==",
+  "length" : "68557202",
+  "bugfixes" : [
+    "Schematic in project: arrows move selected objects"
+  ],
+  "build" : "5Z92",
+  "notes" : [
+
+  ],
+  "changes" : [
+    "Uses Sparkle 1.22.0",
+    "ElCanari is now built with \"Enable Hardened Runtime\" setting"
+  ],
+  "news" : [
+    "Board in Project, component inspector: added segmented controls for package, name and value display orientation",
+    "On project opening, all useless nets are removed"
+  ],
+  "date" : "2019-10-09T16:19:41Z"
+}
