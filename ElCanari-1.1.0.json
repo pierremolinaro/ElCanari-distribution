@@ -1,0 +1,19 @@
+{
+  "edSignature" : "Twe5pO92\/SJZoXlciZEB\/+Ich7tvGfVrUuJl145zSwkxvlXqh7VPH1R78PK8FHTggEVblzuuc\/ffpF6GZSqOAg==",
+  "length" : "70521451",
+  "bugfixes" : [
+    "Package, Symbol Documents: Fixed Document Status"
+  ],
+  "build" : "6H0",
+  "notes" : [
+
+  ],
+  "changes" : [
+    "Project: new board outline settings",
+    "Merger: gerber and PDF files are generated within dedicaced directories"
+  ],
+  "news" : [
+    "Adding focus ring around first responder views"
+  ],
+  "date" : "2019-10-27T19:27:52Z"
+}

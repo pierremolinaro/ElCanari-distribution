@@ -265,7 +265,7 @@ rss.addAttribute (XMLNode.attribute (withName: "xmlns:dc", stringValue: "http://
 let xml = XMLDocument (rootElement: rss)
 xml.version = "1.0"
 xml.characterEncoding = "utf-8"
-print (xml.xmlString (options: [.nodePrettyPrint]))
+//print (xml.xmlString (options: [.nodePrettyPrint]))
 //print (xml.xmlString)
 let data = xml.xmlData (options: [.nodePrettyPrint])
 do{
