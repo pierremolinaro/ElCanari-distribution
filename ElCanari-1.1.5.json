@@ -1,0 +1,20 @@
+{
+  "edSignature" : "Zo7GHMVuROcoWU5qVkYj8yP\/CIga\/faQcf4oXsFqYBxBCYrR0aATdwCvvqS0zjYKyys28Bp7AOPtE+AoAgX\/CQ==",
+  "length" : "75995651",
+  "bugfixes" : [
+    "Device: importing a symbol now imports symbol texts",
+    "Project: printing schematics draws right and top borders"
+  ],
+  "build" : "6M8",
+  "notes" : [
+
+  ],
+  "changes" : [
+    "Open in Library now displays a flat list of parts",
+    "Open in Library now has a search field"
+  ],
+  "news" : [
+
+  ],
+  "date" : "2019-12-24T11:07:22Z"
+}
