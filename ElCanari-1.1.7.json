@@ -1,0 +1,20 @@
+{
+  "edSignature" : "EkHzGDzC50XXkAXwownbRHDTss6V5rsCt+Uk3tBLBp1lyTAuB\/iGB3Vvcb2HMzc2oqCcxfeW8+8+1Zth0qYWAQ==",
+  "length" : "76011322",
+  "bugfixes" : [
+    "Project, ElCanari archive: one side of the board boundaries was missing"
+  ],
+  "build" : "6P52",
+  "notes" : [
+
+  ],
+  "changes" : [
+    "Uses Sparkle 1.23.0",
+    "Project: importing SES file automatically sort objets following their layer"
+  ],
+  "news" : [
+    "Project, board track: new \"Is preserved by Auto Router\" check box",
+    "Package: pad zone can define non continuous pad numbering"
+  ],
+  "date" : "2020-02-18T19:40:24Z"
+}
