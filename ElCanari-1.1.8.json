@@ -1,0 +1,22 @@
+{
+  "edSignature" : "rprtbt5F9NC23wu1IYKflPgdNBzvswln0aTpK\/r4z3QQqFXt+E+fWQiaZimN\/oShKzAQY1g5tKpOccRfvYtTBg==",
+  "length" : "76542956",
+  "bugfixes" : [
+
+  ],
+  "build" : "6U58",
+  "notes" : [
+
+  ],
+  "changes" : [
+
+  ],
+  "news" : [
+    "Project, PDF Generation: selectable background color",
+    "Merger, PDF Generation: selectable background color",
+    "Merger, PDF Generation: added generation of drill file",
+    "Merger: display artwork settings",
+    "Package: added model image"
+  ],
+  "date" : "2020-04-06T10:17:56Z"
+}
