@@ -1,0 +1,18 @@
+{
+  "edSignature" : "y1bK\/QeOyJZzdzkKqlLWQ\/PcZVVnwQhZtfXIsnY5ksKBUsj2Pn50g14rjuJ3sc7azB5mEWYQtPYdt7r6zSdMDA==",
+  "length" : "76547568",
+  "bugfixes" : [
+
+  ],
+  "build" : "6V14",
+  "notes" : [
+
+  ],
+  "changes" : [
+
+  ],
+  "news" : [
+    "Project, Board limits: coordinates are editable"
+  ],
+  "date" : "2020-05-04T16:06:16Z"
+}
