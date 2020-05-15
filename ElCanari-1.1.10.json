@@ -1,0 +1,20 @@
+{
+  "edSignature" : "3f6WioQV01lcMVHV2k\/028jWw1rM\/+GS0KYokwjlWNa8sCiDtbe\/bS+gUZJSxUB+TH68NPLvbXezFahOHszMAA==",
+  "length" : "76538342",
+  "bugfixes" : [
+    "Schematic: correct sorting of symbols to insert",
+    "Schematic: create a wire from an existing subnet does not change anymore the net name"
+  ],
+  "build" : "6V41",
+  "notes" : [
+
+  ],
+  "changes" : [
+
+  ],
+  "news" : [
+    "Schematic: new can connect directly a pin and to a wire",
+    "All graphic views: Shift Click handles a selection rectangle"
+  ],
+  "date" : "2020-05-15T14:49:45Z"
+}
