@@ -1,0 +1,18 @@
+{
+  "edSignature" : "akedr+woSTsX+TvF8npDNrLO9\/FcMJWjPqUELu1xS\/zlBvPyAQ0xN30RfVmYO8CxwyqeL7Czs6gHqu\/x9FCMBg==",
+  "length" : "48313163",
+  "bugfixes" : [
+    "Symbol edition was broken in release 1.2.0"
+  ],
+  "build" : "6Y42",
+  "notes" : [
+
+  ],
+  "changes" : [
+
+  ],
+  "news" : [
+
+  ],
+  "date" : "2020-06-25T16:08:51Z"
+}
