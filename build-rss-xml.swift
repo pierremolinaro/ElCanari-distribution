@@ -189,7 +189,7 @@ for (major, minor, patch) in sortedReleases {
   let version = "\(major).\(minor).\(patch)"
   let item = XMLElement (name: "item")
   item.addChild (XMLElement(name: "title", stringValue:"Version \(version)"))
-  item.addChild (XMLElement(name: "sparkle:minimumSystemVersion", stringValue:"10.9"))
+  item.addChild (XMLElement(name: "sparkle:minimumSystemVersion", stringValue:"10.11"))
 //--- Explore JSON file
   let jsonFilePath = scriptURL.path + "/ElCanari-" + version + ".json"
   let jsonFileContents : Data
