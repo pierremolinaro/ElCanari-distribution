@@ -24,16 +24,16 @@ let changeLogURL = "https://pierremolinaro.github.io/ElCanari-distribution/relea
 //   FOR PRINTING IN COLOR
 //——————————————————————————————————————————————————————————————————————————————————————————————————————————————————————
 
-let BLACK   = "\u{001B}[0;30m"
-let RED     = "\u{001B}[0;31m"
-let GREEN   = "\u{001B}[0;32m"
-let YELLOW  = "\u{001B}[0;33m"
-let BLUE    = "\u{001B}[0;34m"
-let MAGENTA = "\u{001B}[0;35m"
-let CYAN    = "\u{001B}[0;36m"
-let ENDC    = "\u{001B}[0;0m"
-let BOLD    = "\u{001B}[0;1m"
-//let UNDERLINE = "\033[4m"
+let BLACK   = "\u{1B}[0;30m"
+let RED     = "\u{1B}[0;31m"
+let GREEN   = "\u{1B}[0;32m"
+let YELLOW  = "\u{1B}[0;33m"
+let BLUE    = "\u{1B}[0;34m"
+let MAGENTA = "\u{1B}[0;35m"
+let CYAN    = "\u{1B}[0;36m"
+let ENDC    = "\u{1B}[0;0m"
+let BOLD    = "\u{1B}[0;1m"
+let UNDERLINE = "\u{1B}[4m"
 let BOLD_MAGENTA = BOLD + MAGENTA
 let BOLD_BLUE = BOLD + BLUE
 let BOLD_GREEN = BOLD + GREEN
@@ -242,7 +242,12 @@ for (major, minor, patch) in sortedReleases {
 //---
   channel.addChild (item)
 //--- Release notes
-  releaseNotesHTML += "\n  <p>\n    <span class=\"version-title\">Version \(version) (build \(versionDescriptor.build))</span>\n  </p>\n"
+  let date = ISO8601DateFormatter ().date(from: versionDescriptor.date)!
+  let dateFormatter = DateFormatter()
+  dateFormatter.locale = Locale(identifier: "en_US")
+  dateFormatter.setLocalizedDateFormatFromTemplate("MMMMdYYYY") // set template after setting locale
+
+  releaseNotesHTML += "\n  <p>\n    <span class=\"version-title\">Version \(version) (\(dateFormatter.string(from: date)))</span>\n  </p>\n"
   releaseNotesHTML += "  <ul>\n"
   for str in versionDescriptor.bugfixes {
     releaseNotesHTML += "    <li><span class=\"box new\">Bug Fix</span> \(str.html)</li>\n"
