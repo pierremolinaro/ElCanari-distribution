@@ -164,7 +164,6 @@ struct VersionDescriptor : Codable {
   var edSignature = ""
   var news = [String] ()
   var changes = [String] ()
-  var build = ""
   var date = ""
 }
 
@@ -246,7 +245,6 @@ for (major, minor, patch) in sortedReleases {
   let dateFormatter = DateFormatter()
   dateFormatter.locale = Locale(identifier: "en_US")
   dateFormatter.setLocalizedDateFormatFromTemplate("MMMMdYYYY") // set template after setting locale
-
   releaseNotesHTML += "\n  <p>\n    <span class=\"version-title\">Version \(version) (\(dateFormatter.string(from: date)))</span>\n  </p>\n"
   releaseNotesHTML += "  <ul>\n"
   for str in versionDescriptor.bugfixes {
