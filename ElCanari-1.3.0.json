@@ -1,0 +1,25 @@
+{
+  "edSignature" : "0PRDAJkzGR7kcYT1KD+6koGhT74EU8LVcCFxmUPk0Kr7\/zFxe9zFMk7SSx5ilexl+rYnOPCCeGy0MNSbptkjBw==",
+  "length" : "50314226",
+  "bugfixes" : [
+    "In Board Outline Page, background rectangle has a size conforming to the board shape selection"
+  ],
+  "news" : [
+    "New textual file document format",
+    "Display dialog on Export DSN if schematic has warning or error",
+    "Menu \"File\" > \"Open Artwork in Library…\" is implemented"
+  ],
+  "notes" : [
+
+  ],
+  "changes" : [
+    "Compiled with xCode 12.0",
+    "Uses Sparkle 1.24.0-alpha 16-gd01298c9c",
+    "In Project, \"Add Component from File Library…\" dialog performs a case insensitive filtering",
+    "In schematics, unplaced symbols table view names component value (if any)",
+    "In schematics, \"Merge Subnet into an existing Net\" dialog accepts key entry for selecting net",
+    "In schematics, selecting a symbol displays a rotation knob",
+    "In views, resizing when dragging outside object rectangles is done ou mouse up"
+  ],
+  "date" : "2020-09-28T15:44:07Z"
+}
