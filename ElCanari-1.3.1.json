@@ -1,0 +1,17 @@
+{
+  "edSignature" : "9GbSMx8\/Dl3hN3HW6YejwhhQaRRHFzFunL6S3QVMx2TlzQ2y5SNowSsy1gkMfZ2g26H0vXdfKiZKrExaXPESDg==",
+  "length" : "50314225",
+  "bugfixes" : [
+    "FreeRouter was broken in release 1.3.0"
+  ],
+  "news" : [
+
+  ],
+  "notes" : [
+
+  ],
+  "changes" : [
+
+  ],
+  "date" : "2020-09-29T08:23:39Z"
+}
