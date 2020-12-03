@@ -1,0 +1,19 @@
+{
+  "edSignature" : "yj4rbs88shO4RfzXpTVF4qbkUECWEdSAIPTur4hPDn0g1nmDq7ZtcRMoXDQ5UJ7gcADnpqzuxh4tQ\/9ULzxXCg==",
+  "length" : "54301136",
+  "bugfixes" : [
+
+  ],
+  "news" : [
+    "New graphic view interface, with helper string",
+    "In graphic view, SHIFT + CONTROL + mouse down initiates a zoom region",
+    "In graphic view, COMMAND shows mouse location"
+  ],
+  "notes" : [
+
+  ],
+  "changes" : [
+    "Added (Basic, Advanced) Settings for Autorouter Interface"
+  ],
+  "date" : "2020-12-03T16:07:23Z"
+}
