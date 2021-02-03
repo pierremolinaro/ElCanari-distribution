@@ -1,0 +1,19 @@
+{
+  "edSignature" : "V\/M8E\/zmSo7LsUqGYhZGvCF5C05tgdRdh1mNz7fKdgjgZADJQzd3sKcwqPgvDfmlCYF8dCVWbby6pQpIQ1QCCg==",
+  "length" : "54621729",
+  "bugfixes" : [
+    "Package: attribution of master pad on slave pad creation",
+    "Package: selection of master pad in slave pad inspector",
+    "All documents: fixed \"Send to Back\" operation"
+  ],
+  "news" : [
+    "Project: added a popup button to component inspector for specifying if slave pads should be routed or insulated"
+  ],
+  "notes" : [
+
+  ],
+  "changes" : [
+    "Project: improved manual track routing"
+  ],
+  "date" : "2021-02-03T08:54:24Z"
+}
