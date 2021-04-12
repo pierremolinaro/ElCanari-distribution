@@ -1,0 +1,17 @@
+{
+  "edSignature" : "c+3reUpvPdQwrakbNP\/GihkMDsyil8B9IMsaSh4yoUk8irJENWS+VOctA0Og0ORajGmNL6zqgAcPdwTgYblAAA==",
+  "length" : "53798872",
+  "bugfixes" : [
+    "Fixed generation of octogonal pads in merger document"
+  ],
+  "news" : [
+
+  ],
+  "notes" : [
+
+  ],
+  "changes" : [
+    "Uses Sparkle 1.26.0"
+  ],
+  "date" : "2021-04-12T16:20:34Z"
+}
