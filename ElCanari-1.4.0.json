@@ -1,0 +1,17 @@
+{
+  "edSignature" : "vL5jYK8i+hkyJ8Ega0gL0VJ7icu9Wn5HUY69HXrx5EUMkYg0zVTUyXQwmDlGHcRvJrGc07EA3lmm0sIMSwT5Dg==",
+  "length" : "56571777",
+  "bugfixes" : [
+
+  ],
+  "news" : [
+
+  ],
+  "notes" : [
+
+  ],
+  "changes" : [
+    "Symbol and Package document user interfaces are managed by auto layout"
+  ],
+  "date" : "2021-06-23T20:09:12Z"
+}
