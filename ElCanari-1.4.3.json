@@ -14,7 +14,7 @@
   ],
   "changes" : [
     "Symbol document user interface is managed by auto layout",
-    "SPackage document user interface is managed by auto layout",
+    "Package document user interface is managed by auto layout",
     "Device document user interface is managed by auto layout",
     "Artwork document user interfaces is managed by auto layout"
   ],
