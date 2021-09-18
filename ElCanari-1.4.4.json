@@ -1,0 +1,18 @@
+{
+  "edSignature" : "zjFbZkk0C81pCX+JjJDke+x7hXSMSZmwZPX66kH6OEUNzgc7LvnEYNdWuxbEK37Za9IOZdyMVHvtEy4uMgpMAQ==",
+  "length" : "56274080",
+  "bugfixes" : [
+    "Alignment correct lors d'un drag-and-drop pour placer un symbole sur le schéma",
+    "Alignment correct lors d'un drag-and-drop pour placer un composant sur la carte"
+  ],
+  "news" : [
+
+  ],
+  "notes" : [
+    "Correction divers bugs"
+  ],
+  "changes" : [
+
+  ],
+  "date" : "2021-09-18T09:34:11Z"
+}
