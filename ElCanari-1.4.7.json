@@ -1,0 +1,18 @@
+{
+  "edSignature" : "5ejRFM2Qk\/JEHXphkGkhgbLwQj2EuPo9WKK8Pslf7PV\/U0hMXnUEAk9nNp9FAMOI1YxrG6aQ+vPQbDtyrN++Bw==",
+  "length" : "55905305",
+  "bugfixes" : [
+    "Dans le document Device, détection de plusieurs pins ayant le même nom, avec des noms de symboles identiques."
+  ],
+  "news" : [
+    "Affichage d'alertes lors du lancement de FreeRouter en cas d'erreur dans le schéma ou de composants non placés sur le circuit.",
+    "Menu contextuel pour effectuer l'alignement rectilinéaire ou octolinéaire des pistes."
+  ],
+  "notes" : [
+
+  ],
+  "changes" : [
+    "Utilisation du Swift Package Manager pour Sparkle."
+  ],
+  "date" : "2021-11-19T16:13:02Z"
+}
