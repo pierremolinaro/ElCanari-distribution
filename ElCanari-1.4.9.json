@@ -1,0 +1,17 @@
+{
+  "edSignature" : "Z3DlKffvr4f1JZBujXWEuII0appWkl+i0XdcfzTx8CFuV5IKGgKY92KAnmfEZNnNdxDN7FYSDIr6lPEEo6RZBQ==",
+  "length" : "57052818",
+  "bugfixes" : [
+
+  ],
+  "news" : [
+
+  ],
+  "notes" : [
+
+  ],
+  "changes" : [
+    "Prise en compte de la tabulation pour passer d'un champ à l'autre."
+  ],
+  "date" : "2021-11-24T15:28:41Z"
+}
