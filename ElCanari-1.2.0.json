@@ -17,5 +17,6 @@
     "Board: the board can be printed",
     "Board: added a switch for controlling component legend display"
   ],
-  "date" : "2020-06-19T16:34:55Z"
+  "date" : "2020-06-19T16:34:55Z",
+  "osmin" : "10.11"
 }

@@ -15,5 +15,6 @@
   "news" : [
     "Adding focus ring around first responder views"
   ],
-  "date" : "2019-10-27T19:27:52Z"
+  "date" : "2019-10-27T19:27:52Z",
+  "osmin" : "10.11"
 }

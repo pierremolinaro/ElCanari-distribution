@@ -13,5 +13,6 @@
   "changes" : [
     "Système minimum MacOS : High Sierra (10.13)."
   ],
-  "date" : "2021-12-01T17:52:30Z"
+  "date" : "2021-12-01T17:52:30Z",
+  "osmin" : "10.13"
 }

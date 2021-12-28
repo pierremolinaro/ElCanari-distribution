@@ -16,5 +16,6 @@
     "Schematic: new can connect directly a pin and to a wire",
     "All graphic views: Shift Click handles a selection rectangle"
   ],
-  "date" : "2020-05-15T14:49:45Z"
+  "date" : "2020-05-15T14:49:45Z",
+  "osmin" : "10.11"
 }

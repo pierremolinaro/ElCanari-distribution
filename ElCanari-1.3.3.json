@@ -13,5 +13,6 @@
   "changes" : [
     "Changed \"Import Artwork…\" dialog in Merger"
   ],
-  "date" : "2020-11-24T11:06:21Z"
+  "date" : "2020-11-24T11:06:21Z",
+  "osmin" : "10.11"
 }

@@ -15,5 +15,6 @@
   "changes" : [
     "Project: improved manual track routing"
   ],
-  "date" : "2021-02-03T08:54:24Z"
+  "date" : "2021-02-03T08:54:24Z",
+  "osmin" : "10.11"
 }

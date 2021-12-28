@@ -16,5 +16,6 @@
     "Project, board track: new \"Is preserved by Auto Router\" check box",
     "Package: pad zone can define non continuous pad numbering"
   ],
-  "date" : "2020-02-18T19:40:24Z"
+  "date" : "2020-02-18T19:40:24Z",
+  "osmin" : "10.11"
 }

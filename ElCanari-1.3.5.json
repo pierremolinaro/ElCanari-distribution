@@ -14,5 +14,6 @@
   "changes" : [
     "Autorouter GUI settings are stored in ElCanari Preferences"
   ],
-  "date" : "2020-12-26T12:49:36Z"
+  "date" : "2020-12-26T12:49:36Z",
+  "osmin" : "10.11"
 }

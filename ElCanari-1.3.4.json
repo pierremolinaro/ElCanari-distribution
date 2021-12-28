@@ -15,5 +15,6 @@
   "changes" : [
     "Added (Basic, Advanced) Settings for Autorouter Interface"
   ],
-  "date" : "2020-12-03T16:07:23Z"
+  "date" : "2020-12-03T16:07:23Z",
+  "osmin" : "10.11"
 }

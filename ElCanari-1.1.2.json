@@ -18,5 +18,6 @@
     "Package: adjustable selection knob size",
     "Package: square knob at guide and dimension center"
   ],
-  "date" : "2019-11-12T18:21:01Z"
+  "date" : "2019-11-12T18:21:01Z",
+  "osmin" : "10.11"
 }

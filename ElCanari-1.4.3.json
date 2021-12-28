@@ -18,5 +18,6 @@
     "Device document user interface is managed by auto layout",
     "Artwork document user interfaces is managed by auto layout"
   ],
-  "date" : "2021-07-15T08:37:58Z"
+  "date" : "2021-07-15T08:37:58Z",
+  "osmin" : "10.11"
 }
