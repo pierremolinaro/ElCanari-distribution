@@ -165,6 +165,7 @@ struct VersionDescriptor : Codable {
   var news = [String] ()
   var changes = [String] ()
   var date = ""
+  var osmin = ""
 }
 
 //——————————————————————————————————————————————————————————————————————————————————————————————————————————————————————
@@ -186,9 +187,6 @@ channel.addChild (XMLElement(name: "language", stringValue:"en"))
 let fm = FileManager ()
 for (major, minor, patch) in sortedReleases {
   let version = "\(major).\(minor).\(patch)"
-  let item = XMLElement (name: "item")
-  item.addChild (XMLElement(name: "title", stringValue:"Version \(version)"))
-  item.addChild (XMLElement(name: "sparkle:minimumSystemVersion", stringValue:"10.11"))
 //--- Explore JSON file
   let jsonFilePath = scriptURL.path + "/ElCanari-" + version + ".json"
   let jsonFileContents : Data
@@ -200,12 +198,15 @@ for (major, minor, patch) in sortedReleases {
   }
   let decoder = JSONDecoder ()
   let versionDescriptor : VersionDescriptor
-  if let x = try? decoder.decode (VersionDescriptor.self, from: jsonFileContents) {
-    versionDescriptor = x
+  if let version = try? decoder.decode (VersionDescriptor.self, from: jsonFileContents) {
+    versionDescriptor = version
   }else{
     print (RED + "line \(#line) : cannot decode \(jsonFilePath) file" + ENDC)
     exit (1)
   }
+  let item = XMLElement (name: "item")
+  item.addChild (XMLElement(name: "title", stringValue:"Version \(version)"))
+  item.addChild (XMLElement(name: "sparkle:minimumSystemVersion", stringValue:"\(versionDescriptor.osmin)"))
 //--- Check the dmg file exists, and has the good length
   let dmgFilePath = scriptURL.path + "/ElCanari-" + version + ".dmg"
   let dmgFileLength : Int
@@ -237,6 +238,7 @@ for (major, minor, patch) in sortedReleases {
   enclosure.addAttribute (XMLNode.attribute (withName: "sparkle:edSignature", stringValue:versionDescriptor.edSignature) as! XMLNode)
   enclosure.addAttribute (XMLNode.attribute (withName: "sparkle:version", stringValue:version) as! XMLNode)
   enclosure.addAttribute (XMLNode.attribute (withName: "length", stringValue:"\(dmgFileLength)") as! XMLNode)
+  enclosure.addAttribute (XMLNode.attribute (withName: "sparkle:installationType", stringValue:"package") as! XMLNode)
   item.addChild (enclosure)
 //---
   channel.addChild (item)
