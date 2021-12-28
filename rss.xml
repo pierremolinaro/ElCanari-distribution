@@ -16,7 +16,7 @@
             <sparkle:minimumSystemVersion>10.11</sparkle:minimumSystemVersion>
             <pubDate>2021-11-24T15:28:41Z</pubDate>
             <sparkle:releaseNotesLink>https://pierremolinaro.github.io/ElCanari-distribution/release-notes.html</sparkle:releaseNotesLink>
-            <enclosure url="https://raw.githubusercontent.com/pierremolinaro/ElCanari-distribution/master/ElCanari-1.4.9.dmg" type="application/octet-stream" sparkle:edSignature="Z3DlKffvr4f1JZBujXWEuII0appWkl+i0XdcfzTx8CFuV5IKGgKY92KAnmfEZNnNdxDN7FYSDIr6lPEEo6RZBQ==" sparkle:version="1.4.9" length="57052818"></enclosure>
+            <enclosure url="https://raw.githubusercontent.com/pierremolinaro/ElCanari-distribution/master/ElCanari-1.4.9.dmg" type="application/octet-stream" sparkle:edSignature="Z3DlKffvr4f1JZBujXWEuII0appWkl+i0XdcfzTx8CFuV5IKGgKY92KAnmfEZNnNdxDN7FYSDIr6lPEEo6RZBQ==" sparkle:version="1.4.9" length="57052818" sparkle:installationType="package"></enclosure>
         </item>
         <item>
             <title>Version 1.4.8</title>
