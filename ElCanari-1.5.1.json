@@ -1,0 +1,22 @@
+{
+  "edSignature" : "wEpT2S5agEIzgc\/urPv0j0jzy69Br8NMxQqYIxSp3HDF\/omIx+xB0jhBY3j2gtJhaRxVoIRUZ19Pu\/0VltyXAw==",
+  "length" : "49226169",
+  "bugfixes" : [
+
+  ],
+  "news" : [
+    "Onglet « Components » : prise en compte de la touche DELETE pour retirer un composant",
+    "Inspecteur « Text in Board » : ajout d'un switch pour contrôler l'affichage de la poignée de rotation",
+    "Onglet « Components », inspecteur « Display » : divers arrangements",
+    "Onglet « Board Contents » : ajout item menu « Select Tracks from Selected Track Nets » oublié",
+    "Prise en compte indépendante de la casse des extensions"
+  ],
+  "notes" : [
+
+  ],
+  "changes" : [
+
+  ],
+  "date" : "2022-06-04T09:06:35Z",
+  "osmin" : "10.13"
+}
