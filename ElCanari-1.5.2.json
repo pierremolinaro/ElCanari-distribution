@@ -1,0 +1,18 @@
+{
+  "edSignature" : "Lzs9Yn89e09L9tBCofr9mSj510tv2lbAxbhM1XFmQmGDkX\/PP6EM5t4+XrNel41NsGmknlda+QsGpT6EiR0oAQ==",
+  "length" : "49239476",
+  "bugfixes" : [
+    "Projet : passer à l'onglet « Library » ne redimensionne plus la fenêtre"
+  ],
+  "news" : [
+
+  ],
+  "notes" : [
+
+  ],
+  "changes" : [
+
+  ],
+  "date" : "2022-06-05T10:52:07Z",
+  "osmin" : "10.13"
+}
