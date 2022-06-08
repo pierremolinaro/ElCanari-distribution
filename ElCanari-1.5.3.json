@@ -1,0 +1,19 @@
+{
+  "edSignature" : "mofquzURGdyJUXP43gclsPxjnwhFMFA3UygfhiBGeXE4qxOMO+iKnDqrl68GeMt2H2GuJ4jn3LW7DLBxaEvjDw==",
+  "length" : "49239597",
+  "bugfixes" : [
+    "Vues graphiques : correction boucle infinie du calcul du zoom automatique"
+  ],
+  "news" : [
+
+  ],
+  "notes" : [
+
+  ],
+  "changes" : [
+    "Document « Project » : amélioration présentation artwork",
+    "Amélioration de la validation de la saisie des champs entiers et flottants"
+  ],
+  "date" : "2022-06-08T19:01:03Z",
+  "osmin" : "10.13"
+}
