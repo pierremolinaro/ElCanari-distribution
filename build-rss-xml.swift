@@ -231,8 +231,8 @@ for (major, minor, patch) in sortedReleases {
   let formatter = DateFormatter()
   formatter.locale = Locale(identifier: "en_US_POSIX")
   formatter.timeZone = TimeZone(secondsFromGMT: 0)
-  formatter.dateFormat = "EEE, dd MMM yyyy HH:mm:ssGMT"
-  let rfc822Date = formatter.string (from: buildDate)
+  formatter.dateFormat = "EEE, dd MMM yyyy HH:mm:ss"
+  let rfc822Date = formatter.string (from: buildDate) + "GMT"
   item.addChild (XMLElement(name: "pubDate", stringValue: rfc822Date))
 //--- sparkle:releaseNotesLink
   item.addChild (XMLElement (name: "sparkle:releaseNotesLink", stringValue: changeLogURL))
