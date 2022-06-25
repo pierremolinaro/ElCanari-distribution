@@ -1,0 +1,22 @@
+{
+  "edSignature" : "DWZOQJiADHwHITvhX5Ss1LQLH3qCvkGe0DDAP5zKmbFhlO1sCIvedtR6oxswrzr+y33XOr8jaUNeOkcmok3oAw==",
+  "length" : "49235390",
+  "bugfixes" : [
+    "Document « Project », page « Board Contents » : rétablissement de la prise compte de certains réglages d'affichage",
+    "Document « Project », page « Board Contents », inspecteur « Board Track » : rétablissement de la prise compte des réglages de coordonnées et d'angle",
+    "Document « Project », page « Board Contents », : rétablissement  de l'impression de la carte",
+    "Document « Project », page « Schematics », : rétablissement  de l'impression du schéma"
+  ],
+  "news" : [
+    "Ajout copier \/ coller des commentaires dans le schéma d'un projet",
+    "Ajout copier \/ coller des rectangles de restrictions, des lignes et des textes dans la carte d'un projet"
+  ],
+  "notes" : [
+
+  ],
+  "changes" : [
+
+  ],
+  "date" : "2022-06-25T13:03:44Z",
+  "osmin" : "10.13"
+}
