@@ -1,0 +1,20 @@
+{
+  "edSignature" : "kSz7j1TzMaVMiPlCC8y+FXuikRZ3glMawqITPRpxjfz1MGIIJfybbImzp49b4ck8C1AjZqoDPq\/2sOhya4c2Dw==",
+  "length" : "49217076",
+  "bugfixes" : [
+    "Document « Project », page « Board Contents », « text in board » : la conservation de l'alignement horizontal est rétablie",
+    "Document « Project », page « Board Contents », « text in board » : la conservation de l'alignement vertical est rétablie",
+    "Fenêtre des préférences : comportement lors du passage en plein écran"
+  ],
+  "news" : [
+    "Document « Project », page « Board Contents » : un warning apparaît pour chaque composant non placé"
+  ],
+  "notes" : [
+
+  ],
+  "changes" : [
+
+  ],
+  "date" : "2022-07-04T14:11:29Z",
+  "osmin" : "10.13"
+}
