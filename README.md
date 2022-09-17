@@ -2,7 +2,10 @@
 
 ElCanari is a free software, distributed under MIT license, for making printed circuit boards.
 
-It is written in Swift and runs only on OSX from ElCapitan (10.11).
+It is written in Swift and runs only on OSX on
+- ElCapitan (10.11), for releases up to 1.4.9;
+- High Sierra (10.13), for releases from 1.4.10 to 1.5.9;
+- Catalina (10.15), for releases from 1.6.0.
 
 ElCanari is an application that can edit seven types of documents:
 
