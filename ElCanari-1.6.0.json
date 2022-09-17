@@ -1,0 +1,21 @@
+{
+  "edSignature" : "wVrwRpsG1cFcelyh7PajRgGGyKd3kwv2Jtfv+ArcrBZetrCbxXXwnHgc3oCo70EE5Rur0KZr0ikX0w1GnkkdAg==",
+  "length" : "48484191",
+  "bugfixes" : [
+    "3 fuites mémoire corrigées",
+    "Rétablissement de l'édition de l'image modèle de package",
+    "Rétablissement de l'item de menu « ElCanari documentation »",
+    "Rétablissement de l'édition du contour non rectangulaire de carte"
+  ],
+  "news" : [
+    "Ajout boutons pour réordonner les pages du schéma"
+  ],
+  "notes" : [
+    "La version MacOS miminum devient 10.15 (Catalina)"
+  ],
+  "changes" : [
+
+  ],
+  "date" : "2022-09-17T17:03:12Z",
+  "osmin" : "10.15"
+}
