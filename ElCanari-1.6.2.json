@@ -1,0 +1,20 @@
+{
+  "edSignature" : "nM7j26e8sIpgI+cGFup0c3UhlatffTTeBzDJhlz+QoYyzYxoMJcrhrjnSkVWEIiz8RcxFpOMeuF\/LywOtt4+Dw==",
+  "length" : "42386879",
+  "bugfixes" : [
+    "Correction de la vérification de l'isolation des pads esclaves sans net",
+    "Schéma : essayer d'établir une piste à partir d'un point de connexion marqué nc d'un symbol est maintenant correctement inhibé"
+  ],
+  "news" : [
+
+  ],
+  "notes" : [
+
+  ],
+  "changes" : [
+    "Le manuel d'utilisation est maintenant dans la librairie système",
+    "Sparkle 2.3.0"
+  ],
+  "date" : "2022-11-12T17:14:46Z",
+  "osmin" : "10.15"
+}
