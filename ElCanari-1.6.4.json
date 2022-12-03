@@ -1,0 +1,18 @@
+{
+  "edSignature" : "X3jphvh7lJ5pdC32P9g8VWIALxfneBcbbZdtl6r2iI17nm84cQHT0zzGIbUfw0Rn3f\/Hcg4qm8q\/3LyQnr\/NDw==",
+  "length" : "42354433",
+  "bugfixes" : [
+    "Correction de l'observation de la suppression d'un objet"
+  ],
+  "news" : [
+    "Duplication des inspecteurs dans la saisie du schéma d'un projet"
+  ],
+  "notes" : [
+
+  ],
+  "changes" : [
+
+  ],
+  "date" : "2022-12-03T10:40:34Z",
+  "osmin" : "10.15"
+}
