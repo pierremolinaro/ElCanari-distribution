@@ -15,7 +15,7 @@
     <li><span class="box new">Bug Fix</span> Correction&nbsp;de&nbsp;la&nbsp;v&eacute;rification&nbsp;de&nbsp;l&apos;isolation&nbsp;des&nbsp;pads&nbsp;esclaves&nbsp;sans&nbsp;net</li>
     <li><b>Bug Fix</b> Sch&eacute;ma&nbsp;:&nbsp;essayer&nbsp;d&apos;&eacute;tablir&nbsp;une&nbsp;piste&nbsp;&agrave;&nbsp;partir&nbsp;d&apos;un&nbsp;point&nbsp;de&nbsp;connexion&nbsp;marqu&eacute;&nbsp;nc&nbsp;d&apos;un&nbsp;symbol&nbsp;est&nbsp;maintenant&nbsp;correctement&nbsp;inhib&eacute;</li>
     <li><b style="color:red;">Change</b> Le&nbsp;manuel&nbsp;d&apos;utilisation&nbsp;est&nbsp;maintenant&nbsp;dans&nbsp;la&nbsp;librairie&nbsp;syst&egrave;me</li>
-    <li><string style="color:red;">Change</strong> Sparkle&nbsp;2.3.0</li>
+    <li><strong style="color:red;">Change</strong> Sparkle&nbsp;2.3.0</li>
   </ul></p>]]>
             </description>
         </item>
