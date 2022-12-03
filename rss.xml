@@ -12,7 +12,7 @@
             <enclosure url="https://raw.githubusercontent.com/pierremolinaro/ElCanari-distribution/master/ElCanari-1.6.4.dmg" type="application/octet-stream" sparkle:edSignature="X3jphvh7lJ5pdC32P9g8VWIALxfneBcbbZdtl6r2iI17nm84cQHT0zzGIbUfw0Rn3f/Hcg4qm8q/3LyQnr/NDw==" sparkle:version="1.6.4" length="42354433" sparkle:installationType="package"></enclosure>
             <description><![CDATA[
   <p><ul>
-    <li><span class="box new">Bug Fix</span> Correction&nbsp;de&nbsp;la&nbsp;v&eacute;rification&nbsp;de&nbsp;l&apos;isolation&nbsp;des&nbsp;pads&nbsp;esclaves&nbsp;sans&nbsp;net</li>
+    <li><span style="color:red;">Bug Fix</span> Correction&nbsp;de&nbsp;la&nbsp;v&eacute;rification&nbsp;de&nbsp;l&apos;isolation&nbsp;des&nbsp;pads&nbsp;esclaves&nbsp;sans&nbsp;net</li>
     <li><b>Bug Fix</b> Sch&eacute;ma&nbsp;:&nbsp;essayer&nbsp;d&apos;&eacute;tablir&nbsp;une&nbsp;piste&nbsp;&agrave;&nbsp;partir&nbsp;d&apos;un&nbsp;point&nbsp;de&nbsp;connexion&nbsp;marqu&eacute;&nbsp;nc&nbsp;d&apos;un&nbsp;symbol&nbsp;est&nbsp;maintenant&nbsp;correctement&nbsp;inhib&eacute;</li>
     <li><b style="color:red;">Change</b> Le&nbsp;manuel&nbsp;d&apos;utilisation&nbsp;est&nbsp;maintenant&nbsp;dans&nbsp;la&nbsp;librairie&nbsp;syst&egrave;me</li>
     <li><strong style="color:red;">Change</strong> Sparkle&nbsp;2.3.0</li>
@@ -26,10 +26,10 @@
             <sparkle:releaseNotesLink>https://pierremolinaro.github.io/ElCanari-distribution/release-notes.html</sparkle:releaseNotesLink>
             <enclosure url="https://raw.githubusercontent.com/pierremolinaro/ElCanari-distribution/master/ElCanari-1.6.3.dmg" type="application/octet-stream" sparkle:edSignature="pSLoTAyDN7dS+9IWFHqVgJTgdOYPfq6+FSE4947zz5TA7/3BgKW7AR/kNIfzntYaFHIMIaWMKwEiRMB9l04RBg==" sparkle:version="1.6.3" length="42289921" sparkle:installationType="package"></enclosure>
             <description><p>
-  Bug Fix: Correction de la&nbsp;v&eacute;rification&nbsp;de&nbsp;l&apos;isolation&nbsp;des&nbsp;pads&nbsp;esclaves&nbsp;sans&nbsp;net<br>
-  Bug Fix:  Sch&eacute;ma&nbsp;:&nbsp;essayer&nbsp;d&apos;&eacute;tablir&nbsp;une&nbsp;piste&nbsp;&agrave;&nbsp;partir&nbsp;d&apos;un&nbsp;point&nbsp;de&nbsp;connexion&nbsp;marqu&eacute;&nbsp;nc&nbsp;d&apos;un&nbsp;symbol&nbsp;est&nbsp;maintenant&nbsp;correctement&nbsp;inhib&eacute;<br>
-  Change: Le&nbsp;manuel&nbsp;d&apos;utilisation&nbsp;est&nbsp;maintenant&nbsp;dans&nbsp;la&nbsp;librairie&nbsp;syst&egrave;me<br>
-  Change: Sparkle&nbsp;2.3.0<br>
+  Bug Fix: Correction de la&nbsp;v&eacute;rification&nbsp;de&nbsp;l&apos;isolation&nbsp;des&nbsp;pads&nbsp;esclaves&nbsp;sans&nbsp;net<br/>
+  Bug Fix:  Sch&eacute;ma&nbsp;:&nbsp;essayer&nbsp;d&apos;&eacute;tablir&nbsp;une&nbsp;piste&nbsp;&agrave;&nbsp;partir&nbsp;d&apos;un&nbsp;point&nbsp;de&nbsp;connexion&nbsp;marqu&eacute;&nbsp;nc&nbsp;d&apos;un&nbsp;symbol&nbsp;est&nbsp;maintenant&nbsp;correctement&nbsp;inhib&eacute;<br/>
+  Change: Le&nbsp;manuel&nbsp;d&apos;utilisation&nbsp;est&nbsp;maintenant&nbsp;dans&nbsp;la&nbsp;librairie&nbsp;syst&egrave;me<br/>
+  Change: Sparkle&nbsp;2.3.0<br/>
             </p></description>
         </item>
         <item>
