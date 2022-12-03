@@ -26,10 +26,10 @@
             <sparkle:releaseNotesLink>https://pierremolinaro.github.io/ElCanari-distribution/release-notes.html</sparkle:releaseNotesLink>
             <enclosure url="https://raw.githubusercontent.com/pierremolinaro/ElCanari-distribution/master/ElCanari-1.6.3.dmg" type="application/octet-stream" sparkle:edSignature="pSLoTAyDN7dS+9IWFHqVgJTgdOYPfq6+FSE4947zz5TA7/3BgKW7AR/kNIfzntYaFHIMIaWMKwEiRMB9l04RBg==" sparkle:version="1.6.3" length="42289921" sparkle:installationType="package"></enclosure>
             <description>
-  Bug Fix: Correction&nbsp;de&nbsp;la&nbsp;v&eacute;rification&nbsp;de&nbsp;l&apos;isolation&nbsp;des&nbsp;pads&nbsp;esclaves&nbsp;sans&nbsp;net
-  Bug Fix:  Sch&eacute;ma&nbsp;:&nbsp;essayer&nbsp;d&apos;&eacute;tablir&nbsp;une&nbsp;piste&nbsp;&agrave;&nbsp;partir&nbsp;d&apos;un&nbsp;point&nbsp;de&nbsp;connexion&nbsp;marqu&eacute;&nbsp;nc&nbsp;d&apos;un&nbsp;symbol&nbsp;est&nbsp;maintenant&nbsp;correctement&nbsp;inhib&eacute;
-  Change: Le&nbsp;manuel&nbsp;d&apos;utilisation&nbsp;est&nbsp;maintenant&nbsp;dans&nbsp;la&nbsp;librairie&nbsp;syst&egrave;me
-  Change: Sparkle&nbsp;2.3.0
+  Bug Fix: Correction de la&nbsp;v&eacute;rification&nbsp;de&nbsp;l&apos;isolation&nbsp;des&nbsp;pads&nbsp;esclaves&nbsp;sans&nbsp;net<br>
+  Bug Fix:  Sch&eacute;ma&nbsp;:&nbsp;essayer&nbsp;d&apos;&eacute;tablir&nbsp;une&nbsp;piste&nbsp;&agrave;&nbsp;partir&nbsp;d&apos;un&nbsp;point&nbsp;de&nbsp;connexion&nbsp;marqu&eacute;&nbsp;nc&nbsp;d&apos;un&nbsp;symbol&nbsp;est&nbsp;maintenant&nbsp;correctement&nbsp;inhib&eacute;<br>
+  Change: Le&nbsp;manuel&nbsp;d&apos;utilisation&nbsp;est&nbsp;maintenant&nbsp;dans&nbsp;la&nbsp;librairie&nbsp;syst&egrave;me<br>
+  Change: Sparkle&nbsp;2.3.0<br>
             </description>
         </item>
         <item>
