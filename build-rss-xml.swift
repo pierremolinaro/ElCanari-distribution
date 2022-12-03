@@ -249,7 +249,9 @@ for (major, minor, patch) in sortedReleases {
 //--- Description
   let description = XMLElement (name: "description")
   let descriptionContent = XMLNode (kind: .text, options: .nodeIsCDATA)
-  var descriptionContentString = "<p>\n              <ul>\n"
+  var descriptionContentString = "<p>\n"
+  descriptionContentString += "              Version minimum macOS : \(versionDescriptor.osmin)<br/>\n"
+  descriptionContentString += "              <ul>\n"
   for str in versionDescriptor.bugfixes {
     descriptionContentString += "                <li><b>Bug Fix</b> \(str.html)</li>\n"
   }
