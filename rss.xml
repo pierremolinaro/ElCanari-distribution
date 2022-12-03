@@ -10,6 +10,9 @@
             <pubDate>Sat, 03 Dec 2022 10:40:34 +0000</pubDate>
             <sparkle:releaseNotesLink>https://pierremolinaro.github.io/ElCanari-distribution/release-notes.html</sparkle:releaseNotesLink>
             <enclosure url="https://raw.githubusercontent.com/pierremolinaro/ElCanari-distribution/master/ElCanari-1.6.4.dmg" type="application/octet-stream" sparkle:edSignature="X3jphvh7lJ5pdC32P9g8VWIALxfneBcbbZdtl6r2iI17nm84cQHT0zzGIbUfw0Rn3f/Hcg4qm8q/3LyQnr/NDw==" sparkle:version="1.6.4" length="42354433" sparkle:installationType="package"></enclosure>
+            <description>
+              Exemple de description
+            </description>
         </item>
         <item>
             <title>Version 1.6.3</title>
