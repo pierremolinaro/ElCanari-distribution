@@ -246,6 +246,26 @@ for (major, minor, patch) in sortedReleases {
   enclosure.addAttribute (XMLNode.attribute (withName: "length", stringValue:"\(dmgFileLength)") as! XMLNode)
   enclosure.addAttribute (XMLNode.attribute (withName: "sparkle:installationType", stringValue:"package") as! XMLNode)
   item.addChild (enclosure)
+//--- Description
+  let description = XMLElement (name: "description")
+  let descriptionContent = XMLNode (kind: .text, options: .nodeIsCDATA)
+  var descriptionContentString = "<p>\n              <ul>\n"
+  for str in versionDescriptor.bugfixes {
+    descriptionContentString += "                <li><b>Bug Fix</b> \(str.html)</li>\n"
+  }
+  for str in versionDescriptor.news {
+    descriptionContentString += "                <li><b>New</b> \(str.html)</li>\n"
+  }
+  for str in versionDescriptor.changes {
+    descriptionContentString += "                <li><b>Change</b> \(str.html)</li>\n"
+  }
+  for str in versionDescriptor.notes {
+    descriptionContentString += "                <li><b>Note</b> \(str.html)</li>\n"
+  }
+  descriptionContentString += "              </ul>\n            </p>"
+  descriptionContent.objectValue = descriptionContentString
+  description.addChild (descriptionContent)
+  item.addChild (description)
 //---
   channel.addChild (item)
 //--- Release notes

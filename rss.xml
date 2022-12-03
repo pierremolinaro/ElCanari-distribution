@@ -10,9 +10,12 @@
             <pubDate>Sat, 03 Dec 2022 10:40:34 +0000</pubDate>
             <sparkle:releaseNotesLink>https://pierremolinaro.github.io/ElCanari-distribution/release-notes.html</sparkle:releaseNotesLink>
             <enclosure url="https://raw.githubusercontent.com/pierremolinaro/ElCanari-distribution/master/ElCanari-1.6.4.dmg" type="application/octet-stream" sparkle:edSignature="X3jphvh7lJ5pdC32P9g8VWIALxfneBcbbZdtl6r2iI17nm84cQHT0zzGIbUfw0Rn3f/Hcg4qm8q/3LyQnr/NDw==" sparkle:version="1.6.4" length="42354433" sparkle:installationType="package"></enclosure>
-            <description><![CDATA[<p><ul>
-<li><b>Bug Fix</b> Correction&nbsp;de&nbsp;l&apos;observation&nbsp;de&nbsp;la&nbsp;suppression&nbsp;d&apos;un&nbsp;objet</li>
-</ul></p>]]></description>
+            <description><![CDATA[<p>
+              <ul>
+                <li><b>Bug Fix</b> Correction&nbsp;de&nbsp;l&apos;observation&nbsp;de&nbsp;la&nbsp;suppression&nbsp;d&apos;un&nbsp;objet</li>
+                <li><b>New</b> Duplication&nbsp;des&nbsp;inspecteurs&nbsp;dans&nbsp;la&nbsp;saisie&nbsp;du&nbsp;sch&eacute;ma&nbsp;d&apos;un&nbsp;projet</li>
+              </ul>
+            </p>]]></description>
         </item>
         <item>
             <title>Version 1.6.3</title>
@@ -20,10 +23,14 @@
             <pubDate>Sat, 19 Nov 2022 09:11:04 +0000</pubDate>
             <sparkle:releaseNotesLink>https://pierremolinaro.github.io/ElCanari-distribution/release-notes.html</sparkle:releaseNotesLink>
             <enclosure url="https://raw.githubusercontent.com/pierremolinaro/ElCanari-distribution/master/ElCanari-1.6.3.dmg" type="application/octet-stream" sparkle:edSignature="pSLoTAyDN7dS+9IWFHqVgJTgdOYPfq6+FSE4947zz5TA7/3BgKW7AR/kNIfzntYaFHIMIaWMKwEiRMB9l04RBg==" sparkle:version="1.6.3" length="42289921" sparkle:installationType="package"></enclosure>
-            <description><![CDATA[<p><ul>
-<li><b>Bug Fix</b> Correction&nbsp;de&nbsp;la&nbsp;v&eacute;rification&nbsp;de&nbsp;l&apos;isolation&nbsp;des&nbsp;pads&nbsp;esclaves&nbsp;sans&nbsp;net</li>
-<li><b>Bug Fix</b> Sch&eacute;ma&nbsp;:&nbsp;essayer&nbsp;d&apos;&eacute;tablir&nbsp;une&nbsp;piste&nbsp;&agrave;&nbsp;partir&nbsp;d&apos;un&nbsp;point&nbsp;de&nbsp;connexion&nbsp;marqu&eacute;&nbsp;nc&nbsp;d&apos;un&nbsp;symbol&nbsp;est&nbsp;maintenant&nbsp;correctement&nbsp;inhib&eacute;</li>
-</ul></p>]]></description>
+            <description><![CDATA[<p>
+              <ul>
+                <li><b>Bug Fix</b> Correction&nbsp;de&nbsp;la&nbsp;v&eacute;rification&nbsp;de&nbsp;l&apos;isolation&nbsp;des&nbsp;pads&nbsp;esclaves&nbsp;sans&nbsp;net</li>
+                <li><b>Bug Fix</b> Sch&eacute;ma&nbsp;:&nbsp;essayer&nbsp;d&apos;&eacute;tablir&nbsp;une&nbsp;piste&nbsp;&agrave;&nbsp;partir&nbsp;d&apos;un&nbsp;point&nbsp;de&nbsp;connexion&nbsp;marqu&eacute;&nbsp;nc&nbsp;d&apos;un&nbsp;symbol&nbsp;est&nbsp;maintenant&nbsp;correctement&nbsp;inhib&eacute;</li>
+                <li><b>Change</b> Le&nbsp;manuel&nbsp;d&apos;utilisation&nbsp;est&nbsp;maintenant&nbsp;dans&nbsp;la&nbsp;librairie&nbsp;syst&egrave;me</li>
+                <li><b>Change</b> Sparkle&nbsp;2.3.0</li>
+              </ul>
+            </p>]]></description>
         </item>
         <item>
             <title>Version 1.6.1</title>
@@ -31,9 +38,12 @@
             <pubDate>Mon, 26 Sep 2022 10:11:51 +0000</pubDate>
             <sparkle:releaseNotesLink>https://pierremolinaro.github.io/ElCanari-distribution/release-notes.html</sparkle:releaseNotesLink>
             <enclosure url="https://raw.githubusercontent.com/pierremolinaro/ElCanari-distribution/master/ElCanari-1.6.1.dmg" type="application/octet-stream" sparkle:edSignature="312NJ62FjQEYfujK1FXVL7l6RXu3xVk98qc34hfRupp+onX5oftD5yHN3KyBrIJ1iEZ74dHNYS99XR2B6T++DQ==" sparkle:version="1.6.1" length="61701818" sparkle:installationType="package"></enclosure>
-            <description><![CDATA[<p><ul>
-<li><b>Bug Fix</b> Correction&nbsp;du&nbsp;d&eacute;placement&nbsp;des&nbsp;cartes&nbsp;dans&nbsp;le&nbsp;Merger</li>
-</ul></p>]]></description>
+            <description><![CDATA[<p>
+              <ul>
+                <li><b>Bug Fix</b> Correction&nbsp;du&nbsp;d&eacute;placement&nbsp;des&nbsp;cartes&nbsp;dans&nbsp;le&nbsp;Merger</li>
+                <li><b>Change</b> Mise&nbsp;&agrave;&nbsp;jour&nbsp;du&nbsp;manuel&nbsp;d&apos;utilisation</li>
+              </ul>
+            </p>]]></description>
         </item>
         <item>
             <title>Version 1.6.0</title>
@@ -41,12 +51,16 @@
             <pubDate>Sat, 17 Sep 2022 17:03:12 +0000</pubDate>
             <sparkle:releaseNotesLink>https://pierremolinaro.github.io/ElCanari-distribution/release-notes.html</sparkle:releaseNotesLink>
             <enclosure url="https://raw.githubusercontent.com/pierremolinaro/ElCanari-distribution/master/ElCanari-1.6.0.dmg" type="application/octet-stream" sparkle:edSignature="wVrwRpsG1cFcelyh7PajRgGGyKd3kwv2Jtfv+ArcrBZetrCbxXXwnHgc3oCo70EE5Rur0KZr0ikX0w1GnkkdAg==" sparkle:version="1.6.0" length="48484191" sparkle:installationType="package"></enclosure>
-            <description><![CDATA[<p><ul>
-<li><b>Bug Fix</b> 3&nbsp;fuites&nbsp;m&eacute;moire&nbsp;corrig&eacute;es</li>
-<li><b>Bug Fix</b> R&eacute;tablissement&nbsp;de&nbsp;l&apos;&eacute;dition&nbsp;de&nbsp;l&apos;image&nbsp;mod&egrave;le&nbsp;de&nbsp;package</li>
-<li><b>Bug Fix</b> R&eacute;tablissement&nbsp;de&nbsp;l&apos;item&nbsp;de&nbsp;menu&nbsp;&laquo;&nbsp;ElCanari&nbsp;documentation&nbsp;&raquo;</li>
-<li><b>Bug Fix</b> R&eacute;tablissement&nbsp;de&nbsp;l&apos;&eacute;dition&nbsp;du&nbsp;contour&nbsp;non&nbsp;rectangulaire&nbsp;de&nbsp;carte</li>
-</ul></p>]]></description>
+            <description><![CDATA[<p>
+              <ul>
+                <li><b>Bug Fix</b> 3&nbsp;fuites&nbsp;m&eacute;moire&nbsp;corrig&eacute;es</li>
+                <li><b>Bug Fix</b> R&eacute;tablissement&nbsp;de&nbsp;l&apos;&eacute;dition&nbsp;de&nbsp;l&apos;image&nbsp;mod&egrave;le&nbsp;de&nbsp;package</li>
+                <li><b>Bug Fix</b> R&eacute;tablissement&nbsp;de&nbsp;l&apos;item&nbsp;de&nbsp;menu&nbsp;&laquo;&nbsp;ElCanari&nbsp;documentation&nbsp;&raquo;</li>
+                <li><b>Bug Fix</b> R&eacute;tablissement&nbsp;de&nbsp;l&apos;&eacute;dition&nbsp;du&nbsp;contour&nbsp;non&nbsp;rectangulaire&nbsp;de&nbsp;carte</li>
+                <li><b>New</b> Ajout&nbsp;boutons&nbsp;pour&nbsp;r&eacute;ordonner&nbsp;les&nbsp;pages&nbsp;du&nbsp;sch&eacute;ma</li>
+                <li><b>Note</b> La&nbsp;version&nbsp;MacOS&nbsp;miminum&nbsp;devient&nbsp;10.15&nbsp;(Catalina)</li>
+              </ul>
+            </p>]]></description>
         </item>
         <item>
             <title>Version 1.5.9</title>
@@ -54,11 +68,14 @@
             <pubDate>Mon, 04 Jul 2022 14:11:29 +0000</pubDate>
             <sparkle:releaseNotesLink>https://pierremolinaro.github.io/ElCanari-distribution/release-notes.html</sparkle:releaseNotesLink>
             <enclosure url="https://raw.githubusercontent.com/pierremolinaro/ElCanari-distribution/master/ElCanari-1.5.9.dmg" type="application/octet-stream" sparkle:edSignature="kSz7j1TzMaVMiPlCC8y+FXuikRZ3glMawqITPRpxjfz1MGIIJfybbImzp49b4ck8C1AjZqoDPq/2sOhya4c2Dw==" sparkle:version="1.5.9" length="49217076" sparkle:installationType="package"></enclosure>
-            <description><![CDATA[<p><ul>
-<li><b>Bug Fix</b> Document&nbsp;&laquo;&nbsp;Project&nbsp;&raquo;,&nbsp;page&nbsp;&laquo;&nbsp;Board&nbsp;Contents&nbsp;&raquo;,&nbsp;&laquo;&nbsp;text&nbsp;in&nbsp;board&nbsp;&raquo;&nbsp;:&nbsp;la&nbsp;conservation&nbsp;de&nbsp;l&apos;alignement&nbsp;horizontal&nbsp;est&nbsp;r&eacute;tablie</li>
-<li><b>Bug Fix</b> Document&nbsp;&laquo;&nbsp;Project&nbsp;&raquo;,&nbsp;page&nbsp;&laquo;&nbsp;Board&nbsp;Contents&nbsp;&raquo;,&nbsp;&laquo;&nbsp;text&nbsp;in&nbsp;board&nbsp;&raquo;&nbsp;:&nbsp;la&nbsp;conservation&nbsp;de&nbsp;l&apos;alignement&nbsp;vertical&nbsp;est&nbsp;r&eacute;tablie</li>
-<li><b>Bug Fix</b> Fen&ecirc;tre&nbsp;des&nbsp;pr&eacute;f&eacute;rences&nbsp;:&nbsp;comportement&nbsp;lors&nbsp;du&nbsp;passage&nbsp;en&nbsp;plein&nbsp;&eacute;cran</li>
-</ul></p>]]></description>
+            <description><![CDATA[<p>
+              <ul>
+                <li><b>Bug Fix</b> Document&nbsp;&laquo;&nbsp;Project&nbsp;&raquo;,&nbsp;page&nbsp;&laquo;&nbsp;Board&nbsp;Contents&nbsp;&raquo;,&nbsp;&laquo;&nbsp;text&nbsp;in&nbsp;board&nbsp;&raquo;&nbsp;:&nbsp;la&nbsp;conservation&nbsp;de&nbsp;l&apos;alignement&nbsp;horizontal&nbsp;est&nbsp;r&eacute;tablie</li>
+                <li><b>Bug Fix</b> Document&nbsp;&laquo;&nbsp;Project&nbsp;&raquo;,&nbsp;page&nbsp;&laquo;&nbsp;Board&nbsp;Contents&nbsp;&raquo;,&nbsp;&laquo;&nbsp;text&nbsp;in&nbsp;board&nbsp;&raquo;&nbsp;:&nbsp;la&nbsp;conservation&nbsp;de&nbsp;l&apos;alignement&nbsp;vertical&nbsp;est&nbsp;r&eacute;tablie</li>
+                <li><b>Bug Fix</b> Fen&ecirc;tre&nbsp;des&nbsp;pr&eacute;f&eacute;rences&nbsp;:&nbsp;comportement&nbsp;lors&nbsp;du&nbsp;passage&nbsp;en&nbsp;plein&nbsp;&eacute;cran</li>
+                <li><b>New</b> Document&nbsp;&laquo;&nbsp;Project&nbsp;&raquo;,&nbsp;page&nbsp;&laquo;&nbsp;Board&nbsp;Contents&nbsp;&raquo;&nbsp;:&nbsp;un&nbsp;warning&nbsp;appara&icirc;t&nbsp;pour&nbsp;chaque&nbsp;composant&nbsp;non&nbsp;plac&eacute;</li>
+              </ul>
+            </p>]]></description>
         </item>
         <item>
             <title>Version 1.5.8</title>
@@ -66,9 +83,11 @@
             <pubDate>Sun, 26 Jun 2022 17:07:49 +0000</pubDate>
             <sparkle:releaseNotesLink>https://pierremolinaro.github.io/ElCanari-distribution/release-notes.html</sparkle:releaseNotesLink>
             <enclosure url="https://raw.githubusercontent.com/pierremolinaro/ElCanari-distribution/master/ElCanari-1.5.8.dmg" type="application/octet-stream" sparkle:edSignature="GsOi4qsaLad40RfvEe2dv1TiLZ5XSERlxk3REZspSXwp1HVMRIhq27nKTpctbBVgCPB4xLB6PlkDhcI5IL/tAw==" sparkle:version="1.5.8" length="49226164" sparkle:installationType="package"></enclosure>
-            <description><![CDATA[<p><ul>
-<li><b>Bug Fix</b> Document&nbsp;&laquo;&nbsp;Project&nbsp;&raquo;,&nbsp;page&nbsp;&laquo;&nbsp;Board&nbsp;Contents&nbsp;&raquo;,&nbsp;:&nbsp;r&eacute;tablissement&nbsp;du&nbsp;drag&nbsp;and&nbsp;drop&nbsp;des&nbsp;rectangles&nbsp;de&nbsp;restriction</li>
-</ul></p>]]></description>
+            <description><![CDATA[<p>
+              <ul>
+                <li><b>Bug Fix</b> Document&nbsp;&laquo;&nbsp;Project&nbsp;&raquo;,&nbsp;page&nbsp;&laquo;&nbsp;Board&nbsp;Contents&nbsp;&raquo;,&nbsp;:&nbsp;r&eacute;tablissement&nbsp;du&nbsp;drag&nbsp;and&nbsp;drop&nbsp;des&nbsp;rectangles&nbsp;de&nbsp;restriction</li>
+              </ul>
+            </p>]]></description>
         </item>
         <item>
             <title>Version 1.5.7</title>
@@ -76,12 +95,16 @@
             <pubDate>Sat, 25 Jun 2022 13:03:44 +0000</pubDate>
             <sparkle:releaseNotesLink>https://pierremolinaro.github.io/ElCanari-distribution/release-notes.html</sparkle:releaseNotesLink>
             <enclosure url="https://raw.githubusercontent.com/pierremolinaro/ElCanari-distribution/master/ElCanari-1.5.7.dmg" type="application/octet-stream" sparkle:edSignature="DWZOQJiADHwHITvhX5Ss1LQLH3qCvkGe0DDAP5zKmbFhlO1sCIvedtR6oxswrzr+y33XOr8jaUNeOkcmok3oAw==" sparkle:version="1.5.7" length="49235390" sparkle:installationType="package"></enclosure>
-            <description><![CDATA[<p><ul>
-<li><b>Bug Fix</b> Document&nbsp;&laquo;&nbsp;Project&nbsp;&raquo;,&nbsp;page&nbsp;&laquo;&nbsp;Board&nbsp;Contents&nbsp;&raquo;&nbsp;:&nbsp;r&eacute;tablissement&nbsp;de&nbsp;la&nbsp;prise&nbsp;compte&nbsp;de&nbsp;certains&nbsp;r&eacute;glages&nbsp;d&apos;affichage</li>
-<li><b>Bug Fix</b> Document&nbsp;&laquo;&nbsp;Project&nbsp;&raquo;,&nbsp;page&nbsp;&laquo;&nbsp;Board&nbsp;Contents&nbsp;&raquo;,&nbsp;inspecteur&nbsp;&laquo;&nbsp;Board&nbsp;Track&nbsp;&raquo;&nbsp;:&nbsp;r&eacute;tablissement&nbsp;de&nbsp;la&nbsp;prise&nbsp;compte&nbsp;des&nbsp;r&eacute;glages&nbsp;de&nbsp;coordonn&eacute;es&nbsp;et&nbsp;d&apos;angle</li>
-<li><b>Bug Fix</b> Document&nbsp;&laquo;&nbsp;Project&nbsp;&raquo;,&nbsp;page&nbsp;&laquo;&nbsp;Board&nbsp;Contents&nbsp;&raquo;,&nbsp;:&nbsp;r&eacute;tablissement&nbsp;de&nbsp;l&apos;impression&nbsp;de&nbsp;la&nbsp;carte</li>
-<li><b>Bug Fix</b> Document&nbsp;&laquo;&nbsp;Project&nbsp;&raquo;,&nbsp;page&nbsp;&laquo;&nbsp;Schematics&nbsp;&raquo;,&nbsp;:&nbsp;r&eacute;tablissement&nbsp;de&nbsp;l&apos;impression&nbsp;du&nbsp;sch&eacute;ma</li>
-</ul></p>]]></description>
+            <description><![CDATA[<p>
+              <ul>
+                <li><b>Bug Fix</b> Document&nbsp;&laquo;&nbsp;Project&nbsp;&raquo;,&nbsp;page&nbsp;&laquo;&nbsp;Board&nbsp;Contents&nbsp;&raquo;&nbsp;:&nbsp;r&eacute;tablissement&nbsp;de&nbsp;la&nbsp;prise&nbsp;compte&nbsp;de&nbsp;certains&nbsp;r&eacute;glages&nbsp;d&apos;affichage</li>
+                <li><b>Bug Fix</b> Document&nbsp;&laquo;&nbsp;Project&nbsp;&raquo;,&nbsp;page&nbsp;&laquo;&nbsp;Board&nbsp;Contents&nbsp;&raquo;,&nbsp;inspecteur&nbsp;&laquo;&nbsp;Board&nbsp;Track&nbsp;&raquo;&nbsp;:&nbsp;r&eacute;tablissement&nbsp;de&nbsp;la&nbsp;prise&nbsp;compte&nbsp;des&nbsp;r&eacute;glages&nbsp;de&nbsp;coordonn&eacute;es&nbsp;et&nbsp;d&apos;angle</li>
+                <li><b>Bug Fix</b> Document&nbsp;&laquo;&nbsp;Project&nbsp;&raquo;,&nbsp;page&nbsp;&laquo;&nbsp;Board&nbsp;Contents&nbsp;&raquo;,&nbsp;:&nbsp;r&eacute;tablissement&nbsp;de&nbsp;l&apos;impression&nbsp;de&nbsp;la&nbsp;carte</li>
+                <li><b>Bug Fix</b> Document&nbsp;&laquo;&nbsp;Project&nbsp;&raquo;,&nbsp;page&nbsp;&laquo;&nbsp;Schematics&nbsp;&raquo;,&nbsp;:&nbsp;r&eacute;tablissement&nbsp;de&nbsp;l&apos;impression&nbsp;du&nbsp;sch&eacute;ma</li>
+                <li><b>New</b> Ajout&nbsp;copier&nbsp;/&nbsp;coller&nbsp;des&nbsp;commentaires&nbsp;dans&nbsp;le&nbsp;sch&eacute;ma&nbsp;d&apos;un&nbsp;projet</li>
+                <li><b>New</b> Ajout&nbsp;copier&nbsp;/&nbsp;coller&nbsp;des&nbsp;rectangles&nbsp;de&nbsp;restriction,&nbsp;des&nbsp;lignes&nbsp;et&nbsp;des&nbsp;textes&nbsp;dans&nbsp;la&nbsp;carte&nbsp;d&apos;un&nbsp;projet</li>
+              </ul>
+            </p>]]></description>
         </item>
         <item>
             <title>Version 1.5.6</title>
@@ -89,9 +112,11 @@
             <pubDate>Wed, 22 Jun 2022 20:51:28 +0000</pubDate>
             <sparkle:releaseNotesLink>https://pierremolinaro.github.io/ElCanari-distribution/release-notes.html</sparkle:releaseNotesLink>
             <enclosure url="https://raw.githubusercontent.com/pierremolinaro/ElCanari-distribution/master/ElCanari-1.5.6.dmg" type="application/octet-stream" sparkle:edSignature="KOQJ18EVQiWotd+zZXJtWRlcMdHYE4h30D2iT6y8/1QPS+KVlZ1bLCkmlmeVxP1BwusuBZPciOWsGrzdPhxLBw==" sparkle:version="1.5.6" length="49167287" sparkle:installationType="package"></enclosure>
-            <description><![CDATA[<p><ul>
-<li><b>Bug Fix</b> Diverses&nbsp;corrections&nbsp;de&nbsp;l&apos;interface&nbsp;utilisateur&nbsp;du&nbsp;document&nbsp;&laquo;&nbsp;Project&nbsp;&raquo;</li>
-</ul></p>]]></description>
+            <description><![CDATA[<p>
+              <ul>
+                <li><b>Bug Fix</b> Diverses&nbsp;corrections&nbsp;de&nbsp;l&apos;interface&nbsp;utilisateur&nbsp;du&nbsp;document&nbsp;&laquo;&nbsp;Project&nbsp;&raquo;</li>
+              </ul>
+            </p>]]></description>
         </item>
         <item>
             <title>Version 1.5.5</title>
@@ -99,9 +124,11 @@
             <pubDate>Mon, 20 Jun 2022 18:55:50 +0000</pubDate>
             <sparkle:releaseNotesLink>https://pierremolinaro.github.io/ElCanari-distribution/release-notes.html</sparkle:releaseNotesLink>
             <enclosure url="https://raw.githubusercontent.com/pierremolinaro/ElCanari-distribution/master/ElCanari-1.5.5.dmg" type="application/octet-stream" sparkle:edSignature="65bDnNNfY8oG3xJBlDNd+yvhMV62XJ/721mKAovZy+mJFxcgYsLlc3K5pb73jTDWB6WczjGsESkLNznJd9y9Dg==" sparkle:version="1.5.5" length="49167283" sparkle:installationType="package"></enclosure>
-            <description><![CDATA[<p><ul>
-<li><b>Bug Fix</b> Diverses&nbsp;am&eacute;liorations&nbsp;de&nbsp;l&apos;interface&nbsp;utilisateur&nbsp;des&nbsp;documents&nbsp;&laquo;&nbsp;Package&nbsp;&raquo;&nbsp;et&nbsp;&laquo;&nbsp;Device&nbsp;&raquo;</li>
-</ul></p>]]></description>
+            <description><![CDATA[<p>
+              <ul>
+                <li><b>Bug Fix</b> Diverses&nbsp;am&eacute;liorations&nbsp;de&nbsp;l&apos;interface&nbsp;utilisateur&nbsp;des&nbsp;documents&nbsp;&laquo;&nbsp;Package&nbsp;&raquo;&nbsp;et&nbsp;&laquo;&nbsp;Device&nbsp;&raquo;</li>
+              </ul>
+            </p>]]></description>
         </item>
         <item>
             <title>Version 1.5.4</title>
@@ -109,9 +136,11 @@
             <pubDate>Fri, 10 Jun 2022 13:56:14 +0000</pubDate>
             <sparkle:releaseNotesLink>https://pierremolinaro.github.io/ElCanari-distribution/release-notes.html</sparkle:releaseNotesLink>
             <enclosure url="https://raw.githubusercontent.com/pierremolinaro/ElCanari-distribution/master/ElCanari-1.5.4.dmg" type="application/octet-stream" sparkle:edSignature="SBIqqQmafyuSPNcw6o067rqSKNBXuSY9r0gTQQTiDGw9gkz1diE4+dM25ZHN7OzHEu5knihJCjJThxQcvDryDg==" sparkle:version="1.5.4" length="49167276" sparkle:installationType="package"></enclosure>
-            <description><![CDATA[<p><ul>
-<li><b>Bug Fix</b> Document&nbsp;&laquo;&nbsp;Merger&nbsp;&raquo;&nbsp;:&nbsp;r&eacute;tablissement&nbsp;de&nbsp;la&nbsp;coh&eacute;rence&nbsp;de&nbsp;la&nbsp;disposition&nbsp;des&nbsp;cartes</li>
-</ul></p>]]></description>
+            <description><![CDATA[<p>
+              <ul>
+                <li><b>Bug Fix</b> Document&nbsp;&laquo;&nbsp;Merger&nbsp;&raquo;&nbsp;:&nbsp;r&eacute;tablissement&nbsp;de&nbsp;la&nbsp;coh&eacute;rence&nbsp;de&nbsp;la&nbsp;disposition&nbsp;des&nbsp;cartes</li>
+              </ul>
+            </p>]]></description>
         </item>
         <item>
             <title>Version 1.5.3</title>
@@ -119,9 +148,13 @@
             <pubDate>Wed, 08 Jun 2022 19:01:03 +0000</pubDate>
             <sparkle:releaseNotesLink>https://pierremolinaro.github.io/ElCanari-distribution/release-notes.html</sparkle:releaseNotesLink>
             <enclosure url="https://raw.githubusercontent.com/pierremolinaro/ElCanari-distribution/master/ElCanari-1.5.3.dmg" type="application/octet-stream" sparkle:edSignature="mofquzURGdyJUXP43gclsPxjnwhFMFA3UygfhiBGeXE4qxOMO+iKnDqrl68GeMt2H2GuJ4jn3LW7DLBxaEvjDw==" sparkle:version="1.5.3" length="49239597" sparkle:installationType="package"></enclosure>
-            <description><![CDATA[<p><ul>
-<li><b>Bug Fix</b> Vues&nbsp;graphiques&nbsp;:&nbsp;correction&nbsp;boucle&nbsp;infinie&nbsp;du&nbsp;calcul&nbsp;du&nbsp;zoom&nbsp;automatique</li>
-</ul></p>]]></description>
+            <description><![CDATA[<p>
+              <ul>
+                <li><b>Bug Fix</b> Vues&nbsp;graphiques&nbsp;:&nbsp;correction&nbsp;boucle&nbsp;infinie&nbsp;du&nbsp;calcul&nbsp;du&nbsp;zoom&nbsp;automatique</li>
+                <li><b>Change</b> Document&nbsp;&laquo;&nbsp;Project&nbsp;&raquo;&nbsp;:&nbsp;am&eacute;lioration&nbsp;pr&eacute;sentation&nbsp;artwork</li>
+                <li><b>Change</b> Am&eacute;lioration&nbsp;de&nbsp;la&nbsp;validation&nbsp;de&nbsp;la&nbsp;saisie&nbsp;des&nbsp;champs&nbsp;entiers&nbsp;et&nbsp;flottants</li>
+              </ul>
+            </p>]]></description>
         </item>
         <item>
             <title>Version 1.5.2</title>
@@ -129,9 +162,11 @@
             <pubDate>Sun, 05 Jun 2022 10:52:07 +0000</pubDate>
             <sparkle:releaseNotesLink>https://pierremolinaro.github.io/ElCanari-distribution/release-notes.html</sparkle:releaseNotesLink>
             <enclosure url="https://raw.githubusercontent.com/pierremolinaro/ElCanari-distribution/master/ElCanari-1.5.2.dmg" type="application/octet-stream" sparkle:edSignature="Lzs9Yn89e09L9tBCofr9mSj510tv2lbAxbhM1XFmQmGDkX/PP6EM5t4+XrNel41NsGmknlda+QsGpT6EiR0oAQ==" sparkle:version="1.5.2" length="49239476" sparkle:installationType="package"></enclosure>
-            <description><![CDATA[<p><ul>
-<li><b>Bug Fix</b> Projet&nbsp;:&nbsp;passer&nbsp;&agrave;&nbsp;l&apos;onglet&nbsp;&laquo;&nbsp;Library&nbsp;&raquo;&nbsp;ne&nbsp;redimensionne&nbsp;plus&nbsp;la&nbsp;fen&ecirc;tre</li>
-</ul></p>]]></description>
+            <description><![CDATA[<p>
+              <ul>
+                <li><b>Bug Fix</b> Projet&nbsp;:&nbsp;passer&nbsp;&agrave;&nbsp;l&apos;onglet&nbsp;&laquo;&nbsp;Library&nbsp;&raquo;&nbsp;ne&nbsp;redimensionne&nbsp;plus&nbsp;la&nbsp;fen&ecirc;tre</li>
+              </ul>
+            </p>]]></description>
         </item>
         <item>
             <title>Version 1.5.1</title>
@@ -139,8 +174,15 @@
             <pubDate>Sat, 04 Jun 2022 09:06:35 +0000</pubDate>
             <sparkle:releaseNotesLink>https://pierremolinaro.github.io/ElCanari-distribution/release-notes.html</sparkle:releaseNotesLink>
             <enclosure url="https://raw.githubusercontent.com/pierremolinaro/ElCanari-distribution/master/ElCanari-1.5.1.dmg" type="application/octet-stream" sparkle:edSignature="wEpT2S5agEIzgc/urPv0j0jzy69Br8NMxQqYIxSp3HDF/omIx+xB0jhBY3j2gtJhaRxVoIRUZ19Pu/0VltyXAw==" sparkle:version="1.5.1" length="49226169" sparkle:installationType="package"></enclosure>
-            <description><![CDATA[<p><ul>
-</ul></p>]]></description>
+            <description><![CDATA[<p>
+              <ul>
+                <li><b>New</b> Onglet&nbsp;&laquo;&nbsp;Components&nbsp;&raquo;&nbsp;:&nbsp;prise&nbsp;en&nbsp;compte&nbsp;de&nbsp;la&nbsp;touche&nbsp;DELETE&nbsp;pour&nbsp;retirer&nbsp;un&nbsp;composant</li>
+                <li><b>New</b> Inspecteur&nbsp;&laquo;&nbsp;Text&nbsp;in&nbsp;Board&nbsp;&raquo;&nbsp;:&nbsp;ajout&nbsp;d&apos;un&nbsp;switch&nbsp;pour&nbsp;contr&ocirc;ler&nbsp;l&apos;affichage&nbsp;de&nbsp;la&nbsp;poign&eacute;e&nbsp;de&nbsp;rotation</li>
+                <li><b>New</b> Onglet&nbsp;&laquo;&nbsp;Components&nbsp;&raquo;,&nbsp;inspecteur&nbsp;&laquo;&nbsp;Display&nbsp;&raquo;&nbsp;:&nbsp;divers&nbsp;arrangements</li>
+                <li><b>New</b> Onglet&nbsp;&laquo;&nbsp;Board&nbsp;Contents&nbsp;&raquo;&nbsp;:&nbsp;ajout&nbsp;item&nbsp;menu&nbsp;&laquo;&nbsp;Select&nbsp;Tracks&nbsp;from&nbsp;Selected&nbsp;Track&nbsp;Nets&nbsp;&raquo;&nbsp;oubli&eacute;</li>
+                <li><b>New</b> Prise&nbsp;en&nbsp;compte&nbsp;ind&eacute;pendante&nbsp;de&nbsp;la&nbsp;casse&nbsp;des&nbsp;extensions</li>
+              </ul>
+            </p>]]></description>
         </item>
         <item>
             <title>Version 1.5.0</title>
@@ -148,8 +190,12 @@
             <pubDate>Sun, 29 May 2022 20:05:36 +0000</pubDate>
             <sparkle:releaseNotesLink>https://pierremolinaro.github.io/ElCanari-distribution/release-notes.html</sparkle:releaseNotesLink>
             <enclosure url="https://raw.githubusercontent.com/pierremolinaro/ElCanari-distribution/master/ElCanari-1.5.0.dmg" type="application/octet-stream" sparkle:edSignature="RZH+0uWcoyyKv7UyVGgQnjZzjQKykbMRJ/lSWQHZ6k46IhXkMV9b8LBqmJ3SNIklccJ1Oa0ChdE/EoxQ4URNBQ==" sparkle:version="1.5.0" length="49208244" sparkle:installationType="package"></enclosure>
-            <description><![CDATA[<p><ul>
-</ul></p>]]></description>
+            <description><![CDATA[<p>
+              <ul>
+                <li><b>Change</b> L&apos;interface&nbsp;utilisateur&nbsp;de&nbsp;tous&nbsp;les&nbsp;documents&nbsp;est&nbsp;r&eacute;alis&eacute;&nbsp;au&nbsp;moyen&nbsp;de&nbsp;l&apos;Auto&nbsp;Layout</li>
+                <li><b>Change</b> Utilisation&nbsp;de&nbsp;Sparkle&nbsp;2.1.0</li>
+              </ul>
+            </p>]]></description>
         </item>
         <item>
             <title>Version 1.4.11</title>
@@ -157,9 +203,13 @@
             <pubDate>Sat, 15 Jan 2022 10:28:59 +0000</pubDate>
             <sparkle:releaseNotesLink>https://pierremolinaro.github.io/ElCanari-distribution/release-notes.html</sparkle:releaseNotesLink>
             <enclosure url="https://raw.githubusercontent.com/pierremolinaro/ElCanari-distribution/master/ElCanari-1.4.11.dmg" type="application/octet-stream" sparkle:edSignature="8hfKOJw1UCOfu4wT9f9QvcEn9y9aKGIBr2TTTSTBjruv4RzXq6UoCHOMrnSv+ahqT8Y9PQRIKtngcJTp5GPgBA==" sparkle:version="1.4.11" length="50836530" sparkle:installationType="package"></enclosure>
-            <description><![CDATA[<p><ul>
-<li><b>Bug Fix</b> Correction&nbsp;lecture&nbsp;format&nbsp;texte</li>
-</ul></p>]]></description>
+            <description><![CDATA[<p>
+              <ul>
+                <li><b>Bug Fix</b> Correction&nbsp;lecture&nbsp;format&nbsp;texte</li>
+                <li><b>New</b> Affichage&nbsp;d&apos;une&nbsp;fen&ecirc;tre&nbsp;d&apos;accueil&nbsp;&agrave;&nbsp;l&apos;ouverture&nbsp;d&apos;un&nbsp;document&nbsp;volumineux</li>
+                <li><b>Change</b> Utilisation&nbsp;de&nbsp;Sparkle&nbsp;2.0.0</li>
+              </ul>
+            </p>]]></description>
         </item>
         <item>
             <title>Version 1.4.10</title>
@@ -167,9 +217,12 @@
             <pubDate>Wed, 01 Dec 2021 17:52:30 +0000</pubDate>
             <sparkle:releaseNotesLink>https://pierremolinaro.github.io/ElCanari-distribution/release-notes.html</sparkle:releaseNotesLink>
             <enclosure url="https://raw.githubusercontent.com/pierremolinaro/ElCanari-distribution/master/ElCanari-1.4.10.dmg" type="application/octet-stream" sparkle:edSignature="a9SZO7zw1AKoMH6J4AujyS+QeJNbmP8iMUVpM6ulbBxFapnkzr8lXcQtBnw4BXy8j8PcFOQZZt6KuyPhYEG1Cg==" sparkle:version="1.4.10" length="50693168" sparkle:installationType="package"></enclosure>
-            <description><![CDATA[<p><ul>
-<li><b>Bug Fix</b> Correction&nbsp;bug&nbsp;g&eacute;n&eacute;ration&nbsp;des&nbsp;fichiers&nbsp;de&nbsp;production&nbsp;des&nbsp;projets</li>
-</ul></p>]]></description>
+            <description><![CDATA[<p>
+              <ul>
+                <li><b>Bug Fix</b> Correction&nbsp;bug&nbsp;g&eacute;n&eacute;ration&nbsp;des&nbsp;fichiers&nbsp;de&nbsp;production&nbsp;des&nbsp;projets</li>
+                <li><b>Change</b> Syst&egrave;me&nbsp;minimum&nbsp;MacOS&nbsp;:&nbsp;High&nbsp;Sierra&nbsp;(10.13).</li>
+              </ul>
+            </p>]]></description>
         </item>
         <item>
             <title>Version 1.4.9</title>
@@ -177,8 +230,11 @@
             <pubDate>Wed, 24 Nov 2021 15:28:41 +0000</pubDate>
             <sparkle:releaseNotesLink>https://pierremolinaro.github.io/ElCanari-distribution/release-notes.html</sparkle:releaseNotesLink>
             <enclosure url="https://raw.githubusercontent.com/pierremolinaro/ElCanari-distribution/master/ElCanari-1.4.9.dmg" type="application/octet-stream" sparkle:edSignature="Z3DlKffvr4f1JZBujXWEuII0appWkl+i0XdcfzTx8CFuV5IKGgKY92KAnmfEZNnNdxDN7FYSDIr6lPEEo6RZBQ==" sparkle:version="1.4.9" length="57052818" sparkle:installationType="package"></enclosure>
-            <description><![CDATA[<p><ul>
-</ul></p>]]></description>
+            <description><![CDATA[<p>
+              <ul>
+                <li><b>Change</b> Prise&nbsp;en&nbsp;compte&nbsp;de&nbsp;la&nbsp;tabulation&nbsp;pour&nbsp;passer&nbsp;d&apos;un&nbsp;champ&nbsp;&agrave;&nbsp;l&apos;autre.</li>
+              </ul>
+            </p>]]></description>
         </item>
         <item>
             <title>Version 1.4.8</title>
@@ -186,9 +242,14 @@
             <pubDate>Sat, 20 Nov 2021 17:55:57 +0000</pubDate>
             <sparkle:releaseNotesLink>https://pierremolinaro.github.io/ElCanari-distribution/release-notes.html</sparkle:releaseNotesLink>
             <enclosure url="https://raw.githubusercontent.com/pierremolinaro/ElCanari-distribution/master/ElCanari-1.4.8.dmg" type="application/octet-stream" sparkle:edSignature="3iu6I7Q6Zu4cMmO6J7AMLZVvNOPjdqQrcj3T8C8Lq/v19Xp0GmfLUAeo5J8MYgybY6Z/NSL5oxpV1RWlhqVrAQ==" sparkle:version="1.4.8" length="57028910" sparkle:installationType="package"></enclosure>
-            <description><![CDATA[<p><ul>
-<li><b>Bug Fix</b> Dans&nbsp;le&nbsp;document&nbsp;Device,&nbsp;d&eacute;tection&nbsp;de&nbsp;plusieurs&nbsp;pins&nbsp;ayant&nbsp;le&nbsp;m&ecirc;me&nbsp;nom,&nbsp;avec&nbsp;des&nbsp;noms&nbsp;de&nbsp;symboles&nbsp;identiques.</li>
-</ul></p>]]></description>
+            <description><![CDATA[<p>
+              <ul>
+                <li><b>Bug Fix</b> Dans&nbsp;le&nbsp;document&nbsp;Device,&nbsp;d&eacute;tection&nbsp;de&nbsp;plusieurs&nbsp;pins&nbsp;ayant&nbsp;le&nbsp;m&ecirc;me&nbsp;nom,&nbsp;avec&nbsp;des&nbsp;noms&nbsp;de&nbsp;symboles&nbsp;identiques.</li>
+                <li><b>New</b> Affichage&nbsp;d&apos;alertes&nbsp;lors&nbsp;du&nbsp;lancement&nbsp;de&nbsp;FreeRouter&nbsp;en&nbsp;cas&nbsp;d&apos;erreur&nbsp;dans&nbsp;le&nbsp;sch&eacute;ma&nbsp;ou&nbsp;de&nbsp;composants&nbsp;non&nbsp;plac&eacute;s&nbsp;sur&nbsp;le&nbsp;circuit.</li>
+                <li><b>New</b> Menu&nbsp;contextuel&nbsp;pour&nbsp;effectuer&nbsp;l&apos;alignement&nbsp;rectilin&eacute;aire&nbsp;ou&nbsp;octolin&eacute;aire&nbsp;des&nbsp;pistes.</li>
+                <li><b>Change</b> Utilisation&nbsp;du&nbsp;Swift&nbsp;Package&nbsp;Manager&nbsp;pour&nbsp;Sparkle.</li>
+              </ul>
+            </p>]]></description>
         </item>
         <item>
             <title>Version 1.4.6</title>
@@ -196,8 +257,12 @@
             <pubDate>Sun, 17 Oct 2021 09:37:29 +0000</pubDate>
             <sparkle:releaseNotesLink>https://pierremolinaro.github.io/ElCanari-distribution/release-notes.html</sparkle:releaseNotesLink>
             <enclosure url="https://raw.githubusercontent.com/pierremolinaro/ElCanari-distribution/master/ElCanari-1.4.6.dmg" type="application/octet-stream" sparkle:edSignature="cD2yx2xE7JkBm/n7CUHN7jnDyHCAUHNOCbwl8wrBsX/FYTcaQqcxnst0wNppBsCOl9StfxmjM7Fj3rnVuh38Dw==" sparkle:version="1.4.6" length="55529803" sparkle:installationType="package"></enclosure>
-            <description><![CDATA[<p><ul>
-</ul></p>]]></description>
+            <description><![CDATA[<p>
+              <ul>
+                <li><b>Change</b> Meilleure&nbsp;gestion&nbsp;de&nbsp;la&nbsp;transparence&nbsp;dans&nbsp;les&nbsp;vues&nbsp;graphiques</li>
+                <li><b>Change</b> Les&nbsp;pr&eacute;f&eacute;rences&nbsp;de&nbsp;la&nbsp;sch&eacute;matique&nbsp;d&apos;un&nbsp;projet&nbsp;sont&nbsp;&eacute;ditables&nbsp;dans&nbsp;le&nbsp;projet</li>
+              </ul>
+            </p>]]></description>
         </item>
         <item>
             <title>Version 1.4.5</title>
@@ -205,8 +270,13 @@
             <pubDate>Wed, 13 Oct 2021 11:19:59 +0000</pubDate>
             <sparkle:releaseNotesLink>https://pierremolinaro.github.io/ElCanari-distribution/release-notes.html</sparkle:releaseNotesLink>
             <enclosure url="https://raw.githubusercontent.com/pierremolinaro/ElCanari-distribution/master/ElCanari-1.4.5.dmg" type="application/octet-stream" sparkle:edSignature="oAh/npPlwXWd79sgDso155O7CDmp8DDAbXtnyt99Lb/cXTA0qhi7JffrLf1yqKHeevjcyIRaFtg4noIfLpSxCw==" sparkle:version="1.4.5" length="55511874" sparkle:installationType="package"></enclosure>
-            <description><![CDATA[<p><ul>
-</ul></p>]]></description>
+            <description><![CDATA[<p>
+              <ul>
+                <li><b>New</b> Prise&nbsp;en&nbsp;charge&nbsp;des&nbsp;circuits&nbsp;&agrave;&nbsp;4&nbsp;ou&nbsp;6&nbsp;couches</li>
+                <li><b>New</b> Contr&ocirc;le&nbsp;de&nbsp;la&nbsp;couleur&nbsp;de&nbsp;fond&nbsp;dans&nbsp;le&nbsp;sch&eacute;ma&nbsp;d&apos;un&nbsp;projet</li>
+                <li><b>Change</b> Utilisation&nbsp;de&nbsp;Sparkle&nbsp;1.27</li>
+              </ul>
+            </p>]]></description>
         </item>
         <item>
             <title>Version 1.4.4</title>
@@ -214,10 +284,13 @@
             <pubDate>Sat, 18 Sep 2021 09:34:11 +0000</pubDate>
             <sparkle:releaseNotesLink>https://pierremolinaro.github.io/ElCanari-distribution/release-notes.html</sparkle:releaseNotesLink>
             <enclosure url="https://raw.githubusercontent.com/pierremolinaro/ElCanari-distribution/master/ElCanari-1.4.4.dmg" type="application/octet-stream" sparkle:edSignature="zjFbZkk0C81pCX+JjJDke+x7hXSMSZmwZPX66kH6OEUNzgc7LvnEYNdWuxbEK37Za9IOZdyMVHvtEy4uMgpMAQ==" sparkle:version="1.4.4" length="56274080" sparkle:installationType="package"></enclosure>
-            <description><![CDATA[<p><ul>
-<li><b>Bug Fix</b> Alignment&nbsp;correct&nbsp;lors&nbsp;d&apos;un&nbsp;drag-and-drop&nbsp;pour&nbsp;placer&nbsp;un&nbsp;symbole&nbsp;sur&nbsp;le&nbsp;sch&eacute;ma</li>
-<li><b>Bug Fix</b> Alignment&nbsp;correct&nbsp;lors&nbsp;d&apos;un&nbsp;drag-and-drop&nbsp;pour&nbsp;placer&nbsp;un&nbsp;composant&nbsp;sur&nbsp;la&nbsp;carte</li>
-</ul></p>]]></description>
+            <description><![CDATA[<p>
+              <ul>
+                <li><b>Bug Fix</b> Alignment&nbsp;correct&nbsp;lors&nbsp;d&apos;un&nbsp;drag-and-drop&nbsp;pour&nbsp;placer&nbsp;un&nbsp;symbole&nbsp;sur&nbsp;le&nbsp;sch&eacute;ma</li>
+                <li><b>Bug Fix</b> Alignment&nbsp;correct&nbsp;lors&nbsp;d&apos;un&nbsp;drag-and-drop&nbsp;pour&nbsp;placer&nbsp;un&nbsp;composant&nbsp;sur&nbsp;la&nbsp;carte</li>
+                <li><b>Note</b> Correction&nbsp;divers&nbsp;bugs</li>
+              </ul>
+            </p>]]></description>
         </item>
         <item>
             <title>Version 1.4.3</title>
@@ -225,9 +298,18 @@
             <pubDate>Thu, 15 Jul 2021 08:37:58 +0000</pubDate>
             <sparkle:releaseNotesLink>https://pierremolinaro.github.io/ElCanari-distribution/release-notes.html</sparkle:releaseNotesLink>
             <enclosure url="https://raw.githubusercontent.com/pierremolinaro/ElCanari-distribution/master/ElCanari-1.4.3.dmg" type="application/octet-stream" sparkle:edSignature="pzLQDwQca4I60jVZqDdxL1YyrnUxXyOr7372R5n3Gj94azb1Y3MittMJZptE6zxLm0Vv35LPWLVTG8i0/IM2Ag==" sparkle:version="1.4.3" length="56267252" sparkle:installationType="package"></enclosure>
-            <description><![CDATA[<p><ul>
-<li><b>Bug Fix</b> Fixed&nbsp;Model&nbsp;Image&nbsp;Management&nbsp;in&nbsp;Package&nbsp;Document</li>
-</ul></p>]]></description>
+            <description><![CDATA[<p>
+              <ul>
+                <li><b>Bug Fix</b> Fixed&nbsp;Model&nbsp;Image&nbsp;Management&nbsp;in&nbsp;Package&nbsp;Document</li>
+                <li><b>New</b> Symbol&nbsp;document&nbsp;file&nbsp;name&nbsp;is&nbsp;checked&nbsp;for&nbsp;acceptability&nbsp;in&nbsp;libraries</li>
+                <li><b>New</b> Package&nbsp;document&nbsp;file&nbsp;name&nbsp;is&nbsp;checked&nbsp;for&nbsp;acceptability&nbsp;in&nbsp;libraries</li>
+                <li><b>New</b> Device&nbsp;document&nbsp;file&nbsp;name&nbsp;is&nbsp;checked&nbsp;for&nbsp;acceptability&nbsp;in&nbsp;libraries</li>
+                <li><b>Change</b> Symbol&nbsp;document&nbsp;user&nbsp;interface&nbsp;is&nbsp;managed&nbsp;by&nbsp;auto&nbsp;layout</li>
+                <li><b>Change</b> Package&nbsp;document&nbsp;user&nbsp;interface&nbsp;is&nbsp;managed&nbsp;by&nbsp;auto&nbsp;layout</li>
+                <li><b>Change</b> Device&nbsp;document&nbsp;user&nbsp;interface&nbsp;is&nbsp;managed&nbsp;by&nbsp;auto&nbsp;layout</li>
+                <li><b>Change</b> Artwork&nbsp;document&nbsp;user&nbsp;interfaces&nbsp;is&nbsp;managed&nbsp;by&nbsp;auto&nbsp;layout</li>
+              </ul>
+            </p>]]></description>
         </item>
         <item>
             <title>Version 1.3.9</title>
@@ -235,9 +317,11 @@
             <pubDate>Mon, 14 Jun 2021 16:43:07 +0000</pubDate>
             <sparkle:releaseNotesLink>https://pierremolinaro.github.io/ElCanari-distribution/release-notes.html</sparkle:releaseNotesLink>
             <enclosure url="https://raw.githubusercontent.com/pierremolinaro/ElCanari-distribution/master/ElCanari-1.3.9.dmg" type="application/octet-stream" sparkle:edSignature="qoJnHkWT+vVRWa53YhRkjKikEcF2IYn6UX0e2wegPd1ZlQB6dIIXUSX9PGnnSRMzehzlj6n5ANnkaNDvjjNhAg==" sparkle:version="1.3.9" length="56798666" sparkle:installationType="package"></enclosure>
-            <description><![CDATA[<p><ul>
-<li><b>Bug Fix</b> Graphic&nbsp;views&nbsp;Magnification&nbsp;bug&nbsp;fixed</li>
-</ul></p>]]></description>
+            <description><![CDATA[<p>
+              <ul>
+                <li><b>Bug Fix</b> Graphic&nbsp;views&nbsp;Magnification&nbsp;bug&nbsp;fixed</li>
+              </ul>
+            </p>]]></description>
         </item>
         <item>
             <title>Version 1.3.8</title>
@@ -245,9 +329,11 @@
             <pubDate>Mon, 03 May 2021 18:08:38 +0000</pubDate>
             <sparkle:releaseNotesLink>https://pierremolinaro.github.io/ElCanari-distribution/release-notes.html</sparkle:releaseNotesLink>
             <enclosure url="https://raw.githubusercontent.com/pierremolinaro/ElCanari-distribution/master/ElCanari-1.3.8.dmg" type="application/octet-stream" sparkle:edSignature="vzqi8diOkLJpqyxvw2R5t3bEBNLlZ5wPDL5OuUf7vm9ajSDR98SeIonlE46OukuFifeDvWOXy8JRKtk4LoX4Bg==" sparkle:version="1.3.8" length="56719559" sparkle:installationType="package"></enclosure>
-            <description><![CDATA[<p><ul>
-<li><b>Bug Fix</b> Minor&nbsp;bugs&nbsp;fixed</li>
-</ul></p>]]></description>
+            <description><![CDATA[<p>
+              <ul>
+                <li><b>Bug Fix</b> Minor&nbsp;bugs&nbsp;fixed</li>
+              </ul>
+            </p>]]></description>
         </item>
         <item>
             <title>Version 1.3.7</title>
@@ -255,9 +341,12 @@
             <pubDate>Mon, 12 Apr 2021 16:20:34 +0000</pubDate>
             <sparkle:releaseNotesLink>https://pierremolinaro.github.io/ElCanari-distribution/release-notes.html</sparkle:releaseNotesLink>
             <enclosure url="https://raw.githubusercontent.com/pierremolinaro/ElCanari-distribution/master/ElCanari-1.3.7.dmg" type="application/octet-stream" sparkle:edSignature="c+3reUpvPdQwrakbNP/GihkMDsyil8B9IMsaSh4yoUk8irJENWS+VOctA0Og0ORajGmNL6zqgAcPdwTgYblAAA==" sparkle:version="1.3.7" length="53798872" sparkle:installationType="package"></enclosure>
-            <description><![CDATA[<p><ul>
-<li><b>Bug Fix</b> Fixed&nbsp;generation&nbsp;of&nbsp;octogonal&nbsp;pads&nbsp;in&nbsp;merger&nbsp;document</li>
-</ul></p>]]></description>
+            <description><![CDATA[<p>
+              <ul>
+                <li><b>Bug Fix</b> Fixed&nbsp;generation&nbsp;of&nbsp;octogonal&nbsp;pads&nbsp;in&nbsp;merger&nbsp;document</li>
+                <li><b>Change</b> Uses&nbsp;Sparkle&nbsp;1.26.0</li>
+              </ul>
+            </p>]]></description>
         </item>
         <item>
             <title>Version 1.3.6</title>
@@ -265,11 +354,15 @@
             <pubDate>Wed, 03 Feb 2021 08:54:24 +0000</pubDate>
             <sparkle:releaseNotesLink>https://pierremolinaro.github.io/ElCanari-distribution/release-notes.html</sparkle:releaseNotesLink>
             <enclosure url="https://raw.githubusercontent.com/pierremolinaro/ElCanari-distribution/master/ElCanari-1.3.6.dmg" type="application/octet-stream" sparkle:edSignature="V/M8E/zmSo7LsUqGYhZGvCF5C05tgdRdh1mNz7fKdgjgZADJQzd3sKcwqPgvDfmlCYF8dCVWbby6pQpIQ1QCCg==" sparkle:version="1.3.6" length="54621729" sparkle:installationType="package"></enclosure>
-            <description><![CDATA[<p><ul>
-<li><b>Bug Fix</b> Package:&nbsp;attribution&nbsp;of&nbsp;master&nbsp;pad&nbsp;on&nbsp;slave&nbsp;pad&nbsp;creation</li>
-<li><b>Bug Fix</b> Package:&nbsp;selection&nbsp;of&nbsp;master&nbsp;pad&nbsp;in&nbsp;slave&nbsp;pad&nbsp;inspector</li>
-<li><b>Bug Fix</b> All&nbsp;documents:&nbsp;fixed&nbsp;&quot;Send&nbsp;to&nbsp;Back&quot;&nbsp;operation</li>
-</ul></p>]]></description>
+            <description><![CDATA[<p>
+              <ul>
+                <li><b>Bug Fix</b> Package:&nbsp;attribution&nbsp;of&nbsp;master&nbsp;pad&nbsp;on&nbsp;slave&nbsp;pad&nbsp;creation</li>
+                <li><b>Bug Fix</b> Package:&nbsp;selection&nbsp;of&nbsp;master&nbsp;pad&nbsp;in&nbsp;slave&nbsp;pad&nbsp;inspector</li>
+                <li><b>Bug Fix</b> All&nbsp;documents:&nbsp;fixed&nbsp;&quot;Send&nbsp;to&nbsp;Back&quot;&nbsp;operation</li>
+                <li><b>New</b> Project:&nbsp;added&nbsp;a&nbsp;popup&nbsp;button&nbsp;to&nbsp;component&nbsp;inspector&nbsp;for&nbsp;specifying&nbsp;if&nbsp;slave&nbsp;pads&nbsp;should&nbsp;be&nbsp;routed&nbsp;or&nbsp;insulated</li>
+                <li><b>Change</b> Project:&nbsp;improved&nbsp;manual&nbsp;track&nbsp;routing</li>
+              </ul>
+            </p>]]></description>
         </item>
         <item>
             <title>Version 1.3.5</title>
@@ -277,10 +370,13 @@
             <pubDate>Sat, 26 Dec 2020 12:49:36 +0000</pubDate>
             <sparkle:releaseNotesLink>https://pierremolinaro.github.io/ElCanari-distribution/release-notes.html</sparkle:releaseNotesLink>
             <enclosure url="https://raw.githubusercontent.com/pierremolinaro/ElCanari-distribution/master/ElCanari-1.3.5.dmg" type="application/octet-stream" sparkle:edSignature="PcdOWiRxMiTVr4hceD/sv/bFxvnZNAnWBWnjIhG0DvuFL52XFY0yo0fx7sYfkA72Hjb2noafXsZg/NwThms3Cw==" sparkle:version="1.3.5" length="54323485" sparkle:installationType="package"></enclosure>
-            <description><![CDATA[<p><ul>
-<li><b>Bug Fix</b> Drag&nbsp;Track&nbsp;Fixed</li>
-<li><b>Bug Fix</b> Zoom&nbsp;to&nbsp;fit,&nbsp;Zoom&nbsp;region&nbsp;fixed</li>
-</ul></p>]]></description>
+            <description><![CDATA[<p>
+              <ul>
+                <li><b>Bug Fix</b> Drag&nbsp;Track&nbsp;Fixed</li>
+                <li><b>Bug Fix</b> Zoom&nbsp;to&nbsp;fit,&nbsp;Zoom&nbsp;region&nbsp;fixed</li>
+                <li><b>Change</b> Autorouter&nbsp;GUI&nbsp;settings&nbsp;are&nbsp;stored&nbsp;in&nbsp;ElCanari&nbsp;Preferences</li>
+              </ul>
+            </p>]]></description>
         </item>
         <item>
             <title>Version 1.3.4</title>
@@ -288,8 +384,14 @@
             <pubDate>Thu, 03 Dec 2020 16:07:23 +0000</pubDate>
             <sparkle:releaseNotesLink>https://pierremolinaro.github.io/ElCanari-distribution/release-notes.html</sparkle:releaseNotesLink>
             <enclosure url="https://raw.githubusercontent.com/pierremolinaro/ElCanari-distribution/master/ElCanari-1.3.4.dmg" type="application/octet-stream" sparkle:edSignature="yj4rbs88shO4RfzXpTVF4qbkUECWEdSAIPTur4hPDn0g1nmDq7ZtcRMoXDQ5UJ7gcADnpqzuxh4tQ/9ULzxXCg==" sparkle:version="1.3.4" length="54301136" sparkle:installationType="package"></enclosure>
-            <description><![CDATA[<p><ul>
-</ul></p>]]></description>
+            <description><![CDATA[<p>
+              <ul>
+                <li><b>New</b> New&nbsp;graphic&nbsp;view&nbsp;interface,&nbsp;with&nbsp;helper&nbsp;string</li>
+                <li><b>New</b> In&nbsp;graphic&nbsp;view,&nbsp;SHIFT&nbsp;+&nbsp;CONTROL&nbsp;+&nbsp;mouse&nbsp;down&nbsp;initiates&nbsp;a&nbsp;zoom&nbsp;region</li>
+                <li><b>New</b> In&nbsp;graphic&nbsp;view,&nbsp;COMMAND&nbsp;shows&nbsp;mouse&nbsp;location</li>
+                <li><b>Change</b> Added&nbsp;(Basic,&nbsp;Advanced)&nbsp;Settings&nbsp;for&nbsp;Autorouter&nbsp;Interface</li>
+              </ul>
+            </p>]]></description>
         </item>
         <item>
             <title>Version 1.3.3</title>
@@ -297,8 +399,11 @@
             <pubDate>Tue, 24 Nov 2020 11:06:21 +0000</pubDate>
             <sparkle:releaseNotesLink>https://pierremolinaro.github.io/ElCanari-distribution/release-notes.html</sparkle:releaseNotesLink>
             <enclosure url="https://raw.githubusercontent.com/pierremolinaro/ElCanari-distribution/master/ElCanari-1.3.3.dmg" type="application/octet-stream" sparkle:edSignature="UGiohoZeKYddop7cC7qAthLV5oKlbDuVKUCxVpBg1co4lhAfpEx4sMxrhrClY8R0sPMrbXP7HG24ryKhYV4KBw==" sparkle:version="1.3.3" length="54356085" sparkle:installationType="package"></enclosure>
-            <description><![CDATA[<p><ul>
-</ul></p>]]></description>
+            <description><![CDATA[<p>
+              <ul>
+                <li><b>Change</b> Changed&nbsp;&quot;Import&nbsp;Artwork&hellip;&quot;&nbsp;dialog&nbsp;in&nbsp;Merger</li>
+              </ul>
+            </p>]]></description>
         </item>
         <item>
             <title>Version 1.3.2</title>
@@ -306,8 +411,13 @@
             <pubDate>Wed, 18 Nov 2020 15:09:03 +0000</pubDate>
             <sparkle:releaseNotesLink>https://pierremolinaro.github.io/ElCanari-distribution/release-notes.html</sparkle:releaseNotesLink>
             <enclosure url="https://raw.githubusercontent.com/pierremolinaro/ElCanari-distribution/master/ElCanari-1.3.2.dmg" type="application/octet-stream" sparkle:edSignature="kcLG674i2ZEQrj8NrcdasRSrLVyfQxkMwCSrQygu0xcnrFlDUvu98yWV7wWhBj/PKZS0+ZlxCqeG4bGtwfb+Dg==" sparkle:version="1.3.2" length="54381056" sparkle:installationType="package"></enclosure>
-            <description><![CDATA[<p><ul>
-</ul></p>]]></description>
+            <description><![CDATA[<p>
+              <ul>
+                <li><b>New</b> Added&nbsp;rotation&nbsp;and&nbsp;drag&nbsp;cursors</li>
+                <li><b>Change</b> Uses&nbsp;Sparkle&nbsp;1.24.0</li>
+                <li><b>Note</b> Built&nbsp;with&nbsp;12.3&nbsp;beta,&nbsp;option&nbsp;&quot;optimize&nbsp;for&nbsp;speed&quot;</li>
+              </ul>
+            </p>]]></description>
         </item>
         <item>
             <title>Version 1.3.1</title>
@@ -315,9 +425,11 @@
             <pubDate>Tue, 29 Sep 2020 08:23:39 +0000</pubDate>
             <sparkle:releaseNotesLink>https://pierremolinaro.github.io/ElCanari-distribution/release-notes.html</sparkle:releaseNotesLink>
             <enclosure url="https://raw.githubusercontent.com/pierremolinaro/ElCanari-distribution/master/ElCanari-1.3.1.dmg" type="application/octet-stream" sparkle:edSignature="9GbSMx8/Dl3hN3HW6YejwhhQaRRHFzFunL6S3QVMx2TlzQ2y5SNowSsy1gkMfZ2g26H0vXdfKiZKrExaXPESDg==" sparkle:version="1.3.1" length="50314225" sparkle:installationType="package"></enclosure>
-            <description><![CDATA[<p><ul>
-<li><b>Bug Fix</b> FreeRouter&nbsp;was&nbsp;broken&nbsp;in&nbsp;release&nbsp;1.3.0</li>
-</ul></p>]]></description>
+            <description><![CDATA[<p>
+              <ul>
+                <li><b>Bug Fix</b> FreeRouter&nbsp;was&nbsp;broken&nbsp;in&nbsp;release&nbsp;1.3.0</li>
+              </ul>
+            </p>]]></description>
         </item>
         <item>
             <title>Version 1.3.0</title>
@@ -325,9 +437,21 @@
             <pubDate>Mon, 28 Sep 2020 15:44:07 +0000</pubDate>
             <sparkle:releaseNotesLink>https://pierremolinaro.github.io/ElCanari-distribution/release-notes.html</sparkle:releaseNotesLink>
             <enclosure url="https://raw.githubusercontent.com/pierremolinaro/ElCanari-distribution/master/ElCanari-1.3.0.dmg" type="application/octet-stream" sparkle:edSignature="0PRDAJkzGR7kcYT1KD+6koGhT74EU8LVcCFxmUPk0Kr7/zFxe9zFMk7SSx5ilexl+rYnOPCCeGy0MNSbptkjBw==" sparkle:version="1.3.0" length="50314226" sparkle:installationType="package"></enclosure>
-            <description><![CDATA[<p><ul>
-<li><b>Bug Fix</b> In&nbsp;Board&nbsp;Outline&nbsp;Page,&nbsp;background&nbsp;rectangle&nbsp;has&nbsp;a&nbsp;size&nbsp;conforming&nbsp;to&nbsp;the&nbsp;board&nbsp;shape&nbsp;selection</li>
-</ul></p>]]></description>
+            <description><![CDATA[<p>
+              <ul>
+                <li><b>Bug Fix</b> In&nbsp;Board&nbsp;Outline&nbsp;Page,&nbsp;background&nbsp;rectangle&nbsp;has&nbsp;a&nbsp;size&nbsp;conforming&nbsp;to&nbsp;the&nbsp;board&nbsp;shape&nbsp;selection</li>
+                <li><b>New</b> New&nbsp;textual&nbsp;file&nbsp;document&nbsp;format</li>
+                <li><b>New</b> Display&nbsp;dialog&nbsp;on&nbsp;Export&nbsp;DSN&nbsp;if&nbsp;schematic&nbsp;has&nbsp;warning&nbsp;or&nbsp;error</li>
+                <li><b>New</b> Menu&nbsp;&quot;File&quot;&nbsp;&gt;&nbsp;&quot;Open&nbsp;Artwork&nbsp;in&nbsp;Library&hellip;&quot;&nbsp;is&nbsp;implemented</li>
+                <li><b>Change</b> Compiled&nbsp;with&nbsp;xCode&nbsp;12.0</li>
+                <li><b>Change</b> Uses&nbsp;Sparkle&nbsp;1.24.0-alpha&nbsp;16-gd01298c9c</li>
+                <li><b>Change</b> In&nbsp;Project,&nbsp;&quot;Add&nbsp;Component&nbsp;from&nbsp;File&nbsp;Library&hellip;&quot;&nbsp;dialog&nbsp;performs&nbsp;a&nbsp;case&nbsp;insensitive&nbsp;filtering</li>
+                <li><b>Change</b> In&nbsp;schematics,&nbsp;unplaced&nbsp;symbols&nbsp;table&nbsp;view&nbsp;names&nbsp;component&nbsp;value&nbsp;(if&nbsp;any)</li>
+                <li><b>Change</b> In&nbsp;schematics,&nbsp;&quot;Merge&nbsp;Subnet&nbsp;into&nbsp;an&nbsp;existing&nbsp;Net&quot;&nbsp;dialog&nbsp;accepts&nbsp;key&nbsp;entry&nbsp;for&nbsp;selecting&nbsp;net</li>
+                <li><b>Change</b> In&nbsp;schematics,&nbsp;selecting&nbsp;a&nbsp;symbol&nbsp;displays&nbsp;a&nbsp;rotation&nbsp;knob</li>
+                <li><b>Change</b> In&nbsp;views,&nbsp;resizing&nbsp;when&nbsp;dragging&nbsp;outside&nbsp;object&nbsp;rectangles&nbsp;is&nbsp;done&nbsp;ou&nbsp;mouse&nbsp;up</li>
+              </ul>
+            </p>]]></description>
         </item>
         <item>
             <title>Version 1.2.1</title>
@@ -335,9 +459,11 @@
             <pubDate>Thu, 25 Jun 2020 16:08:51 +0000</pubDate>
             <sparkle:releaseNotesLink>https://pierremolinaro.github.io/ElCanari-distribution/release-notes.html</sparkle:releaseNotesLink>
             <enclosure url="https://raw.githubusercontent.com/pierremolinaro/ElCanari-distribution/master/ElCanari-1.2.1.dmg" type="application/octet-stream" sparkle:edSignature="akedr+woSTsX+TvF8npDNrLO9/FcMJWjPqUELu1xS/zlBvPyAQ0xN30RfVmYO8CxwyqeL7Czs6gHqu/x9FCMBg==" sparkle:version="1.2.1" length="48313163" sparkle:installationType="package"></enclosure>
-            <description><![CDATA[<p><ul>
-<li><b>Bug Fix</b> Symbol&nbsp;edition&nbsp;was&nbsp;broken&nbsp;in&nbsp;release&nbsp;1.2.0</li>
-</ul></p>]]></description>
+            <description><![CDATA[<p>
+              <ul>
+                <li><b>Bug Fix</b> Symbol&nbsp;edition&nbsp;was&nbsp;broken&nbsp;in&nbsp;release&nbsp;1.2.0</li>
+              </ul>
+            </p>]]></description>
         </item>
         <item>
             <title>Version 1.2.0</title>
@@ -345,9 +471,16 @@
             <pubDate>Fri, 19 Jun 2020 16:34:55 +0000</pubDate>
             <sparkle:releaseNotesLink>https://pierremolinaro.github.io/ElCanari-distribution/release-notes.html</sparkle:releaseNotesLink>
             <enclosure url="https://raw.githubusercontent.com/pierremolinaro/ElCanari-distribution/master/ElCanari-1.2.0.dmg" type="application/octet-stream" sparkle:edSignature="DOknsbJchsh9RS0kOZtr56eFLT5yZZQ+JORV1LYvFRhPlpRvUyIcnDZyyet3Gm3O7BV1SbxVId3LeluPLW9ZBQ==" sparkle:version="1.2.0" length="48308023" sparkle:installationType="package"></enclosure>
-            <description><![CDATA[<p><ul>
-<li><b>Bug Fix</b> On&nbsp;SES&nbsp;file&nbsp;importing,&nbsp;zero&nbsp;length&nbsp;tracks&nbsp;are&nbsp;removed</li>
-</ul></p>]]></description>
+            <description><![CDATA[<p>
+              <ul>
+                <li><b>Bug Fix</b> On&nbsp;SES&nbsp;file&nbsp;importing,&nbsp;zero&nbsp;length&nbsp;tracks&nbsp;are&nbsp;removed</li>
+                <li><b>New</b> Board:&nbsp;the&nbsp;board&nbsp;can&nbsp;be&nbsp;printed</li>
+                <li><b>New</b> Board:&nbsp;added&nbsp;a&nbsp;switch&nbsp;for&nbsp;controlling&nbsp;component&nbsp;legend&nbsp;display</li>
+                <li><b>Change</b> Mac&nbsp;OS&nbsp;Minimum:&nbsp;&nbsp;10.11&nbsp;(El&nbsp;Capitan)</li>
+                <li><b>Change</b> New&nbsp;Autorouter&nbsp;from&nbsp;https://github.com/freerouting/freerouting</li>
+                <li><b>Change</b> New&nbsp;Mouse&nbsp;Down&nbsp;Management&nbsp;in&nbsp;graphic&nbsp;views</li>
+              </ul>
+            </p>]]></description>
         </item>
         <item>
             <title>Version 1.1.10</title>
@@ -355,10 +488,14 @@
             <pubDate>Fri, 15 May 2020 14:49:45 +0000</pubDate>
             <sparkle:releaseNotesLink>https://pierremolinaro.github.io/ElCanari-distribution/release-notes.html</sparkle:releaseNotesLink>
             <enclosure url="https://raw.githubusercontent.com/pierremolinaro/ElCanari-distribution/master/ElCanari-1.1.10.dmg" type="application/octet-stream" sparkle:edSignature="3f6WioQV01lcMVHV2k/028jWw1rM/+GS0KYokwjlWNa8sCiDtbe/bS+gUZJSxUB+TH68NPLvbXezFahOHszMAA==" sparkle:version="1.1.10" length="76538342" sparkle:installationType="package"></enclosure>
-            <description><![CDATA[<p><ul>
-<li><b>Bug Fix</b> Schematic:&nbsp;correct&nbsp;sorting&nbsp;of&nbsp;symbols&nbsp;to&nbsp;insert</li>
-<li><b>Bug Fix</b> Schematic:&nbsp;create&nbsp;a&nbsp;wire&nbsp;from&nbsp;an&nbsp;existing&nbsp;subnet&nbsp;does&nbsp;not&nbsp;change&nbsp;anymore&nbsp;the&nbsp;net&nbsp;name</li>
-</ul></p>]]></description>
+            <description><![CDATA[<p>
+              <ul>
+                <li><b>Bug Fix</b> Schematic:&nbsp;correct&nbsp;sorting&nbsp;of&nbsp;symbols&nbsp;to&nbsp;insert</li>
+                <li><b>Bug Fix</b> Schematic:&nbsp;create&nbsp;a&nbsp;wire&nbsp;from&nbsp;an&nbsp;existing&nbsp;subnet&nbsp;does&nbsp;not&nbsp;change&nbsp;anymore&nbsp;the&nbsp;net&nbsp;name</li>
+                <li><b>New</b> Schematic:&nbsp;new&nbsp;can&nbsp;connect&nbsp;directly&nbsp;a&nbsp;pin&nbsp;and&nbsp;to&nbsp;a&nbsp;wire</li>
+                <li><b>New</b> All&nbsp;graphic&nbsp;views:&nbsp;Shift&nbsp;Click&nbsp;handles&nbsp;a&nbsp;selection&nbsp;rectangle</li>
+              </ul>
+            </p>]]></description>
         </item>
         <item>
             <title>Version 1.1.9</title>
@@ -366,8 +503,11 @@
             <pubDate>Mon, 04 May 2020 16:06:16 +0000</pubDate>
             <sparkle:releaseNotesLink>https://pierremolinaro.github.io/ElCanari-distribution/release-notes.html</sparkle:releaseNotesLink>
             <enclosure url="https://raw.githubusercontent.com/pierremolinaro/ElCanari-distribution/master/ElCanari-1.1.9.dmg" type="application/octet-stream" sparkle:edSignature="y1bK/QeOyJZzdzkKqlLWQ/PcZVVnwQhZtfXIsnY5ksKBUsj2Pn50g14rjuJ3sc7azB5mEWYQtPYdt7r6zSdMDA==" sparkle:version="1.1.9" length="76547568" sparkle:installationType="package"></enclosure>
-            <description><![CDATA[<p><ul>
-</ul></p>]]></description>
+            <description><![CDATA[<p>
+              <ul>
+                <li><b>New</b> Project,&nbsp;Board&nbsp;limits:&nbsp;coordinates&nbsp;are&nbsp;editable</li>
+              </ul>
+            </p>]]></description>
         </item>
         <item>
             <title>Version 1.1.8</title>
@@ -375,8 +515,15 @@
             <pubDate>Mon, 06 Apr 2020 10:17:56 +0000</pubDate>
             <sparkle:releaseNotesLink>https://pierremolinaro.github.io/ElCanari-distribution/release-notes.html</sparkle:releaseNotesLink>
             <enclosure url="https://raw.githubusercontent.com/pierremolinaro/ElCanari-distribution/master/ElCanari-1.1.8.dmg" type="application/octet-stream" sparkle:edSignature="rprtbt5F9NC23wu1IYKflPgdNBzvswln0aTpK/r4z3QQqFXt+E+fWQiaZimN/oShKzAQY1g5tKpOccRfvYtTBg==" sparkle:version="1.1.8" length="76542956" sparkle:installationType="package"></enclosure>
-            <description><![CDATA[<p><ul>
-</ul></p>]]></description>
+            <description><![CDATA[<p>
+              <ul>
+                <li><b>New</b> Project,&nbsp;PDF&nbsp;Generation:&nbsp;selectable&nbsp;background&nbsp;color</li>
+                <li><b>New</b> Merger,&nbsp;PDF&nbsp;Generation:&nbsp;selectable&nbsp;background&nbsp;color</li>
+                <li><b>New</b> Merger,&nbsp;PDF&nbsp;Generation:&nbsp;added&nbsp;generation&nbsp;of&nbsp;drill&nbsp;file</li>
+                <li><b>New</b> Merger:&nbsp;display&nbsp;artwork&nbsp;settings</li>
+                <li><b>New</b> Package:&nbsp;added&nbsp;model&nbsp;image</li>
+              </ul>
+            </p>]]></description>
         </item>
         <item>
             <title>Version 1.1.7</title>
@@ -384,9 +531,15 @@
             <pubDate>Tue, 18 Feb 2020 19:40:24 +0000</pubDate>
             <sparkle:releaseNotesLink>https://pierremolinaro.github.io/ElCanari-distribution/release-notes.html</sparkle:releaseNotesLink>
             <enclosure url="https://raw.githubusercontent.com/pierremolinaro/ElCanari-distribution/master/ElCanari-1.1.7.dmg" type="application/octet-stream" sparkle:edSignature="EkHzGDzC50XXkAXwownbRHDTss6V5rsCt+Uk3tBLBp1lyTAuB/iGB3Vvcb2HMzc2oqCcxfeW8+8+1Zth0qYWAQ==" sparkle:version="1.1.7" length="76011322" sparkle:installationType="package"></enclosure>
-            <description><![CDATA[<p><ul>
-<li><b>Bug Fix</b> Project,&nbsp;ElCanari&nbsp;archive:&nbsp;one&nbsp;side&nbsp;of&nbsp;the&nbsp;board&nbsp;boundaries&nbsp;was&nbsp;missing</li>
-</ul></p>]]></description>
+            <description><![CDATA[<p>
+              <ul>
+                <li><b>Bug Fix</b> Project,&nbsp;ElCanari&nbsp;archive:&nbsp;one&nbsp;side&nbsp;of&nbsp;the&nbsp;board&nbsp;boundaries&nbsp;was&nbsp;missing</li>
+                <li><b>New</b> Project,&nbsp;board&nbsp;track:&nbsp;new&nbsp;&quot;Is&nbsp;preserved&nbsp;by&nbsp;Auto&nbsp;Router&quot;&nbsp;check&nbsp;box</li>
+                <li><b>New</b> Package:&nbsp;pad&nbsp;zone&nbsp;can&nbsp;define&nbsp;non&nbsp;continuous&nbsp;pad&nbsp;numbering</li>
+                <li><b>Change</b> Uses&nbsp;Sparkle&nbsp;1.23.0</li>
+                <li><b>Change</b> Project:&nbsp;importing&nbsp;SES&nbsp;file&nbsp;automatically&nbsp;sort&nbsp;objets&nbsp;following&nbsp;their&nbsp;layer</li>
+              </ul>
+            </p>]]></description>
         </item>
         <item>
             <title>Version 1.1.5</title>
@@ -394,10 +547,14 @@
             <pubDate>Tue, 24 Dec 2019 11:07:22 +0000</pubDate>
             <sparkle:releaseNotesLink>https://pierremolinaro.github.io/ElCanari-distribution/release-notes.html</sparkle:releaseNotesLink>
             <enclosure url="https://raw.githubusercontent.com/pierremolinaro/ElCanari-distribution/master/ElCanari-1.1.5.dmg" type="application/octet-stream" sparkle:edSignature="Zo7GHMVuROcoWU5qVkYj8yP/CIga/faQcf4oXsFqYBxBCYrR0aATdwCvvqS0zjYKyys28Bp7AOPtE+AoAgX/CQ==" sparkle:version="1.1.5" length="75995651" sparkle:installationType="package"></enclosure>
-            <description><![CDATA[<p><ul>
-<li><b>Bug Fix</b> Device:&nbsp;importing&nbsp;a&nbsp;symbol&nbsp;now&nbsp;imports&nbsp;symbol&nbsp;texts</li>
-<li><b>Bug Fix</b> Project:&nbsp;printing&nbsp;schematics&nbsp;draws&nbsp;right&nbsp;and&nbsp;top&nbsp;borders</li>
-</ul></p>]]></description>
+            <description><![CDATA[<p>
+              <ul>
+                <li><b>Bug Fix</b> Device:&nbsp;importing&nbsp;a&nbsp;symbol&nbsp;now&nbsp;imports&nbsp;symbol&nbsp;texts</li>
+                <li><b>Bug Fix</b> Project:&nbsp;printing&nbsp;schematics&nbsp;draws&nbsp;right&nbsp;and&nbsp;top&nbsp;borders</li>
+                <li><b>Change</b> Open&nbsp;in&nbsp;Library&nbsp;now&nbsp;displays&nbsp;a&nbsp;flat&nbsp;list&nbsp;of&nbsp;parts</li>
+                <li><b>Change</b> Open&nbsp;in&nbsp;Library&nbsp;now&nbsp;has&nbsp;a&nbsp;search&nbsp;field</li>
+              </ul>
+            </p>]]></description>
         </item>
         <item>
             <title>Version 1.1.4</title>
@@ -405,10 +562,17 @@
             <pubDate>Tue, 03 Dec 2019 19:07:36 +0000</pubDate>
             <sparkle:releaseNotesLink>https://pierremolinaro.github.io/ElCanari-distribution/release-notes.html</sparkle:releaseNotesLink>
             <enclosure url="https://raw.githubusercontent.com/pierremolinaro/ElCanari-distribution/master/ElCanari-1.1.4.dmg" type="application/octet-stream" sparkle:edSignature="4MCyDB7FSPRKwvkAIvBPLT1Vequx+xG0/plfBjiTXWsxga02auXsPEYCeaFLuuFjei0tTwWxvoLppNxESp85BA==" sparkle:version="1.1.4" length="70546073" sparkle:installationType="package"></enclosure>
-            <description><![CDATA[<p><ul>
-<li><b>Bug Fix</b> Board&nbsp;in&nbsp;project:&nbsp;Display&nbsp;Front&nbsp;Side&nbsp;Legend,&nbsp;Display&nbsp;Back&nbsp;Side&nbsp;Legend&nbsp;checkboxes&nbsp;are&nbsp;now&nbsp;handled</li>
-<li><b>Bug Fix</b> Net&nbsp;list&nbsp;in&nbsp;project:&nbsp;pin&nbsp;location&nbsp;in&nbsp;sheet&nbsp;fixed</li>
-</ul></p>]]></description>
+            <description><![CDATA[<p>
+              <ul>
+                <li><b>Bug Fix</b> Board&nbsp;in&nbsp;project:&nbsp;Display&nbsp;Front&nbsp;Side&nbsp;Legend,&nbsp;Display&nbsp;Back&nbsp;Side&nbsp;Legend&nbsp;checkboxes&nbsp;are&nbsp;now&nbsp;handled</li>
+                <li><b>Bug Fix</b> Net&nbsp;list&nbsp;in&nbsp;project:&nbsp;pin&nbsp;location&nbsp;in&nbsp;sheet&nbsp;fixed</li>
+                <li><b>New</b> Project:&nbsp;removed&nbsp;close&nbsp;button&nbsp;in&nbsp;&apos;Open&nbsp;...&nbsp;in&nbsp;Library&apos;</li>
+                <li><b>New</b> Package&nbsp;Program:&nbsp;fixed&nbsp;selection&nbsp;change&nbsp;on&nbsp;text&nbsp;editing</li>
+                <li><b>New</b> Net&nbsp;list&nbsp;in&nbsp;&nbsp;Project:&nbsp;display&nbsp;track&nbsp;segment&nbsp;count</li>
+                <li><b>New</b> Product&nbsp;generation&nbsp;in&nbsp;project:&nbsp;now&nbsp;generates&nbsp;also&nbsp;a&nbsp;CSV&nbsp;BOM&nbsp;file</li>
+                <li><b>Change</b> Board&nbsp;in&nbsp;project:&nbsp;create&nbsp;a&nbsp;track&nbsp;with&nbsp;option&nbsp;click&nbsp;(front&nbsp;track)&nbsp;or&nbsp;option&nbsp;+&nbsp;command&nbsp;click&nbsp;(back&nbsp;track)</li>
+              </ul>
+            </p>]]></description>
         </item>
         <item>
             <title>Version 1.1.3</title>
@@ -416,8 +580,11 @@
             <pubDate>Tue, 12 Nov 2019 19:26:02 +0000</pubDate>
             <sparkle:releaseNotesLink>https://pierremolinaro.github.io/ElCanari-distribution/release-notes.html</sparkle:releaseNotesLink>
             <enclosure url="https://raw.githubusercontent.com/pierremolinaro/ElCanari-distribution/master/ElCanari-1.1.3.dmg" type="application/octet-stream" sparkle:edSignature="aCd3++w1uBWFQIqP2yfDwJi5Y6h6dY7iY02tjmy100f5XQq+iZGlBIFEKY+STLlzjhCCzdCtxKikaMF1Mi/4Cw==" sparkle:version="1.1.3" length="70536935" sparkle:installationType="package"></enclosure>
-            <description><![CDATA[<p><ul>
-</ul></p>]]></description>
+            <description><![CDATA[<p>
+              <ul>
+                <li><b>New</b> Merger:&nbsp;importation&nbsp;roundrect&nbsp;pads&nbsp;of&nbsp;kicad&nbsp;files&nbsp;as&nbsp;oval&nbsp;pads</li>
+              </ul>
+            </p>]]></description>
         </item>
         <item>
             <title>Version 1.1.2</title>
@@ -425,10 +592,17 @@
             <pubDate>Tue, 12 Nov 2019 18:21:01 +0000</pubDate>
             <sparkle:releaseNotesLink>https://pierremolinaro.github.io/ElCanari-distribution/release-notes.html</sparkle:releaseNotesLink>
             <enclosure url="https://raw.githubusercontent.com/pierremolinaro/ElCanari-distribution/master/ElCanari-1.1.2.dmg" type="application/octet-stream" sparkle:edSignature="JeZnlwPIwUc9YbBz8plu/7v3Cx7igXW8DTJvGZiR3fVWtvnEHRuJYH4Xkw+wxqQRUn7EzhSTm7tJ2qSI1h4DAQ==" sparkle:version="1.1.2" length="70538462" sparkle:installationType="package"></enclosure>
-            <description><![CDATA[<p><ul>
-<li><b>Bug Fix</b> Incorrect&nbsp;handling&nbsp;of&nbsp;hot&nbsp;keys&nbsp;on&nbsp;ElCapitan&nbsp;(and&nbsp;older&nbsp;systems?)</li>
-<li><b>Bug Fix</b> ERC&nbsp;in&nbsp;project:&nbsp;some&nbsp;track&nbsp;vs&nbsp;pad&nbsp;collisions&nbsp;were&nbsp;not&nbsp;detected</li>
-</ul></p>]]></description>
+            <description><![CDATA[<p>
+              <ul>
+                <li><b>Bug Fix</b> Incorrect&nbsp;handling&nbsp;of&nbsp;hot&nbsp;keys&nbsp;on&nbsp;ElCapitan&nbsp;(and&nbsp;older&nbsp;systems?)</li>
+                <li><b>Bug Fix</b> ERC&nbsp;in&nbsp;project:&nbsp;some&nbsp;track&nbsp;vs&nbsp;pad&nbsp;collisions&nbsp;were&nbsp;not&nbsp;detected</li>
+                <li><b>New</b> Package:&nbsp;adjustable&nbsp;selection&nbsp;knob&nbsp;size</li>
+                <li><b>New</b> Package:&nbsp;square&nbsp;knob&nbsp;at&nbsp;guide&nbsp;and&nbsp;dimension&nbsp;center</li>
+                <li><b>Change</b> Package:&nbsp;guides&nbsp;and&nbsp;dimensions&nbsp;are&nbsp;drawn&nbsp;by&nbsp;the&nbsp;thinnest&nbsp;line</li>
+                <li><b>Change</b> Package:&nbsp;zoom&nbsp;up&nbsp;to&nbsp;500%</li>
+                <li><b>Change</b> New&nbsp;Packages&nbsp;and&nbsp;new&nbsp;Symbols&nbsp;are&nbsp;scrolled&nbsp;to&nbsp;(0,&nbsp;0)</li>
+              </ul>
+            </p>]]></description>
         </item>
         <item>
             <title>Version 1.1.1</title>
@@ -436,9 +610,13 @@
             <pubDate>Fri, 08 Nov 2019 17:45:55 +0000</pubDate>
             <sparkle:releaseNotesLink>https://pierremolinaro.github.io/ElCanari-distribution/release-notes.html</sparkle:releaseNotesLink>
             <enclosure url="https://raw.githubusercontent.com/pierremolinaro/ElCanari-distribution/master/ElCanari-1.1.1.dmg" type="application/octet-stream" sparkle:edSignature="1GjqxlYyZmFH/VoEwina86BfdKlUDX27apHp12m8LYeUyHLuMrsjfno0/fwAGd9XUcHLi770Cm8+F3MjCz0RBQ==" sparkle:version="1.1.1" length="70511572" sparkle:installationType="package"></enclosure>
-            <description><![CDATA[<p><ul>
-<li><b>Bug Fix</b> Project:&nbsp;Fixed&nbsp;Rectangular&nbsp;Board&nbsp;limits&nbsp;on&nbsp;Gerber&nbsp;and&nbsp;PDF&nbsp;generation</li>
-</ul></p>]]></description>
+            <description><![CDATA[<p>
+              <ul>
+                <li><b>Bug Fix</b> Project:&nbsp;Fixed&nbsp;Rectangular&nbsp;Board&nbsp;limits&nbsp;on&nbsp;Gerber&nbsp;and&nbsp;PDF&nbsp;generation</li>
+                <li><b>Change</b> Removed&nbsp;unused&nbsp;&apos;Toolbar&apos;&nbsp;menu</li>
+                <li><b>Change</b> ElCanari&nbsp;is&nbsp;compiled&nbsp;with&nbsp;-O2&nbsp;flag</li>
+              </ul>
+            </p>]]></description>
         </item>
         <item>
             <title>Version 1.1.0</title>
@@ -446,9 +624,14 @@
             <pubDate>Sun, 27 Oct 2019 19:27:52 +0000</pubDate>
             <sparkle:releaseNotesLink>https://pierremolinaro.github.io/ElCanari-distribution/release-notes.html</sparkle:releaseNotesLink>
             <enclosure url="https://raw.githubusercontent.com/pierremolinaro/ElCanari-distribution/master/ElCanari-1.1.0.dmg" type="application/octet-stream" sparkle:edSignature="Twe5pO92/SJZoXlciZEB/+Ich7tvGfVrUuJl145zSwkxvlXqh7VPH1R78PK8FHTggEVblzuuc/ffpF6GZSqOAg==" sparkle:version="1.1.0" length="70521451" sparkle:installationType="package"></enclosure>
-            <description><![CDATA[<p><ul>
-<li><b>Bug Fix</b> Package,&nbsp;Symbol&nbsp;Documents:&nbsp;Fixed&nbsp;Document&nbsp;Status</li>
-</ul></p>]]></description>
+            <description><![CDATA[<p>
+              <ul>
+                <li><b>Bug Fix</b> Package,&nbsp;Symbol&nbsp;Documents:&nbsp;Fixed&nbsp;Document&nbsp;Status</li>
+                <li><b>New</b> Adding&nbsp;focus&nbsp;ring&nbsp;around&nbsp;first&nbsp;responder&nbsp;views</li>
+                <li><b>Change</b> Project:&nbsp;new&nbsp;board&nbsp;outline&nbsp;settings</li>
+                <li><b>Change</b> Merger:&nbsp;gerber&nbsp;and&nbsp;PDF&nbsp;files&nbsp;are&nbsp;generated&nbsp;within&nbsp;dedicaced&nbsp;directories</li>
+              </ul>
+            </p>]]></description>
         </item>
     </channel>
 </rss>
