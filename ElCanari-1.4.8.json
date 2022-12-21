@@ -15,5 +15,6 @@
     "Utilisation du Swift Package Manager pour Sparkle."
   ],
   "date" : "2021-11-20T17:55:57Z",
+  "contents" : "package",
   "osmin" : "10.11"
 }
