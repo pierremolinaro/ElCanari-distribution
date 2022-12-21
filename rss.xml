@@ -5,6 +5,25 @@
         <description>Most recent changes with links to updates</description>
         <language>en</language>
         <item>
+            <title>Version 1.7.0</title>
+            <sparkle:minimumSystemVersion>10.15</sparkle:minimumSystemVersion>
+            <pubDate>Wed, 21 Dec 2022 11:30:35 +0000</pubDate>
+            <sparkle:releaseNotesLink>https://pierremolinaro.github.io/ElCanari-distribution/release-notes.html</sparkle:releaseNotesLink>
+            <enclosure url="https://raw.githubusercontent.com/pierremolinaro/ElCanari-distribution/master/ElCanari-1.7.0.dmg" type="application/octet-stream" sparkle:edSignature="vHUX8bxrxFhUuz32zC6qyUdvba6C56BVPkJGy6AjhLJowb6M6KHphpzzgH5dL958uIudqoB3SWYthyOPqttxBQ==" sparkle:version="1.7.0" length="21798206" sparkle:installationType="application"></enclosure>
+            <description><![CDATA[<p>
+              Version minimum macOS : 10.15<br/>
+              <ul>
+                <li><b>Bug Fix</b> Correction&nbsp;format&nbsp;texte&nbsp;des&nbsp;documents&nbsp;Package</li>
+                <li><b>Bug Fix</b> Correction&nbsp;format&nbsp;texte&nbsp;des&nbsp;documents&nbsp;Font</li>
+                <li><b>Bug Fix</b> Correction&nbsp;divers&nbsp;(petits)&nbsp;bugs&nbsp;dans&nbsp;le&nbsp;document&nbsp;Device</li>
+                <li><b>New</b> Duplication&nbsp;des&nbsp;inspecteurs&nbsp;dans&nbsp;la&nbsp;page&nbsp;&laquo;&nbsp;Board&nbsp;&raquo;&nbsp;d&apos;un&nbsp;projet</li>
+                <li><b>Change</b> Dans&nbsp;un&nbsp;document&nbsp;projet,&nbsp;les&nbsp;devices&nbsp;inutilis&eacute;s&nbsp;sont&nbsp;automatiquement&nbsp;supprim&eacute;s</li>
+                <li><b>Change</b> Dans&nbsp;un&nbsp;document&nbsp;Device,&nbsp;les&nbsp;symboles&nbsp;inutilis&eacute;s&nbsp;sont&nbsp;automatiquement&nbsp;supprim&eacute;s</li>
+                <li><b>Change</b> L&apos;application&nbsp;FreeRouting&nbsp;est&nbsp;d&eacute;plac&eacute;e&nbsp;dans&nbsp;la&nbsp;librarie</li>
+              </ul>
+            </p>]]></description>
+        </item>
+        <item>
             <title>Version 1.6.4</title>
             <sparkle:minimumSystemVersion>10.15</sparkle:minimumSystemVersion>
             <pubDate>Sat, 03 Dec 2022 10:40:34 +0000</pubDate>
