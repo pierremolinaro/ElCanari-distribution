@@ -1,0 +1,23 @@
+{
+  "edSignature" : "vHUX8bxrxFhUuz32zC6qyUdvba6C56BVPkJGy6AjhLJowb6M6KHphpzzgH5dL958uIudqoB3SWYthyOPqttxBQ==",
+  "length" : "21798206",
+  "bugfixes" : [
+    "Correction format texte des documents Package",
+    "Correction format texte des documents Font",
+    "Correction divers (petits) bugs dans le document Device"
+  ],
+  "news" : [
+    "Duplication des inspecteurs dans la page « Board » d'un projet"
+  ],
+  "notes" : [
+
+  ],
+  "changes" : [
+    "Dans un document projet, les devices inutilisés sont automatiquement supprimés",
+    "Dans un document Device, les symboles inutilisés sont automatiquement supprimés",
+    "L'application FreeRouting est déplacée dans la librarie"
+  ],
+  "date" : "2022-12-21T11:30:35Z",
+  "contents" : "application",
+  "osmin" : "10.15"
+}
