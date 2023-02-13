@@ -5,6 +5,20 @@
         <description>Most recent changes with links to updates</description>
         <language>en</language>
         <item>
+            <title>Version 1.7.1</title>
+            <sparkle:minimumSystemVersion>10.15</sparkle:minimumSystemVersion>
+            <pubDate>Mon, 13 Feb 2023 20:50:44 +0000</pubDate>
+            <sparkle:releaseNotesLink>https://pierremolinaro.github.io/ElCanari-distribution/release-notes.html</sparkle:releaseNotesLink>
+            <enclosure url="https://raw.githubusercontent.com/pierremolinaro/ElCanari-distribution/master/ElCanari-1.7.1.dmg" type="application/octet-stream" sparkle:edSignature="VmdCkX4eo4e9ktfy2snZj7nuez1BoLfW2rAvvI47Svac/FDB6PD9+WiAIhk4Lfpt19CFQYrVhMckctRbb5kaBA==" sparkle:version="1.7.1" length="22212689" sparkle:installationType="application"></enclosure>
+            <description><![CDATA[<p>
+              Version minimum macOS : 10.15<br/>
+              <ul>
+                <li><b>Bug Fix</b> Le&nbsp;copier/coller&nbsp;d&apos;un&nbsp;texte&nbsp;dans&nbsp;un&nbsp;circuit&nbsp;provoquait&nbsp;un&nbsp;plantage</li>
+                <li><b>Change</b> Utilisation&nbsp;de&nbsp;Sparkle&nbsp;2.3.2</li>
+              </ul>
+            </p>]]></description>
+        </item>
+        <item>
             <title>Version 1.7.0</title>
             <sparkle:minimumSystemVersion>10.15</sparkle:minimumSystemVersion>
             <pubDate>Wed, 21 Dec 2022 11:30:35 +0000</pubDate>

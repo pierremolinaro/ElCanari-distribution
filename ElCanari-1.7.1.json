@@ -1,0 +1,19 @@
+{
+  "edSignature" : "VmdCkX4eo4e9ktfy2snZj7nuez1BoLfW2rAvvI47Svac\/FDB6PD9+WiAIhk4Lfpt19CFQYrVhMckctRbb5kaBA==",
+  "length" : "22212689",
+  "bugfixes" : [
+    "Le copier\/coller d'un texte dans un circuit provoquait un plantage"
+  ],
+  "news" : [
+
+  ],
+  "notes" : [
+
+  ],
+  "changes" : [
+    "Utilisation de Sparkle 2.3.2"
+  ],
+  "date" : "2023-02-13T20:50:44Z",
+  "contents" : "application",
+  "osmin" : "10.15"
+}
