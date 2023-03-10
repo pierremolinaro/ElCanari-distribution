@@ -5,6 +5,22 @@
         <description>Most recent changes with links to updates</description>
         <language>en</language>
         <item>
+            <title>Version 1.7.2</title>
+            <sparkle:minimumSystemVersion>10.15</sparkle:minimumSystemVersion>
+            <pubDate>Fri, 10 Mar 2023 17:35:40 +0000</pubDate>
+            <sparkle:releaseNotesLink>https://pierremolinaro.github.io/ElCanari-distribution/release-notes.html</sparkle:releaseNotesLink>
+            <enclosure url="https://raw.githubusercontent.com/pierremolinaro/ElCanari-distribution/master/ElCanari-1.7.2.dmg" type="application/octet-stream" sparkle:edSignature="UUgBTvu3LsXEYSsoz569SwTy5h02AGLnY+krDk9YmNSyxB2rHW+137rXiQVbdkT6/fSO0A66IeD9LAIz0eb5Dg==" sparkle:version="1.7.2" length="22213401" sparkle:installationType="application"></enclosure>
+            <description><![CDATA[<p>
+              Version minimum macOS : 10.15<br/>
+              <ul>
+                <li><b>New</b> Ajout&nbsp;d&apos;un&nbsp;inspecteur&nbsp;X&nbsp;et&nbsp;Y&nbsp;pour&nbsp;les&nbsp;textes&nbsp;d&apos;un&nbsp;circuit</li>
+                <li><b>New</b> R&eacute;organisation&nbsp;de&nbsp;l&apos;inspecteur&nbsp;des&nbsp;composants&nbsp;d&apos;un&nbsp;circuit</li>
+                <li><b>New</b> R&eacute;organisation&nbsp;de&nbsp;l&apos;inspecteur&nbsp;des&nbsp;pistes&nbsp;d&apos;un&nbsp;circuit</li>
+                <li><b>Change</b> Dans&nbsp;un&nbsp;projet,&nbsp;un&nbsp;device&nbsp;qui&nbsp;ne&nbsp;d&eacute;signe&nbsp;aucun&nbsp;composant&nbsp;est&nbsp;automatiquement&nbsp;enlev&eacute;</li>
+              </ul>
+            </p>]]></description>
+        </item>
+        <item>
             <title>Version 1.7.1</title>
             <sparkle:minimumSystemVersion>10.15</sparkle:minimumSystemVersion>
             <pubDate>Mon, 13 Feb 2023 20:50:44 +0000</pubDate>
