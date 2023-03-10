@@ -1,0 +1,21 @@
+{
+  "edSignature" : "UUgBTvu3LsXEYSsoz569SwTy5h02AGLnY+krDk9YmNSyxB2rHW+137rXiQVbdkT6\/fSO0A66IeD9LAIz0eb5Dg==",
+  "length" : "22213401",
+  "bugfixes" : [
+
+  ],
+  "news" : [
+    "Ajout d'un inspecteur X et Y pour les textes d'un circuit",
+    "Réorganisation de l'inspecteur des composants d'un circuit",
+    "Réorganisation de l'inspecteur des pistes d'un circuit"
+  ],
+  "notes" : [
+
+  ],
+  "changes" : [
+    "Dans un projet, un device qui ne désigne aucun composant est automatiquement enlevé"
+  ],
+  "date" : "2023-03-10T17:35:40Z",
+  "contents" : "application",
+  "osmin" : "10.15"
+}
