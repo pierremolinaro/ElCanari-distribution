@@ -5,6 +5,22 @@
         <description>Most recent changes with links to updates</description>
         <language>en</language>
         <item>
+            <title>Version 1.7.3</title>
+            <sparkle:minimumSystemVersion>10.15</sparkle:minimumSystemVersion>
+            <pubDate>Wed, 22 Mar 2023 17:16:41 +0000</pubDate>
+            <sparkle:releaseNotesLink>https://pierremolinaro.github.io/ElCanari-distribution/release-notes.html</sparkle:releaseNotesLink>
+            <enclosure url="https://raw.githubusercontent.com/pierremolinaro/ElCanari-distribution/master/ElCanari-1.7.3.dmg" type="application/octet-stream" sparkle:edSignature="SJxVjBquvilGEyElyZoDxvYfvMOT9n6m4DoEVHzRdhthINhAn7PoPAaUD0De8VA0ecR8bYaOjQnagwbnIXmCBg==" sparkle:version="1.7.3" length="19993285" sparkle:installationType="application"></enclosure>
+            <description><![CDATA[<p>
+              Version minimum macOS : 10.15<br/>
+              <ul>
+                <li><b>Bug Fix</b> Dans&nbsp;un&nbsp;merger,&nbsp;correction&nbsp;de&nbsp;l&apos;affichage&nbsp;de&nbsp;la&nbsp;carte&nbsp;et&nbsp;des&nbsp;fonctions&nbsp;d&apos;alignement</li>
+                <li><b>Change</b> Dans&nbsp;un&nbsp;projet,&nbsp;la&nbsp;g&eacute;n&eacute;ration&nbsp;d&apos;une&nbsp;archive&nbsp;pour&nbsp;le&nbsp;merger&nbsp;contient&nbsp;un&nbsp;num&eacute;ro&nbsp;de&nbsp;version</li>
+                <li><b>Change</b> Ce&nbsp;num&eacute;ro&nbsp;de&nbsp;version&nbsp;est&nbsp;v&eacute;rifi&eacute;&nbsp;par&nbsp;le&nbsp;merger</li>
+                <li><b>Change</b> Version&nbsp;2.4.0&nbsp;de&nbsp;Sparkle</li>
+              </ul>
+            </p>]]></description>
+        </item>
+        <item>
             <title>Version 1.7.2</title>
             <sparkle:minimumSystemVersion>10.15</sparkle:minimumSystemVersion>
             <pubDate>Fri, 10 Mar 2023 17:35:40 +0000</pubDate>
