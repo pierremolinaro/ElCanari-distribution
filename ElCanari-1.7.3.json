@@ -1,0 +1,21 @@
+{
+  "edSignature" : "SJxVjBquvilGEyElyZoDxvYfvMOT9n6m4DoEVHzRdhthINhAn7PoPAaUD0De8VA0ecR8bYaOjQnagwbnIXmCBg==",
+  "length" : "19993285",
+  "bugfixes" : [
+    "Dans un merger, correction de l'affichage de la carte et des fonctions d'alignement"
+  ],
+  "news" : [
+
+  ],
+  "notes" : [
+
+  ],
+  "changes" : [
+    "Dans un projet, la génération d'une archive pour le merger contient un numéro de version",
+    "Ce numéro de version est vérifié par le merger",
+    "Version 2.4.0 de Sparkle"
+  ],
+  "date" : "2023-03-22T17:16:41Z",
+  "contents" : "application",
+  "osmin" : "10.15"
+}
