@@ -1,0 +1,21 @@
+{
+  "edSignature" : "1+RLxfbW3fCqLNG2eWb9+ZKUGRdmzfEvicq7X1x7ntXkGt6PPB9EnQvC69YJPoisqAgHs0QVp9oWLidjBnoDAQ==",
+  "length" : "19935873",
+  "bugfixes" : [
+
+  ],
+  "news" : [
+
+  ],
+  "notes" : [
+
+  ],
+  "changes" : [
+    "Utilisation de Sparkle 2.4.1",
+    "des badges pour signaler erreurs et alertes ont été ajoutés",
+    "dans un document, les badges d'états affichent le nombre d'erreurs et, à défaut, d'alertes"
+  ],
+  "date" : "2023-04-14T14:37:41Z",
+  "contents" : "application",
+  "osmin" : "10.15"
+}
