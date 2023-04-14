@@ -5,6 +5,21 @@
         <description>Most recent changes with links to updates</description>
         <language>en</language>
         <item>
+            <title>Version 1.7.4</title>
+            <sparkle:minimumSystemVersion>10.15</sparkle:minimumSystemVersion>
+            <pubDate>Fri, 14 Apr 2023 14:37:41 +0000</pubDate>
+            <sparkle:releaseNotesLink>https://pierremolinaro.github.io/ElCanari-distribution/release-notes.html</sparkle:releaseNotesLink>
+            <enclosure url="https://raw.githubusercontent.com/pierremolinaro/ElCanari-distribution/master/ElCanari-1.7.4.dmg" type="application/octet-stream" sparkle:edSignature="1+RLxfbW3fCqLNG2eWb9+ZKUGRdmzfEvicq7X1x7ntXkGt6PPB9EnQvC69YJPoisqAgHs0QVp9oWLidjBnoDAQ==" sparkle:version="1.7.4" length="19935873" sparkle:installationType="application"></enclosure>
+            <description><![CDATA[<p>
+              Version minimum macOS : 10.15<br/>
+              <ul>
+                <li><b>Change</b> Utilisation&nbsp;de&nbsp;Sparkle&nbsp;2.4.1</li>
+                <li><b>Change</b> des&nbsp;badges&nbsp;pour&nbsp;signaler&nbsp;erreurs&nbsp;et&nbsp;alertes&nbsp;ont&nbsp;&eacute;t&eacute;&nbsp;ajout&eacute;s</li>
+                <li><b>Change</b> dans&nbsp;un&nbsp;document,&nbsp;les&nbsp;badges&nbsp;d&apos;&eacute;tats&nbsp;affichent&nbsp;le&nbsp;nombre&nbsp;d&apos;erreurs&nbsp;et,&nbsp;&agrave;&nbsp;d&eacute;faut,&nbsp;d&apos;alertes</li>
+              </ul>
+            </p>]]></description>
+        </item>
+        <item>
             <title>Version 1.7.3</title>
             <sparkle:minimumSystemVersion>10.15</sparkle:minimumSystemVersion>
             <pubDate>Wed, 22 Mar 2023 17:16:41 +0000</pubDate>
