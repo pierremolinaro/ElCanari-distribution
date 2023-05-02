@@ -1,0 +1,20 @@
+{
+  "edSignature" : "mxLhvT48LhCueJqeZULmV7PHrHBgkcnuqmCvmEqzAgBIPxAs1xe+J4yOzjKogOos\/QOKLA+8ZAO40V4rhlq4Bg==",
+  "length" : "19618463",
+  "bugfixes" : [
+
+  ],
+  "news" : [
+    "Ajout de QR Codes sur le circuit imprimé",
+    "Ajout d'images sur le circuit imprimé"
+  ],
+  "notes" : [
+
+  ],
+  "changes" : [
+
+  ],
+  "date" : "2023-05-02T21:08:15Z",
+  "contents" : "application",
+  "osmin" : "10.15"
+}
