@@ -5,6 +5,20 @@
         <description>Most recent changes with links to updates</description>
         <language>en</language>
         <item>
+            <title>Version 1.7.6</title>
+            <sparkle:minimumSystemVersion>10.15</sparkle:minimumSystemVersion>
+            <pubDate>Sat, 06 May 2023 16:37:49 +0000</pubDate>
+            <sparkle:releaseNotesLink>https://pierremolinaro.github.io/ElCanari-distribution/release-notes.html</sparkle:releaseNotesLink>
+            <enclosure url="https://raw.githubusercontent.com/pierremolinaro/ElCanari-distribution/master/ElCanari-1.7.6.dmg" type="application/octet-stream" sparkle:edSignature="TxDn3OUJE0yQSQvWhv7IvimKbKN5jWQyFPiWyuzt3D4fT6Zb/PGC9UcG4rK+9utRb1iboKrYxXP2CMrREMOhDw==" sparkle:version="1.7.6" length="19633691" sparkle:installationType="application"></enclosure>
+            <description><![CDATA[<p>
+              Version minimum macOS : 10.15<br/>
+              <ul>
+                <li><b>Bug Fix</b> Sch&eacute;matique&nbsp;:&nbsp;un&nbsp;point&nbsp;plac&eacute;&nbsp;au&nbsp;dessus&nbsp;d&apos;une&nbsp;piste&nbsp;sans&nbsp;y&nbsp;&ecirc;tre&nbsp;connect&eacute;&nbsp;est&nbsp;maintenant&nbsp;d&eacute;tect&eacute;&nbsp;et&nbsp;signal&eacute;&nbsp;comme&nbsp;erreur&nbsp;par&nbsp;une&nbsp;pastille&nbsp;rouge.</li>
+                <li><b>New</b> Sch&eacute;matique&nbsp;:&nbsp;les&nbsp;erreurs&nbsp;et&nbsp;alertes&nbsp;apparaissant&nbsp;dans&nbsp;un&nbsp;&laquo;&nbsp;tooltip&raquo;.</li>
+              </ul>
+            </p>]]></description>
+        </item>
+        <item>
             <title>Version 1.7.5</title>
             <sparkle:minimumSystemVersion>10.15</sparkle:minimumSystemVersion>
             <pubDate>Tue, 02 May 2023 21:08:15 +0000</pubDate>

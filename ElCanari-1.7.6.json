@@ -1,0 +1,19 @@
+{
+  "edSignature" : "TxDn3OUJE0yQSQvWhv7IvimKbKN5jWQyFPiWyuzt3D4fT6Zb\/PGC9UcG4rK+9utRb1iboKrYxXP2CMrREMOhDw==",
+  "length" : "19633691",
+  "bugfixes" : [
+    "Schématique : un point placé au dessus d'une piste sans y être connecté est maintenant détecté et signalé comme erreur par une pastille rouge."
+  ],
+  "news" : [
+    "Schématique : les erreurs et alertes apparaissant dans un « tooltip»."
+  ],
+  "notes" : [
+
+  ],
+  "changes" : [
+
+  ],
+  "date" : "2023-05-06T16:37:49Z",
+  "contents" : "application",
+  "osmin" : "10.15"
+}
