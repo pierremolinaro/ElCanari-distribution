@@ -14,7 +14,7 @@
               Version minimum macOS : 10.15<br/>
               <ul>
                 <li><b>Bug Fix</b> Sch&eacute;matique&nbsp;:&nbsp;un&nbsp;point&nbsp;plac&eacute;&nbsp;au&nbsp;dessus&nbsp;d&apos;une&nbsp;piste&nbsp;sans&nbsp;y&nbsp;&ecirc;tre&nbsp;connect&eacute;&nbsp;est&nbsp;maintenant&nbsp;d&eacute;tect&eacute;&nbsp;et&nbsp;signal&eacute;&nbsp;comme&nbsp;erreur&nbsp;par&nbsp;une&nbsp;pastille&nbsp;rouge.</li>
-                <li><b>New</b> Sch&eacute;matique&nbsp;:&nbsp;les&nbsp;erreurs&nbsp;et&nbsp;alertes&nbsp;apparaissant&nbsp;dans&nbsp;un&nbsp;&laquo;&nbsp;tooltip&raquo;.</li>
+                <li><b>New</b> Sch&eacute;matique&nbsp;:&nbsp;les&nbsp;erreurs&nbsp;et&nbsp;alertes&nbsp;apparaissent&nbsp;dans&nbsp;un&nbsp;&laquo;&nbsp;tooltip&raquo;.</li>
               </ul>
             </p>]]></description>
         </item>
