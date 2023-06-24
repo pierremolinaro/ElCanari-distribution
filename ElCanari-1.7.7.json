@@ -1,0 +1,20 @@
+{
+  "edSignature" : "tBH63LLvlZJNqlxVRY\/UYx+vfJObJXB8olJoQ9Dwm1LKF4FYd\/e2Pbxm2ymx7cbKIqVcrjah+lNObH\/B9LWjAA==",
+  "length" : "19977409",
+  "bugfixes" : [
+    "Package : rétablissement du fonctionnement de la description d'un package par programme."
+  ],
+  "news" : [
+    "Utilisation de 'periphery' pour détecter le code mort"
+  ],
+  "notes" : [
+
+  ],
+  "changes" : [
+    "Xcode 15.0 beta 2 ",
+    "Utilisation de la version 2.4.2 de Sparkle"
+  ],
+  "date" : "2023-06-24T08:14:34Z",
+  "contents" : "application",
+  "osmin" : "10.15"
+}
