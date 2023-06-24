@@ -5,6 +5,22 @@
         <description>Most recent changes with links to updates</description>
         <language>en</language>
         <item>
+            <title>Version 1.7.7</title>
+            <sparkle:minimumSystemVersion>10.15</sparkle:minimumSystemVersion>
+            <pubDate>Sat, 24 Jun 2023 08:14:34 +0000</pubDate>
+            <sparkle:releaseNotesLink>https://pierremolinaro.github.io/ElCanari-distribution/release-notes.html</sparkle:releaseNotesLink>
+            <enclosure url="https://raw.githubusercontent.com/pierremolinaro/ElCanari-distribution/master/ElCanari-1.7.7.dmg" type="application/octet-stream" sparkle:edSignature="tBH63LLvlZJNqlxVRY/UYx+vfJObJXB8olJoQ9Dwm1LKF4FYd/e2Pbxm2ymx7cbKIqVcrjah+lNObH/B9LWjAA==" sparkle:version="1.7.7" length="19977409" sparkle:installationType="application"></enclosure>
+            <description><![CDATA[<p>
+              Version minimum macOS : 10.15<br/>
+              <ul>
+                <li><b>Bug Fix</b> Package&nbsp;:&nbsp;r&eacute;tablissement&nbsp;du&nbsp;fonctionnement&nbsp;de&nbsp;la&nbsp;description&nbsp;d&apos;un&nbsp;package&nbsp;par&nbsp;programme.</li>
+                <li><b>New</b> Utilisation&nbsp;de&nbsp;&apos;periphery&apos;&nbsp;pour&nbsp;d&eacute;tecter&nbsp;le&nbsp;code&nbsp;mort</li>
+                <li><b>Change</b> Xcode&nbsp;15.0&nbsp;beta&nbsp;2&nbsp;</li>
+                <li><b>Change</b> Utilisation&nbsp;de&nbsp;la&nbsp;version&nbsp;2.4.2&nbsp;de&nbsp;Sparkle</li>
+              </ul>
+            </p>]]></description>
+        </item>
+        <item>
             <title>Version 1.7.6</title>
             <sparkle:minimumSystemVersion>10.15</sparkle:minimumSystemVersion>
             <pubDate>Sat, 06 May 2023 16:37:49 +0000</pubDate>
