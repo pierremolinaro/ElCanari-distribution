@@ -1,0 +1,19 @@
+{
+  "edSignature" : "kJla0a4kpUat6htQetxLPI\/5ngOpWVDC6RtijMgJKZRBhS7k7CnzSMD38UDEhQf1C8XQTuNQenU\/l+B2F7bZDg==",
+  "length" : "20172280",
+  "bugfixes" : [
+    "Signature de l'application : utilisation d'un certificat non révoqué (?)"
+  ],
+  "news" : [
+
+  ],
+  "notes" : [
+
+  ],
+  "changes" : [
+    "Xcode 15.0 beta 7"
+  ],
+  "date" : "2023-09-04T16:35:13Z",
+  "contents" : "application",
+  "osmin" : "10.15"
+}

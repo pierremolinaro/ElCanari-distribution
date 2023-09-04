@@ -5,6 +5,20 @@
         <description>Most recent changes with links to updates</description>
         <language>en</language>
         <item>
+            <title>Version 1.7.8</title>
+            <sparkle:minimumSystemVersion>10.15</sparkle:minimumSystemVersion>
+            <pubDate>Mon, 04 Sep 2023 16:35:13 +0000</pubDate>
+            <sparkle:releaseNotesLink>https://pierremolinaro.github.io/ElCanari-distribution/release-notes.html</sparkle:releaseNotesLink>
+            <enclosure url="https://raw.githubusercontent.com/pierremolinaro/ElCanari-distribution/master/ElCanari-1.7.8.dmg" type="application/octet-stream" sparkle:edSignature="kJla0a4kpUat6htQetxLPI/5ngOpWVDC6RtijMgJKZRBhS7k7CnzSMD38UDEhQf1C8XQTuNQenU/l+B2F7bZDg==" sparkle:version="1.7.8" length="20172280" sparkle:installationType="application"></enclosure>
+            <description><![CDATA[<p>
+              Version minimum macOS : 10.15<br/>
+              <ul>
+                <li><b>Bug Fix</b> Signature&nbsp;de&nbsp;l&apos;application&nbsp;:&nbsp;utilisation&nbsp;d&apos;un&nbsp;certificat&nbsp;non&nbsp;r&eacute;voqu&eacute;&nbsp;(?)</li>
+                <li><b>Change</b> Xcode&nbsp;15.0&nbsp;beta&nbsp;7</li>
+              </ul>
+            </p>]]></description>
+        </item>
+        <item>
             <title>Version 1.7.7</title>
             <sparkle:minimumSystemVersion>10.15</sparkle:minimumSystemVersion>
             <pubDate>Sat, 24 Jun 2023 08:14:34 +0000</pubDate>
