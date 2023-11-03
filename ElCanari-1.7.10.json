@@ -1,0 +1,19 @@
+{
+  "edSignature" : "COnJDt1S8xQjBSnlL+uiTVhr2GlI2Wob9SWwyFw8GYGbgnMVekQEJJkoPZl1DeRx9SSNWzUmowAavtqcJp6LDg==",
+  "length" : "19970572",
+  "bugfixes" : [
+    "Rétablissement du fonctionnement des diviseurs horizontaux"
+  ],
+  "news" : [
+
+  ],
+  "notes" : [
+
+  ],
+  "changes" : [
+    "Amélioration de l'affichage des erreurs ERC dans board"
+  ],
+  "date" : "2023-11-03T18:08:56Z",
+  "contents" : "application",
+  "osmin" : "10.15"
+}

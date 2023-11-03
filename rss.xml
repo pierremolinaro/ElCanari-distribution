@@ -5,6 +5,20 @@
         <description>Most recent changes with links to updates</description>
         <language>en</language>
         <item>
+            <title>Version 1.7.10</title>
+            <sparkle:minimumSystemVersion>10.15</sparkle:minimumSystemVersion>
+            <pubDate>Fri, 03 Nov 2023 18:08:56 +0000</pubDate>
+            <sparkle:releaseNotesLink>https://pierremolinaro.github.io/ElCanari-distribution/release-notes.html</sparkle:releaseNotesLink>
+            <enclosure url="https://raw.githubusercontent.com/pierremolinaro/ElCanari-distribution/master/ElCanari-1.7.10.dmg" type="application/octet-stream" sparkle:edSignature="COnJDt1S8xQjBSnlL+uiTVhr2GlI2Wob9SWwyFw8GYGbgnMVekQEJJkoPZl1DeRx9SSNWzUmowAavtqcJp6LDg==" sparkle:version="1.7.10" length="19970572" sparkle:installationType="application"></enclosure>
+            <description><![CDATA[<p>
+              Version minimum macOS : 10.15<br/>
+              <ul>
+                <li><b>Bug Fix</b> R&eacute;tablissement&nbsp;du&nbsp;fonctionnement&nbsp;des&nbsp;diviseurs&nbsp;horizontaux</li>
+                <li><b>Change</b> Am&eacute;lioration&nbsp;de&nbsp;l&apos;affichage&nbsp;des&nbsp;erreurs&nbsp;ERC&nbsp;dans&nbsp;board</li>
+              </ul>
+            </p>]]></description>
+        </item>
+        <item>
             <title>Version 1.7.9</title>
             <sparkle:minimumSystemVersion>10.15</sparkle:minimumSystemVersion>
             <pubDate>Tue, 19 Sep 2023 14:59:09 +0000</pubDate>
