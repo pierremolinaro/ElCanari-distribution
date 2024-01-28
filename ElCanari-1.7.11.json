@@ -1,0 +1,22 @@
+{
+  "notes" : [
+
+  ],
+  "news" : [
+
+  ],
+  "length" : "19931127",
+  "changes" : [
+    "Ajout de la rotation des commentaires dans le schéma",
+    "Ajout de la mise en gras des commentaires dans le schéma",
+    "Amélioration de la sélection des pistes dans board",
+    "Ajout de la possibilité de placer une piste dans le masque de soudure"
+  ],
+  "edSignature" : "nxvpm8xFsVnUqlBvJN8RVzUDFsL9HgBQkcekDIW8g9HrvEgK2TzfmyaYpRGbnVcmzOyHMJn\/JsqFffD3CSUiAA==",
+  "bugfixes" : [
+    "Correction génération des QRCodes sous Sonoma"
+  ],
+  "date" : "2024-01-28T17:10:16Z",
+  "contents" : "application",
+  "osmin" : "10.15"
+}
