@@ -5,6 +5,19 @@
         <description>Most recent changes with links to updates</description>
         <language>en</language>
         <item>
+            <title>Version 1.7.12</title>
+            <sparkle:minimumSystemVersion>10.15</sparkle:minimumSystemVersion>
+            <pubDate>Wed, 31 Jan 2024 11:37:02 +0000</pubDate>
+            <sparkle:releaseNotesLink>https://pierremolinaro.github.io/ElCanari-distribution/release-notes.html</sparkle:releaseNotesLink>
+            <enclosure url="https://raw.githubusercontent.com/pierremolinaro/ElCanari-distribution/master/ElCanari-1.7.12.dmg" type="application/octet-stream" sparkle:edSignature="D7e/2Al8pZGBOxbTM/f2kIUvgCM/v30+31t2zuXNDpCTtJx/CqB3Lt49i98JXtCOSIEqE8/UwDlx9JE37EtRBw==" sparkle:version="1.7.12" length="19920039" sparkle:installationType="application"></enclosure>
+            <description><![CDATA[<p>
+              Version minimum macOS : 10.15<br/>
+              <ul>
+                <li><b>Bug Fix</b> Correction&nbsp;couleur&nbsp;de&nbsp;s&eacute;lection</li>
+              </ul>
+            </p>]]></description>
+        </item>
+        <item>
             <title>Version 1.7.11</title>
             <sparkle:minimumSystemVersion>10.15</sparkle:minimumSystemVersion>
             <pubDate>Sun, 28 Jan 2024 17:10:16 +0000</pubDate>
