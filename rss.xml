@@ -5,6 +5,20 @@
         <description>Most recent changes with links to updates</description>
         <language>en</language>
         <item>
+            <title>Version 1.7.13</title>
+            <sparkle:minimumSystemVersion>10.15</sparkle:minimumSystemVersion>
+            <pubDate>Mon, 01 Apr 2024 19:33:13 +0000</pubDate>
+            <sparkle:releaseNotesLink>https://pierremolinaro.github.io/ElCanari-distribution/release-notes.html</sparkle:releaseNotesLink>
+            <enclosure url="https://raw.githubusercontent.com/pierremolinaro/ElCanari-distribution/master/ElCanari-1.7.13.dmg" type="application/octet-stream" sparkle:edSignature="F+UAA+wbx9WAQlIo4bi9jj3pdqI01BrLpYGH0cWuh1d2YGbvcTIaiqFSgkvlKdfDQPFCXzXe4spEmIxo+dkuDg==" sparkle:version="1.7.13" length="20196203" sparkle:installationType="application"></enclosure>
+            <description><![CDATA[<p>
+              Version minimum macOS : 10.15<br/>
+              <ul>
+                <li><b>Bug Fix</b> Projet&nbsp;:&nbsp;les&nbsp;fichiers&nbsp;Gerber&nbsp;produits&nbsp;sont&nbsp;clipp&eacute;s&nbsp;dans&nbsp;le&nbsp;rectangle&nbsp;de&nbsp;la&nbsp;carte</li>
+                <li><b>New</b> Ajout&nbsp;d&apos;une&nbsp;zone&nbsp;de&nbsp;travail&nbsp;dans&nbsp;l&apos;onglet&nbsp;&laquo;&nbsp;Board&nbsp;&raquo;&nbsp;des&nbsp;projets</li>
+              </ul>
+            </p>]]></description>
+        </item>
+        <item>
             <title>Version 1.7.12</title>
             <sparkle:minimumSystemVersion>10.15</sparkle:minimumSystemVersion>
             <pubDate>Wed, 31 Jan 2024 11:37:02 +0000</pubDate>
