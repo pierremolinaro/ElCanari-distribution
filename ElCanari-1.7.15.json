@@ -1,0 +1,19 @@
+{
+  "date" : "2024-05-15T17:12:19Z",
+  "length" : "20188940",
+  "edSignature" : "+7htoznLYMvjDwBdA3AR8Zj9kvi8qXj\/KU3jB1uD8Fwz5P2tILxhXfAj20vuQkdluzFRLwlS4BA\/5vyrK5G0BA==",
+  "bugfixes" : [
+
+  ],
+  "notes" : [
+
+  ],
+  "contents" : "application",
+  "news" : [
+    "Sélection de la forme d'une piste dans un projet : extrémité circulaire ou droite"
+  ],
+  "changes" : [
+    "Version ElCanariArchive : #4"
+  ],
+  "osmin" : "10.15"
+}

@@ -5,6 +5,20 @@
         <description>Most recent changes with links to updates</description>
         <language>en</language>
         <item>
+            <title>Version 1.7.15</title>
+            <sparkle:minimumSystemVersion>10.15</sparkle:minimumSystemVersion>
+            <pubDate>Wed, 15 May 2024 17:12:19 +0000</pubDate>
+            <sparkle:releaseNotesLink>https://pierremolinaro.github.io/ElCanari-distribution/release-notes.html</sparkle:releaseNotesLink>
+            <enclosure url="https://raw.githubusercontent.com/pierremolinaro/ElCanari-distribution/master/ElCanari-1.7.15.dmg" type="application/octet-stream" sparkle:edSignature="+7htoznLYMvjDwBdA3AR8Zj9kvi8qXj/KU3jB1uD8Fwz5P2tILxhXfAj20vuQkdluzFRLwlS4BA/5vyrK5G0BA==" sparkle:version="1.7.15" length="20188940" sparkle:installationType="application"></enclosure>
+            <description><![CDATA[<p>
+              Version minimum macOS : 10.15<br/>
+              <ul>
+                <li><b>New</b> S&eacute;lection&nbsp;de&nbsp;la&nbsp;forme&nbsp;d&apos;une&nbsp;piste&nbsp;dans&nbsp;un&nbsp;projet&nbsp;:&nbsp;extr&eacute;mit&eacute;&nbsp;circulaire&nbsp;ou&nbsp;droite</li>
+                <li><b>Change</b> Version&nbsp;ElCanariArchive&nbsp;:&nbsp;#4</li>
+              </ul>
+            </p>]]></description>
+        </item>
+        <item>
             <title>Version 1.7.13</title>
             <sparkle:minimumSystemVersion>10.15</sparkle:minimumSystemVersion>
             <pubDate>Mon, 01 Apr 2024 19:33:13 +0000</pubDate>
