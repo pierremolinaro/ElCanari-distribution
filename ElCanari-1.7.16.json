@@ -1,0 +1,19 @@
+{
+  "length" : "20189232",
+  "news" : [
+
+  ],
+  "notes" : [
+
+  ],
+  "date" : "2024-05-22T11:43:41Z",
+  "contents" : "application",
+  "bugfixes" : [
+    "Correction bug importation archive dans Merger"
+  ],
+  "osmin" : "10.15",
+  "edSignature" : "oqQU+dtgh5gKsG+wgk9pOndd7xGPWTO9391yocYP9RkyYcKHMGYLSzJHipdHac72fpfFq2ogtH7hlf8G38w8CA==",
+  "changes" : [
+
+  ]
+}
