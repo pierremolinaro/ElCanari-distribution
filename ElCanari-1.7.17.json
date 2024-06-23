@@ -1,0 +1,20 @@
+{
+  "changes" : [
+    "Re-écriture du code de génération Gerber, PDF, archive, pour les projets et les mergers",
+    "Les fichiers Gerber sont produits sous la forme d'un fichier zippé"
+  ],
+  "date" : "2024-06-23T11:06:51Z",
+  "contents" : "application",
+  "bugfixes" : [
+
+  ],
+  "news" : [
+
+  ],
+  "osmin" : "10.15",
+  "edSignature" : "jaLQMurzRRNHBpgCeh\/uxJt\/ceminGzXY33dpWPrDzTuFf6oCZZL3PnjJmyUUXGge7J\/1+Hneqm6bu3waot1AQ==",
+  "length" : "20130576",
+  "notes" : [
+
+  ]
+}
