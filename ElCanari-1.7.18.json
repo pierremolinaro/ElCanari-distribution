@@ -1,0 +1,20 @@
+{
+  "contents" : "application",
+  "length" : "20020664",
+  "osmin" : "10.15",
+  "edSignature" : "YdHwRwDhXKghJH03AmGnZRMAXLR1wI\/G0QhqDt3lS28\/EgrUgdXszQkIo6JbQZJjkgEyv3NDjaXznuYXZWmeAQ==",
+  "changes" : [
+    "Les fichiers Gerber sont produits sous la forme d'un fichier zippé pour les projets et les mergers",
+    "La génération du fichier zippé Gerber écrase silencieusement le précédent"
+  ],
+  "bugfixes" : [
+
+  ],
+  "date" : "2024-06-24T08:10:29Z",
+  "notes" : [
+
+  ],
+  "news" : [
+
+  ]
+}

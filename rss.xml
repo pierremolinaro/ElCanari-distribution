@@ -5,6 +5,20 @@
         <description>Most recent changes with links to updates</description>
         <language>en</language>
         <item>
+            <title>Version 1.7.18</title>
+            <sparkle:minimumSystemVersion>10.15</sparkle:minimumSystemVersion>
+            <pubDate>Mon, 24 Jun 2024 08:10:29 +0000</pubDate>
+            <sparkle:releaseNotesLink>https://pierremolinaro.github.io/ElCanari-distribution/release-notes.html</sparkle:releaseNotesLink>
+            <enclosure url="https://raw.githubusercontent.com/pierremolinaro/ElCanari-distribution/master/ElCanari-1.7.18.dmg" type="application/octet-stream" sparkle:edSignature="YdHwRwDhXKghJH03AmGnZRMAXLR1wI/G0QhqDt3lS28/EgrUgdXszQkIo6JbQZJjkgEyv3NDjaXznuYXZWmeAQ==" sparkle:version="1.7.18" length="20020664" sparkle:installationType="application"></enclosure>
+            <description><![CDATA[<p>
+              Version minimum macOS : 10.15<br/>
+              <ul>
+                <li><b>Change</b> Les&nbsp;fichiers&nbsp;Gerber&nbsp;sont&nbsp;produits&nbsp;sous&nbsp;la&nbsp;forme&nbsp;d&apos;un&nbsp;fichier&nbsp;zipp&eacute;&nbsp;pour&nbsp;les&nbsp;projets&nbsp;et&nbsp;les&nbsp;mergers</li>
+                <li><b>Change</b> La&nbsp;g&eacute;n&eacute;ration&nbsp;du&nbsp;fichier&nbsp;zipp&eacute;&nbsp;Gerber&nbsp;&eacute;crase&nbsp;silencieusement&nbsp;le&nbsp;pr&eacute;c&eacute;dent</li>
+              </ul>
+            </p>]]></description>
+        </item>
+        <item>
             <title>Version 1.7.17</title>
             <sparkle:minimumSystemVersion>10.15</sparkle:minimumSystemVersion>
             <pubDate>Sun, 23 Jun 2024 11:06:51 +0000</pubDate>
