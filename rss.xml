@@ -5,6 +5,19 @@
         <description>Most recent changes with links to updates</description>
         <language>en</language>
         <item>
+            <title>Version 1.7.19</title>
+            <sparkle:minimumSystemVersion>10.15</sparkle:minimumSystemVersion>
+            <pubDate>Tue, 06 Aug 2024 11:33:41 +0000</pubDate>
+            <sparkle:releaseNotesLink>https://pierremolinaro.github.io/ElCanari-distribution/release-notes.html</sparkle:releaseNotesLink>
+            <enclosure url="https://raw.githubusercontent.com/pierremolinaro/ElCanari-distribution/master/ElCanari-1.7.19.dmg" type="application/octet-stream" sparkle:edSignature="IWEWgRYeYQi38NXAPXdnwHMfQSXVB/cRTlLS9uCL0TXernKSjv5M/tpxdAvAP8Zo1GPAovvv5LOi6m5pjYZLDA==" sparkle:version="1.7.19" length="20019236" sparkle:installationType="application"></enclosure>
+            <description><![CDATA[<p>
+              Version minimum macOS : 10.15<br/>
+              <ul>
+                <li><b>Bug Fix</b> Correction&nbsp;importation&nbsp;fichier&nbsp;SES&nbsp;en&nbsp;pr&eacute;sence&nbsp;de&nbsp;via&nbsp;sur&nbsp;les&nbsp;pads&nbsp;de&nbsp;composants&nbsp;de&nbsp;surface</li>
+              </ul>
+            </p>]]></description>
+        </item>
+        <item>
             <title>Version 1.7.18</title>
             <sparkle:minimumSystemVersion>10.15</sparkle:minimumSystemVersion>
             <pubDate>Mon, 24 Jun 2024 08:10:29 +0000</pubDate>

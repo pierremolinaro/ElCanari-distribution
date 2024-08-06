@@ -1,0 +1,19 @@
+{
+  "osmin" : "10.15",
+  "news" : [
+
+  ],
+  "edSignature" : "IWEWgRYeYQi38NXAPXdnwHMfQSXVB\/cRTlLS9uCL0TXernKSjv5M\/tpxdAvAP8Zo1GPAovvv5LOi6m5pjYZLDA==",
+  "date" : "2024-08-06T11:33:41Z",
+  "contents" : "application",
+  "bugfixes" : [
+    "Correction importation fichier SES en présence de via sur les pads de composants de surface"
+  ],
+  "changes" : [
+
+  ],
+  "length" : "20019236",
+  "notes" : [
+
+  ]
+}
