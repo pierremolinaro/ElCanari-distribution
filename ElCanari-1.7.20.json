@@ -1,0 +1,19 @@
+{
+  "edSignature" : "mO4+Hk+7rz3eylQ1jzkp98fbZ9JPye1XBFex5Zhj46Rb0HVP8CQxW01zCOX2zSIUla5yatke3jCLX+pi6c++Ag==",
+  "date" : "2024-08-11T13:24:26Z",
+  "bugfixes" : [
+    "Correction du drag-and-drop d'une piste dans le schéma d'un projet"
+  ],
+  "changes" : [
+
+  ],
+  "notes" : [
+
+  ],
+  "news" : [
+
+  ],
+  "contents" : "application",
+  "osmin" : "10.15",
+  "length" : "20016912"
+}

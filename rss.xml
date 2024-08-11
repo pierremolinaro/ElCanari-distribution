@@ -5,6 +5,19 @@
         <description>Most recent changes with links to updates</description>
         <language>en</language>
         <item>
+            <title>Version 1.7.20</title>
+            <sparkle:minimumSystemVersion>10.15</sparkle:minimumSystemVersion>
+            <pubDate>Sun, 11 Aug 2024 13:24:26 +0000</pubDate>
+            <sparkle:releaseNotesLink>https://pierremolinaro.github.io/ElCanari-distribution/release-notes.html</sparkle:releaseNotesLink>
+            <enclosure url="https://raw.githubusercontent.com/pierremolinaro/ElCanari-distribution/master/ElCanari-1.7.20.dmg" type="application/octet-stream" sparkle:edSignature="mO4+Hk+7rz3eylQ1jzkp98fbZ9JPye1XBFex5Zhj46Rb0HVP8CQxW01zCOX2zSIUla5yatke3jCLX+pi6c++Ag==" sparkle:version="1.7.20" length="20016912" sparkle:installationType="application"></enclosure>
+            <description><![CDATA[<p>
+              Version minimum macOS : 10.15<br/>
+              <ul>
+                <li><b>Bug Fix</b> Correction&nbsp;du&nbsp;drag-and-drop&nbsp;d&apos;une&nbsp;piste&nbsp;dans&nbsp;le&nbsp;sch&eacute;ma&nbsp;d&apos;un&nbsp;projet</li>
+              </ul>
+            </p>]]></description>
+        </item>
+        <item>
             <title>Version 1.7.19</title>
             <sparkle:minimumSystemVersion>10.15</sparkle:minimumSystemVersion>
             <pubDate>Tue, 06 Aug 2024 11:33:41 +0000</pubDate>
