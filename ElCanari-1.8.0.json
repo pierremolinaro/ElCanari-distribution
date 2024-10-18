@@ -1,0 +1,21 @@
+{
+  "osmin" : "10.15",
+  "notes" : [
+
+  ],
+  "changes" : [
+    "Nouvelle écriture de l'interface utilisateur"
+  ],
+  "news" : [
+
+  ],
+  "bugfixes" : [
+    "Projet, board : correction placement octolinéaire",
+    "Merger : dessin incorrect des packages",
+    "Merger : ajout du contrôle de l'affichage du fond"
+  ],
+  "edSignature" : "PJSdWjt1y32BQJDKevWR+FqZC0o8JWOIVjQBnA0S8pup8YcD\/AaEno2w\/DdLCR8S0rRMF8wt9Z6SQDznZR4ABg==",
+  "contents" : "application",
+  "date" : "2024-10-18T16:06:37Z",
+  "length" : "19992492"
+}

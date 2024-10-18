@@ -5,6 +5,22 @@
         <description>Most recent changes with links to updates</description>
         <language>en</language>
         <item>
+            <title>Version 1.8.0</title>
+            <sparkle:minimumSystemVersion>10.15</sparkle:minimumSystemVersion>
+            <pubDate>Fri, 18 Oct 2024 16:06:37 +0000</pubDate>
+            <sparkle:releaseNotesLink>https://pierremolinaro.github.io/ElCanari-distribution/release-notes.html</sparkle:releaseNotesLink>
+            <enclosure url="https://raw.githubusercontent.com/pierremolinaro/ElCanari-distribution/master/ElCanari-1.8.0.dmg" type="application/octet-stream" sparkle:edSignature="PJSdWjt1y32BQJDKevWR+FqZC0o8JWOIVjQBnA0S8pup8YcD/AaEno2w/DdLCR8S0rRMF8wt9Z6SQDznZR4ABg==" sparkle:version="1.8.0" length="19992492" sparkle:installationType="application"></enclosure>
+            <description><![CDATA[<p>
+              Version minimum macOS : 10.15<br/>
+              <ul>
+                <li><b>Bug Fix</b> Projet,&nbsp;board&nbsp;:&nbsp;correction&nbsp;placement&nbsp;octolin&eacute;aire</li>
+                <li><b>Bug Fix</b> Merger&nbsp;:&nbsp;dessin&nbsp;incorrect&nbsp;des&nbsp;packages</li>
+                <li><b>Bug Fix</b> Merger&nbsp;:&nbsp;ajout&nbsp;du&nbsp;contr&ocirc;le&nbsp;de&nbsp;l&apos;affichage&nbsp;du&nbsp;fond</li>
+                <li><b>Change</b> Nouvelle&nbsp;&eacute;criture&nbsp;de&nbsp;l&apos;interface&nbsp;utilisateur</li>
+              </ul>
+            </p>]]></description>
+        </item>
+        <item>
             <title>Version 1.7.20</title>
             <sparkle:minimumSystemVersion>10.15</sparkle:minimumSystemVersion>
             <pubDate>Sun, 11 Aug 2024 13:24:26 +0000</pubDate>
