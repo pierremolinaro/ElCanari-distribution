@@ -1,0 +1,20 @@
+{
+  "changes" : [
+    "Nouvel interface de gestion de la librarie des composants",
+    "Nouvel interface de la Librarie d'un projet"
+  ],
+  "notes" : [
+
+  ],
+  "bugfixes" : [
+
+  ],
+  "edSignature" : "cchLgph9cpkpun+Rkck5MFAZDsxKk5BsHjN2RGuyEStuafHkdpU0sLG9aV5qZHY93U1vAAMAUa6eJqdS3yF6CQ==",
+  "news" : [
+
+  ],
+  "date" : "2024-11-18T08:53:04Z",
+  "length" : "20040640",
+  "contents" : "application",
+  "osmin" : "10.15"
+}

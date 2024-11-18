@@ -5,6 +5,20 @@
         <description>Most recent changes with links to updates</description>
         <language>en</language>
         <item>
+            <title>Version 1.8.1</title>
+            <sparkle:minimumSystemVersion>10.15</sparkle:minimumSystemVersion>
+            <pubDate>Mon, 18 Nov 2024 08:53:04 +0000</pubDate>
+            <sparkle:releaseNotesLink>https://pierremolinaro.github.io/ElCanari-distribution/release-notes.html</sparkle:releaseNotesLink>
+            <enclosure url="https://raw.githubusercontent.com/pierremolinaro/ElCanari-distribution/master/ElCanari-1.8.1.dmg" type="application/octet-stream" sparkle:edSignature="cchLgph9cpkpun+Rkck5MFAZDsxKk5BsHjN2RGuyEStuafHkdpU0sLG9aV5qZHY93U1vAAMAUa6eJqdS3yF6CQ==" sparkle:version="1.8.1" length="20040640" sparkle:installationType="application"></enclosure>
+            <description><![CDATA[<p>
+              Version minimum macOS : 10.15<br/>
+              <ul>
+                <li><b>Change</b> Nouvel&nbsp;interface&nbsp;de&nbsp;gestion&nbsp;de&nbsp;la&nbsp;librarie&nbsp;des&nbsp;composants</li>
+                <li><b>Change</b> Nouvel&nbsp;interface&nbsp;de&nbsp;la&nbsp;Librarie&nbsp;d&apos;un&nbsp;projet</li>
+              </ul>
+            </p>]]></description>
+        </item>
+        <item>
             <title>Version 1.8.0</title>
             <sparkle:minimumSystemVersion>10.15</sparkle:minimumSystemVersion>
             <pubDate>Fri, 18 Oct 2024 16:06:37 +0000</pubDate>
