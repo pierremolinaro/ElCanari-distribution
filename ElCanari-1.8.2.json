@@ -1,0 +1,19 @@
+{
+  "edSignature" : "vOytfuhRSfv6cLk9v1ooKXY1aRPA5\/TzuGX+yMZES51Gk8D4MeyKKAPqCE4uiYM\/j2r+RtEYMBktER60ygrnCg==",
+  "news" : [
+
+  ],
+  "changes" : [
+
+  ],
+  "notes" : [
+
+  ],
+  "length" : "20053072",
+  "date" : "2024-11-24T21:09:23Z",
+  "bugfixes" : [
+    "Correction du bug introduit par la version 1.8.1 de la fonction \"Remove Point from Wire\""
+  ],
+  "contents" : "application",
+  "osmin" : "10.15"
+}

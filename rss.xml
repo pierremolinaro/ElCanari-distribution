@@ -5,16 +5,15 @@
         <description>Most recent changes with links to updates</description>
         <language>en</language>
         <item>
-            <title>Version 1.8.1</title>
+            <title>Version 1.8.2</title>
             <sparkle:minimumSystemVersion>10.15</sparkle:minimumSystemVersion>
-            <pubDate>Mon, 18 Nov 2024 08:53:04 +0000</pubDate>
+            <pubDate>Sun, 24 Nov 2024 21:09:23 +0000</pubDate>
             <sparkle:releaseNotesLink>https://pierremolinaro.github.io/ElCanari-distribution/release-notes.html</sparkle:releaseNotesLink>
-            <enclosure url="https://raw.githubusercontent.com/pierremolinaro/ElCanari-distribution/master/ElCanari-1.8.1.dmg" type="application/octet-stream" sparkle:edSignature="cchLgph9cpkpun+Rkck5MFAZDsxKk5BsHjN2RGuyEStuafHkdpU0sLG9aV5qZHY93U1vAAMAUa6eJqdS3yF6CQ==" sparkle:version="1.8.1" length="20040640" sparkle:installationType="application"></enclosure>
+            <enclosure url="https://raw.githubusercontent.com/pierremolinaro/ElCanari-distribution/master/ElCanari-1.8.2.dmg" type="application/octet-stream" sparkle:edSignature="vOytfuhRSfv6cLk9v1ooKXY1aRPA5/TzuGX+yMZES51Gk8D4MeyKKAPqCE4uiYM/j2r+RtEYMBktER60ygrnCg==" sparkle:version="1.8.2" length="20053072" sparkle:installationType="application"></enclosure>
             <description><![CDATA[<p>
               Version minimum macOS : 10.15<br/>
               <ul>
-                <li><b>Change</b> Nouvel&nbsp;interface&nbsp;de&nbsp;gestion&nbsp;de&nbsp;la&nbsp;librarie&nbsp;des&nbsp;composants</li>
-                <li><b>Change</b> Nouvel&nbsp;interface&nbsp;de&nbsp;la&nbsp;Librarie&nbsp;d&apos;un&nbsp;projet</li>
+                <li><b>Bug Fix</b> Correction&nbsp;du&nbsp;bug&nbsp;introduit&nbsp;par&nbsp;la&nbsp;version&nbsp;1.8.1&nbsp;de&nbsp;la&nbsp;fonction&nbsp;&quot;Remove&nbsp;Point&nbsp;from&nbsp;Wire&quot;</li>
               </ul>
             </p>]]></description>
         </item>
