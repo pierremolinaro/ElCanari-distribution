@@ -5,6 +5,19 @@
         <description>Most recent changes with links to updates</description>
         <language>en</language>
         <item>
+            <title>Version 1.8.3</title>
+            <sparkle:minimumSystemVersion>10.15</sparkle:minimumSystemVersion>
+            <pubDate>Fri, 20 Dec 2024 18:12:04 +0000</pubDate>
+            <sparkle:releaseNotesLink>https://pierremolinaro.github.io/ElCanari-distribution/release-notes.html</sparkle:releaseNotesLink>
+            <enclosure url="https://raw.githubusercontent.com/pierremolinaro/ElCanari-distribution/master/ElCanari-1.8.3.dmg" type="application/octet-stream" sparkle:edSignature="W+hKV7mFJhFs8WyXeQu1Sxa/de/frpk/K3U1x6MWZdUuNwi1yxzdJx/8iIGrq3jvMDmFu6yR96J28akc8ValDA==" sparkle:version="1.8.3" length="20012108" sparkle:installationType="application"></enclosure>
+            <description><![CDATA[<p>
+              Version minimum macOS : 10.15<br/>
+              <ul>
+                <li><b>Bug Fix</b> Dans&nbsp;les&nbsp;fichiers&nbsp;Gerber&nbsp;engendr&eacute;s,&nbsp;les&nbsp;points&nbsp;n&apos;apparaissaient&nbsp;pas,&nbsp;alors&nbsp;qu&apos;ils&nbsp;&eacute;taient&nbsp;pr&eacute;sents&nbsp;dans&nbsp;les&nbsp;PDF&nbsp;engendr&eacute;s</li>
+              </ul>
+            </p>]]></description>
+        </item>
+        <item>
             <title>Version 1.8.2</title>
             <sparkle:minimumSystemVersion>10.15</sparkle:minimumSystemVersion>
             <pubDate>Sun, 24 Nov 2024 21:09:23 +0000</pubDate>
