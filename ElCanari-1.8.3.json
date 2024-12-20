@@ -1,0 +1,19 @@
+{
+  "contents" : "application",
+  "news" : [
+
+  ],
+  "length" : "20012108",
+  "changes" : [
+
+  ],
+  "notes" : [
+
+  ],
+  "date" : "2024-12-20T18:12:04Z",
+  "edSignature" : "W+hKV7mFJhFs8WyXeQu1Sxa\/de\/frpk\/K3U1x6MWZdUuNwi1yxzdJx\/8iIGrq3jvMDmFu6yR96J28akc8ValDA==",
+  "bugfixes" : [
+    "Dans les fichiers Gerber engendrés, les points n'apparaissaient pas, alors qu'ils étaient présents dans les PDF engendrés"
+  ],
+  "osmin" : "10.15"
+}
