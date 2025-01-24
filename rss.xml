@@ -5,6 +5,19 @@
         <description>Most recent changes with links to updates</description>
         <language>en</language>
         <item>
+            <title>Version 1.8.4</title>
+            <sparkle:minimumSystemVersion>10.15</sparkle:minimumSystemVersion>
+            <pubDate>Fri, 24 Jan 2025 15:54:05 +0000</pubDate>
+            <sparkle:releaseNotesLink>https://pierremolinaro.github.io/ElCanari-distribution/release-notes.html</sparkle:releaseNotesLink>
+            <enclosure url="https://raw.githubusercontent.com/pierremolinaro/ElCanari-distribution/master/ElCanari-1.8.4.dmg" type="application/octet-stream" sparkle:edSignature="Vx3FLsX8phbxgBFZRGhy0NsFvXo3x/AeOTeu2KZYhc4xPepNfQCnYqQ0m5J8qN61Wy/HV+/avdNpyGVk510EAQ==" sparkle:version="1.8.4" length="20071021" sparkle:installationType="application"></enclosure>
+            <description><![CDATA[<p>
+              Version minimum macOS : 10.15<br/>
+              <ul>
+                <li><b>New</b> Project&nbsp;:&nbsp;Ajout&nbsp;de&nbsp;&quot;Non&nbsp;Plated&nbsp;Holes&quot;&nbsp;sur&nbsp;la&nbsp;carte</li>
+              </ul>
+            </p>]]></description>
+        </item>
+        <item>
             <title>Version 1.8.3</title>
             <sparkle:minimumSystemVersion>10.15</sparkle:minimumSystemVersion>
             <pubDate>Fri, 20 Dec 2024 18:12:04 +0000</pubDate>
