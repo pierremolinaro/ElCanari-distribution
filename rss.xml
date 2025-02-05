@@ -5,16 +5,16 @@
         <description>Most recent changes with links to updates</description>
         <language>en</language>
         <item>
-            <title>Version 1.8.6</title>
+            <title>Version 1.8.7</title>
             <sparkle:minimumSystemVersion>10.15</sparkle:minimumSystemVersion>
-            <pubDate>Wed, 05 Feb 2025 12:24:40 +0000</pubDate>
+            <pubDate>Wed, 05 Feb 2025 18:35:46 +0000</pubDate>
             <sparkle:releaseNotesLink>https://pierremolinaro.github.io/ElCanari-distribution/release-notes.html</sparkle:releaseNotesLink>
-            <enclosure url="https://raw.githubusercontent.com/pierremolinaro/ElCanari-distribution/master/ElCanari-1.8.6.dmg" type="application/octet-stream" sparkle:edSignature="cnZYy2/z+qRnB9jKlh21T87iVjc4c6ZIR6h8yCGeI2iEILKm25sapgS/uBm1tRtr7IwJTRHde+cPvp7PR0YuCg==" sparkle:version="1.8.6" length="21825105" sparkle:installationType="application"></enclosure>
+            <enclosure url="https://raw.githubusercontent.com/pierremolinaro/ElCanari-distribution/master/ElCanari-1.8.7.dmg" type="application/octet-stream" sparkle:edSignature="3N4S78pria/YbLFIgLTkfWmifrcKJcbzSIFiXJduIPtJ/zhdnaKFwQC2Wtb0OOFdbduc8IrZiIOZ/RKbmyidDg==" sparkle:version="1.8.7" length="21818402" sparkle:installationType="application"></enclosure>
             <description><![CDATA[<p>
               Version minimum macOS : 10.15<br/>
               <ul>
-                <li><b>Bug Fix</b> Project&nbsp;:&nbsp;correction&nbsp;de&nbsp;l&apos;erreur&nbsp;d&apos;exportation&nbsp;des&nbsp;&quot;Non&nbsp;Plated&nbsp;Holes&quot;&nbsp;sur&nbsp;les&nbsp;fichiers&nbsp;DSN</li>
                 <li><b>Bug Fix</b> Project&nbsp;:&nbsp;correction&nbsp;du&nbsp;crash&nbsp;lors&nbsp;du&nbsp;lancement&nbsp;de&nbsp;FreeRouter</li>
+                <li><b>Bug Fix</b> Project&nbsp;:&nbsp;correction&nbsp;de&nbsp;l&apos;erreur&nbsp;d&apos;exportation&nbsp;des&nbsp;&quot;Non&nbsp;Plated&nbsp;Holes&quot;&nbsp;vers&nbsp;les&nbsp;fichiers&nbsp;DSN,&nbsp;Gerber&nbsp;et&nbsp;PDF</li>
                 <li><b>Change</b> Compil&eacute;&nbsp;avec&nbsp;Swift&nbsp;6</li>
               </ul>
             </p>]]></description>

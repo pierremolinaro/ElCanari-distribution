@@ -1,0 +1,20 @@
+{
+  "changes" : [
+    "Compilé avec Swift 6"
+  ],
+  "bugfixes" : [
+    "Project : correction du crash lors du lancement de FreeRouter",
+    "Project : correction de l'erreur d'exportation des \"Non Plated Holes\" vers les fichiers DSN, Gerber et PDF"
+  ],
+  "contents" : "application",
+  "notes" : [
+
+  ],
+  "edSignature" : "3N4S78pria\/YbLFIgLTkfWmifrcKJcbzSIFiXJduIPtJ\/zhdnaKFwQC2Wtb0OOFdbduc8IrZiIOZ\/RKbmyidDg==",
+  "news" : [
+
+  ],
+  "length" : "21818402",
+  "date" : "2025-02-05T18:35:46Z",
+  "osmin" : "10.15"
+}
