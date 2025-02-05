@@ -5,15 +5,17 @@
         <description>Most recent changes with links to updates</description>
         <language>en</language>
         <item>
-            <title>Version 1.8.5</title>
+            <title>Version 1.8.6</title>
             <sparkle:minimumSystemVersion>10.15</sparkle:minimumSystemVersion>
-            <pubDate>Wed, 05 Feb 2025 09:44:32 +0000</pubDate>
+            <pubDate>Wed, 05 Feb 2025 12:24:40 +0000</pubDate>
             <sparkle:releaseNotesLink>https://pierremolinaro.github.io/ElCanari-distribution/release-notes.html</sparkle:releaseNotesLink>
-            <enclosure url="https://raw.githubusercontent.com/pierremolinaro/ElCanari-distribution/master/ElCanari-1.8.5.dmg" type="application/octet-stream" sparkle:edSignature="ymT2Gtur7PCKvxr41H7i/CRzBzP8ioL1H1/9qnS2I1D0pPhDCKt1huXq3lwv2Jxn8FmLsJHA4HvJyOgsVrNkBQ==" sparkle:version="1.8.5" length="21819842" sparkle:installationType="application"></enclosure>
+            <enclosure url="https://raw.githubusercontent.com/pierremolinaro/ElCanari-distribution/master/ElCanari-1.8.6.dmg" type="application/octet-stream" sparkle:edSignature="cnZYy2/z+qRnB9jKlh21T87iVjc4c6ZIR6h8yCGeI2iEILKm25sapgS/uBm1tRtr7IwJTRHde+cPvp7PR0YuCg==" sparkle:version="1.8.6" length="21825105" sparkle:installationType="application"></enclosure>
             <description><![CDATA[<p>
               Version minimum macOS : 10.15<br/>
               <ul>
                 <li><b>Bug Fix</b> Project&nbsp;:&nbsp;correction&nbsp;de&nbsp;l&apos;erreur&nbsp;d&apos;exportation&nbsp;des&nbsp;&quot;Non&nbsp;Plated&nbsp;Holes&quot;&nbsp;sur&nbsp;les&nbsp;fichiers&nbsp;DSN</li>
+                <li><b>Bug Fix</b> Project&nbsp;:&nbsp;correction&nbsp;du&nbsp;crash&nbsp;lors&nbsp;du&nbsp;lancement&nbsp;de&nbsp;FreeRouter</li>
+                <li><b>Change</b> Compil&eacute;&nbsp;avec&nbsp;Swift&nbsp;6</li>
               </ul>
             </p>]]></description>
         </item>
