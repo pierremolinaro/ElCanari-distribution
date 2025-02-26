@@ -5,6 +5,20 @@
         <description>Most recent changes with links to updates</description>
         <language>en</language>
         <item>
+            <title>Version 1.8.8</title>
+            <sparkle:minimumSystemVersion>10.15</sparkle:minimumSystemVersion>
+            <pubDate>Wed, 26 Feb 2025 21:57:50 +0000</pubDate>
+            <sparkle:releaseNotesLink>https://pierremolinaro.github.io/ElCanari-distribution/release-notes.html</sparkle:releaseNotesLink>
+            <enclosure url="https://raw.githubusercontent.com/pierremolinaro/ElCanari-distribution/master/ElCanari-1.8.8.dmg" type="application/octet-stream" sparkle:edSignature="UEk+OKra/B1XrcaXyIXSQFtaA/S4tBAuy3Vn3RukBEhJxb2EBUKNn1hrVCUON0jLFaeqoregya5IbX3A65spBA==" sparkle:version="1.8.8" length="21878570" sparkle:installationType="application"></enclosure>
+            <description><![CDATA[<p>
+              Version minimum macOS : 10.15<br/>
+              <ul>
+                <li><b>Bug Fix</b> Merger&nbsp;:&nbsp;correction&nbsp;de&nbsp;la&nbsp;production&nbsp;du&nbsp;fichier&nbsp;&laquo;&nbsp;Board&nbsp;outline&nbsp;&raquo;&nbsp;(GML)</li>
+                <li><b>Change</b> Project&nbsp;et&nbsp;Merger&nbsp;:&nbsp;am&eacute;lioration&nbsp;de&nbsp;l&apos;onglet&nbsp;&laquo;&nbsp;Atrwork&nbsp;Data&nbsp;&raquo;&nbsp;de&nbsp;la&nbsp;page&nbsp;&laquo;&nbsp;Product&nbsp;&raquo;</li>
+              </ul>
+            </p>]]></description>
+        </item>
+        <item>
             <title>Version 1.8.7</title>
             <sparkle:minimumSystemVersion>10.15</sparkle:minimumSystemVersion>
             <pubDate>Wed, 05 Feb 2025 18:35:46 +0000</pubDate>

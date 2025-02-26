@@ -1,0 +1,19 @@
+{
+  "notes" : [
+
+  ],
+  "osmin" : "10.15",
+  "length" : "21878570",
+  "contents" : "application",
+  "date" : "2025-02-26T21:57:50Z",
+  "edSignature" : "UEk+OKra\/B1XrcaXyIXSQFtaA\/S4tBAuy3Vn3RukBEhJxb2EBUKNn1hrVCUON0jLFaeqoregya5IbX3A65spBA==",
+  "changes" : [
+    "Project et Merger : amélioration de l'onglet « Atrwork Data » de la page « Product »"
+  ],
+  "bugfixes" : [
+    "Merger : correction de la production du fichier « Board outline » (GML)"
+  ],
+  "news" : [
+
+  ]
+}
