@@ -1,0 +1,19 @@
+{
+  "edSignature" : "+s8z5jHikq1dXVfQXJEIU41QCPBALMmsXGlq2+XamDSuN\/xIBwnq20fcyvZdClww4dJKJ04Fsk0zp8FIybteBg==",
+  "length" : "20585077",
+  "notes" : [
+    "Construit avec Xcode 16.3 beta 3"
+  ],
+  "changes" : [
+
+  ],
+  "date" : "2025-03-23T20:21:18Z",
+  "news" : [
+
+  ],
+  "bugfixes" : [
+    "Project : correction de l'affichage de l'édition des « net classes »"
+  ],
+  "contents" : "application",
+  "osmin" : "10.15"
+}
