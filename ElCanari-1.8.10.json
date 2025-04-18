@@ -1,0 +1,21 @@
+{
+  "bugfixes" : [
+    "Projet et Merger : correction de la génération des pistes non couvertes par le vernis"
+  ],
+  "news" : [
+    "Projet : contrôle de l'autorisation de pads à l'intérieur d'un rectangle de restriction",
+    "Projet : les pistes préservées par l'autorouteur conservent l'exposition du cuivre et la forme des extrémités",
+    "Projet : les rectangles de restriction permettent d'indiquer l'exposition du cuivre des pistes et d'imposer des terminaisons rectangulaires des pistes"
+  ],
+  "date" : "2025-04-18T16:58:00Z",
+  "changes" : [
+
+  ],
+  "osmin" : "10.15",
+  "length" : "20434274",
+  "edSignature" : "DCWBsr8\/C9CH4NzZyqvKy9khqRMkIPNCvXAF55Ptcx0+KinicLDmNFRh4CR+tBV1vGnT4u\/iaiFaru1g8MRtDw==",
+  "contents" : "application",
+  "notes" : [
+    "Construit avec Xcode 16.3"
+  ]
+}
