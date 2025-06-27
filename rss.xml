@@ -5,6 +5,21 @@
         <description>Most recent changes with links to updates</description>
         <language>en</language>
         <item>
+            <title>Version 1.9.0</title>
+            <sparkle:minimumSystemVersion>10.15</sparkle:minimumSystemVersion>
+            <pubDate>Fri, 27 Jun 2025 07:40:48 +0000</pubDate>
+            <sparkle:releaseNotesLink>https://pierremolinaro.github.io/ElCanari-distribution/release-notes.html</sparkle:releaseNotesLink>
+            <enclosure url="https://raw.githubusercontent.com/pierremolinaro/ElCanari-distribution/master/ElCanari-1.9.0.dmg" type="application/octet-stream" sparkle:edSignature="fXqgYkin49vOzVsKDgyzi6m0Z2gVZZVKz8pTahnhCmGJJUCmsSVevIZ5YsdzGwCvjaljMuicQFjGVFHrQUAyAw==" sparkle:version="1.9.0" length="20559806" sparkle:installationType="application"></enclosure>
+            <description><![CDATA[<p>
+              Version minimum macOS : 10.15<br/>
+              <ul>
+                <li><b>New</b> Devices&nbsp;:&nbsp;ajout&nbsp;de&nbsp;&laquo;&nbsp;cat&eacute;gories&nbsp;&raquo;&nbsp;pour&nbsp;faciliter&nbsp;leur&nbsp;recherche</li>
+                <li><b>Change</b> Am&eacute;lioration&nbsp;de&nbsp;la&nbsp;s&eacute;lection&nbsp;multiple</li>
+                <li><b>Note</b> Construit&nbsp;avec&nbsp;Xcode&nbsp;26.0&nbsp;beta&nbsp;2,&nbsp;Sparkle&nbsp;2.7.1</li>
+              </ul>
+            </p>]]></description>
+        </item>
+        <item>
             <title>Version 1.8.10</title>
             <sparkle:minimumSystemVersion>10.15</sparkle:minimumSystemVersion>
             <pubDate>Fri, 18 Apr 2025 16:58:00 +0000</pubDate>

@@ -1,0 +1,19 @@
+{
+  "date" : "2025-06-27T07:40:48Z",
+  "length" : "20559806",
+  "notes" : [
+    "Construit avec Xcode 26.0 beta 2, Sparkle 2.7.1"
+  ],
+  "changes" : [
+    "Amélioration de la sélection multiple"
+  ],
+  "osmin" : "10.15",
+  "bugfixes" : [
+
+  ],
+  "news" : [
+    "Devices : ajout de « catégories » pour faciliter leur recherche"
+  ],
+  "edSignature" : "fXqgYkin49vOzVsKDgyzi6m0Z2gVZZVKz8pTahnhCmGJJUCmsSVevIZ5YsdzGwCvjaljMuicQFjGVFHrQUAyAw==",
+  "contents" : "application"
+}
