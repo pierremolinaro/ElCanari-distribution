@@ -1,0 +1,19 @@
+{
+  "contents" : "application",
+  "news" : [
+    "Freerouting : application pour puce Apple et application pour Intel"
+  ],
+  "length" : "20558758",
+  "changes" : [
+
+  ],
+  "notes" : [
+    "Construit avec Xcode 26.0 beta 3, Sparkle 2.7.1"
+  ],
+  "date" : "2025-07-14T11:36:32Z",
+  "edSignature" : "x67qppBLcL\/SsHGpvctWCnhi0PikxLssCFJKdeB1dt9ZMaRIH5I93QzVzuAyAljbHPSjkn7iHBkjyulPmru+Dw==",
+  "bugfixes" : [
+    "quand on relâchait la touche « option » lors d'un tracé de piste, un tracé erroné apparaissait"
+  ],
+  "osmin" : "10.15"
+}

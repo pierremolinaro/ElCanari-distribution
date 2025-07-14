@@ -5,6 +5,21 @@
         <description>Most recent changes with links to updates</description>
         <language>en</language>
         <item>
+            <title>Version 1.9.1</title>
+            <sparkle:minimumSystemVersion>10.15</sparkle:minimumSystemVersion>
+            <pubDate>Mon, 14 Jul 2025 11:36:32 +0000</pubDate>
+            <sparkle:releaseNotesLink>https://pierremolinaro.github.io/ElCanari-distribution/release-notes.html</sparkle:releaseNotesLink>
+            <enclosure url="https://raw.githubusercontent.com/pierremolinaro/ElCanari-distribution/master/ElCanari-1.9.1.dmg" type="application/octet-stream" sparkle:edSignature="x67qppBLcL/SsHGpvctWCnhi0PikxLssCFJKdeB1dt9ZMaRIH5I93QzVzuAyAljbHPSjkn7iHBkjyulPmru+Dw==" sparkle:version="1.9.1" length="20558758" sparkle:installationType="application"></enclosure>
+            <description><![CDATA[<p>
+              Version minimum macOS : 10.15<br/>
+              <ul>
+                <li><b>Bug Fix</b> quand&nbsp;on&nbsp;rel&acirc;chait&nbsp;la&nbsp;touche&nbsp;&laquo;&nbsp;option&nbsp;&raquo;&nbsp;lors&nbsp;d&apos;un&nbsp;trac&eacute;&nbsp;de&nbsp;piste,&nbsp;un&nbsp;trac&eacute;&nbsp;erron&eacute;&nbsp;apparaissait</li>
+                <li><b>New</b> Freerouting&nbsp;:&nbsp;application&nbsp;pour&nbsp;puce&nbsp;Apple&nbsp;et&nbsp;application&nbsp;pour&nbsp;Intel</li>
+                <li><b>Note</b> Construit&nbsp;avec&nbsp;Xcode&nbsp;26.0&nbsp;beta&nbsp;3,&nbsp;Sparkle&nbsp;2.7.1</li>
+              </ul>
+            </p>]]></description>
+        </item>
+        <item>
             <title>Version 1.9.0</title>
             <sparkle:minimumSystemVersion>10.15</sparkle:minimumSystemVersion>
             <pubDate>Fri, 27 Jun 2025 07:40:48 +0000</pubDate>
