@@ -5,6 +5,20 @@
         <description>Most recent changes with links to updates</description>
         <language>en</language>
         <item>
+            <title>Version 1.9.2</title>
+            <sparkle:minimumSystemVersion>10.15</sparkle:minimumSystemVersion>
+            <pubDate>Thu, 07 Aug 2025 07:37:13 +0000</pubDate>
+            <sparkle:releaseNotesLink>https://pierremolinaro.github.io/ElCanari-distribution/release-notes.html</sparkle:releaseNotesLink>
+            <enclosure url="https://raw.githubusercontent.com/pierremolinaro/ElCanari-distribution/master/ElCanari-1.9.2.dmg" type="application/octet-stream" sparkle:edSignature="wqU8TAKWTl2Rg1+i1PZvLDli3tE1R6H68myRW9ZQ1VScPnGhlmDxKLqXFp6J5TL2XaaPSOna4SK3rqjgZQPPCA==" sparkle:version="1.9.2" length="20282208" sparkle:installationType="application"></enclosure>
+            <description><![CDATA[<p>
+              Version minimum macOS : 10.15<br/>
+              <ul>
+                <li><b>New</b> Ajout&nbsp;FreeRouting&nbsp;1.9.0</li>
+                <li><b>Note</b> Construit&nbsp;avec&nbsp;Xcode&nbsp;26.0&nbsp;beta&nbsp;5,&nbsp;Sparkle&nbsp;2.7.1</li>
+              </ul>
+            </p>]]></description>
+        </item>
+        <item>
             <title>Version 1.9.1</title>
             <sparkle:minimumSystemVersion>10.15</sparkle:minimumSystemVersion>
             <pubDate>Mon, 14 Jul 2025 11:36:32 +0000</pubDate>
