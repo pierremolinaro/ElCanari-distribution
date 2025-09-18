@@ -1,0 +1,19 @@
+{
+  "bugfixes" : [
+    "Merger: correction bug de génération des QRCodes"
+  ],
+  "length" : "21133147",
+  "news" : [
+
+  ],
+  "date" : "2025-09-18T09:06:26Z",
+  "edSignature" : "FguYYgoJm+qXlC7S7\/MSDkPHCD4NtQLZ+D+YipmvVWRJQJblcs8UKCZF7VvpwMabKT4t2wCL0NWGqHp3gZZGBw==",
+  "contents" : "application",
+  "changes" : [
+
+  ],
+  "osmin" : "10.15",
+  "notes" : [
+    "Construit avec Xcode 26.0, Sparkle 2.8.0"
+  ]
+}

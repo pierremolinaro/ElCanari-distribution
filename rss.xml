@@ -5,6 +5,20 @@
         <description>Most recent changes with links to updates</description>
         <language>en</language>
         <item>
+            <title>Version 1.9.3</title>
+            <sparkle:minimumSystemVersion>10.15</sparkle:minimumSystemVersion>
+            <pubDate>Thu, 18 Sep 2025 09:06:26 +0000</pubDate>
+            <sparkle:releaseNotesLink>https://pierremolinaro.github.io/ElCanari-distribution/release-notes.html</sparkle:releaseNotesLink>
+            <enclosure url="https://raw.githubusercontent.com/pierremolinaro/ElCanari-distribution/master/ElCanari-1.9.3.dmg" type="application/octet-stream" sparkle:edSignature="FguYYgoJm+qXlC7S7/MSDkPHCD4NtQLZ+D+YipmvVWRJQJblcs8UKCZF7VvpwMabKT4t2wCL0NWGqHp3gZZGBw==" sparkle:version="1.9.3" length="21133147" sparkle:installationType="application"></enclosure>
+            <description><![CDATA[<p>
+              Version minimum macOS : 10.15<br/>
+              <ul>
+                <li><b>Bug Fix</b> Merger:&nbsp;correction&nbsp;bug&nbsp;de&nbsp;g&eacute;n&eacute;ration&nbsp;des&nbsp;QRCodes</li>
+                <li><b>Note</b> Construit&nbsp;avec&nbsp;Xcode&nbsp;26.0,&nbsp;Sparkle&nbsp;2.8.0</li>
+              </ul>
+            </p>]]></description>
+        </item>
+        <item>
             <title>Version 1.9.2</title>
             <sparkle:minimumSystemVersion>10.15</sparkle:minimumSystemVersion>
             <pubDate>Thu, 07 Aug 2025 07:37:13 +0000</pubDate>
