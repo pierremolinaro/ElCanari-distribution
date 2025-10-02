@@ -1,0 +1,20 @@
+{
+  "changes" : [
+
+  ],
+  "osmin" : "10.15",
+  "notes" : [
+    "Construit avec Xcode 26.1 beta 1, Sparkle 2.8.0"
+  ],
+  "edSignature" : "\/A5QtXkGPBt3CromBk6Ckpb+V1MYjNv1gV3B8KnWvmk6kGxzfKG2zTI2+KrbR82JlJ\/XCJ2i9TnljNKygod8AA==",
+  "bugfixes" : [
+    "Project: correction bug de la rotation d'un composant et d'un label dans le schéma"
+  ],
+  "date" : "2025-10-02T19:38:44Z",
+  "length" : "20279069",
+  "news" : [
+    "Device: la mise à jour d'un symbole est réalisée si l'ancien et le nouveau symbole ne diffèrent que d'un seul nom de pin",
+    "Project: la mise à jour d'un device est réalisée si un ancien et son nouveau symbole ne diffèrent que d'un seul nom de pin"
+  ],
+  "contents" : "application"
+}
