@@ -1,0 +1,19 @@
+{
+  "date" : "2025-10-22T17:38:50Z",
+  "bugfixes" : [
+
+  ],
+  "edSignature" : "Z7\/ePNr3dvgTfm09v3BnyoPbykP4CjttDTjHBsPpi3KSg6t8iiwggB5ycPC3Zzlf9aJCLROnM+x0HKmNlsTlCQ==",
+  "news" : [
+    "Project: sélection du répertoire utilisé par Freerouting lors du routage"
+  ],
+  "contents" : "application",
+  "notes" : [
+    "Construit avec Xcode 26.1 beta 3, Sparkle 2.8.0"
+  ],
+  "length" : "20324221",
+  "osmin" : "10.15",
+  "changes" : [
+
+  ]
+}
