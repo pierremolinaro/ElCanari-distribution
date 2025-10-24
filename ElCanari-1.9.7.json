@@ -1,0 +1,19 @@
+{
+  "notes" : [
+    "Construit avec Xcode 26.1 beta 3, Sparkle 2.8.0"
+  ],
+  "date" : "2025-10-24T15:13:35Z",
+  "edSignature" : "6vyK3G+ZbRUfojYHnCDxlKuyO6IK8MUd1qCrRxtGa9rOSX3vbBN+RnV7n4eney6ntPJn62Gxw2JbGXzTBH1IDQ==",
+  "bugfixes" : [
+    "Project: correction du bug qui empêchait l'enregistrement du document après avoir ajouté une « Font »"
+  ],
+  "length" : "20326913",
+  "news" : [
+
+  ],
+  "osmin" : "10.15",
+  "contents" : "application",
+  "changes" : [
+
+  ]
+}
