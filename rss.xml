@@ -5,6 +5,20 @@
         <description>Most recent changes with links to updates</description>
         <language>en</language>
         <item>
+            <title>Version 1.9.8</title>
+            <sparkle:minimumSystemVersion>10.15</sparkle:minimumSystemVersion>
+            <pubDate>Thu, 06 Nov 2025 20:48:34 +0000</pubDate>
+            <sparkle:releaseNotesLink>https://pierremolinaro.github.io/ElCanari-distribution/release-notes.html</sparkle:releaseNotesLink>
+            <enclosure url="https://raw.githubusercontent.com/pierremolinaro/ElCanari-distribution/master/ElCanari-1.9.8.dmg" type="application/octet-stream" sparkle:edSignature="gp0+L+lNpPWdtciHYO6Fsbxt3Q35JaDauW4n5wfSotwrIg0P6DVHjD0AOqTzmrBsl2WsRyK91UqIjix0u2dSCg==" sparkle:version="1.9.8" length="19502951" sparkle:installationType="application"></enclosure>
+            <description><![CDATA[<p>
+              Version minimum macOS : 10.15<br/>
+              <ul>
+                <li><b>New</b> Projet&nbsp;:&nbsp;ajout&nbsp;d&apos;un&nbsp;menu&nbsp;permettant&nbsp;de&nbsp;s&eacute;lectionner&nbsp;des&nbsp;composants&nbsp;&agrave;&nbsp;partir&nbsp;de&nbsp;leurs&nbsp;symboles&nbsp;s&eacute;lectionn&eacute;s&nbsp;dans&nbsp;le&nbsp;sch&eacute;ma</li>
+                <li><b>Note</b> Construit&nbsp;avec&nbsp;Xcode&nbsp;26.2&nbsp;beta,&nbsp;Sparkle&nbsp;2.8.0</li>
+              </ul>
+            </p>]]></description>
+        </item>
+        <item>
             <title>Version 1.9.7</title>
             <sparkle:minimumSystemVersion>10.15</sparkle:minimumSystemVersion>
             <pubDate>Fri, 24 Oct 2025 15:13:35 +0000</pubDate>

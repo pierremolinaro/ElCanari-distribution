@@ -1,0 +1,19 @@
+{
+  "changes" : [
+
+  ],
+  "edSignature" : "gp0+L+lNpPWdtciHYO6Fsbxt3Q35JaDauW4n5wfSotwrIg0P6DVHjD0AOqTzmrBsl2WsRyK91UqIjix0u2dSCg==",
+  "notes" : [
+    "Construit avec Xcode 26.2 beta, Sparkle 2.8.0"
+  ],
+  "news" : [
+    "Projet : ajout d'un menu permettant de sélectionner des composants à partir de leurs symboles sélectionnés dans le schéma"
+  ],
+  "date" : "2025-11-06T20:48:34Z",
+  "bugfixes" : [
+
+  ],
+  "length" : "19502951",
+  "osmin" : "10.15",
+  "contents" : "application"
+}
