@@ -5,6 +5,20 @@
         <description>Most recent changes with links to updates</description>
         <language>en</language>
         <item>
+            <title>Version 1.9.9</title>
+            <sparkle:minimumSystemVersion>10.15</sparkle:minimumSystemVersion>
+            <pubDate>Sun, 16 Nov 2025 21:00:39 +0000</pubDate>
+            <sparkle:releaseNotesLink>https://pierremolinaro.github.io/ElCanari-distribution/release-notes.html</sparkle:releaseNotesLink>
+            <enclosure url="https://raw.githubusercontent.com/pierremolinaro/ElCanari-distribution/master/ElCanari-1.9.9.dmg" type="application/octet-stream" sparkle:edSignature="JXaKyBFj68JdDNwP1efn/NQ9YE/hI6GVdwM5hR6KhkHHLLq151KH/oLvtLGx/1V3RijV6K37p3+XhZdClc3gBQ==" sparkle:version="1.9.9" length="20333557" sparkle:installationType="application"></enclosure>
+            <description><![CDATA[<p>
+              Version minimum macOS : 10.15<br/>
+              <ul>
+                <li><b>New</b> Projet&nbsp;:&nbsp;l&apos;ERC&nbsp;d&eacute;tecte&nbsp;maintenant&nbsp;les&nbsp;pistes&nbsp;trop&nbsp;&eacute;troites</li>
+                <li><b>Note</b> Construit&nbsp;avec&nbsp;Xcode&nbsp;26.2&nbsp;beta,&nbsp;Sparkle&nbsp;2.8.0</li>
+              </ul>
+            </p>]]></description>
+        </item>
+        <item>
             <title>Version 1.9.8</title>
             <sparkle:minimumSystemVersion>10.15</sparkle:minimumSystemVersion>
             <pubDate>Thu, 06 Nov 2025 20:48:34 +0000</pubDate>

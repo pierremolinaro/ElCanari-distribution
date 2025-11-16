@@ -1,0 +1,19 @@
+{
+  "changes" : [
+
+  ],
+  "osmin" : "10.15",
+  "bugfixes" : [
+
+  ],
+  "length" : "20333557",
+  "date" : "2025-11-16T21:00:39Z",
+  "news" : [
+    "Projet : l'ERC détecte maintenant les pistes trop étroites"
+  ],
+  "contents" : "application",
+  "edSignature" : "JXaKyBFj68JdDNwP1efn\/NQ9YE\/hI6GVdwM5hR6KhkHHLLq151KH\/oLvtLGx\/1V3RijV6K37p3+XhZdClc3gBQ==",
+  "notes" : [
+    "Construit avec Xcode 26.2 beta, Sparkle 2.8.0"
+  ]
+}
