@@ -1,0 +1,19 @@
+{
+  "changes" : [
+
+  ],
+  "osmin" : "10.15",
+  "date" : "2026-05-17T19:16:55Z",
+  "bugfixes" : [
+    "Crash sur 14.x (Sonoma) et ultérieur : « text » vide dans le document « symbole »"
+  ],
+  "edSignature" : "t4vd2L499820hZ8iu8wKnAyFe9j\/m7Qs+h6eBVbgKm8oIVb4ZFAkDXaz8ibHqtyFJ2V93xSrWPJ0g3XKtZ2rAw==",
+  "notes" : [
+    "Construit avec Xcode 26.5, Sparkle 2.9.2"
+  ],
+  "length" : "20696644",
+  "news" : [
+
+  ],
+  "contents" : "application"
+}

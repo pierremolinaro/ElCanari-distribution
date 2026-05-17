@@ -5,6 +5,20 @@
         <description>Most recent changes with links to updates</description>
         <language>en</language>
         <item>
+            <title>Version 1.9.10</title>
+            <sparkle:minimumSystemVersion>10.15</sparkle:minimumSystemVersion>
+            <pubDate>Sun, 17 May 2026 19:16:55 +0000</pubDate>
+            <sparkle:releaseNotesLink>https://pierremolinaro.github.io/ElCanari-distribution/release-notes.html</sparkle:releaseNotesLink>
+            <enclosure url="https://raw.githubusercontent.com/pierremolinaro/ElCanari-distribution/master/ElCanari-1.9.10.dmg" type="application/octet-stream" sparkle:edSignature="t4vd2L499820hZ8iu8wKnAyFe9j/m7Qs+h6eBVbgKm8oIVb4ZFAkDXaz8ibHqtyFJ2V93xSrWPJ0g3XKtZ2rAw==" sparkle:version="1.9.10" length="20696644" sparkle:installationType="application"></enclosure>
+            <description><![CDATA[<p>
+              Version minimum macOS : 10.15<br/>
+              <ul>
+                <li><b>Bug Fix</b> Crash&nbsp;sur&nbsp;14.x&nbsp;(Sonoma)&nbsp;et&nbsp;ult&eacute;rieur&nbsp;:&nbsp;&laquo;&nbsp;text&nbsp;&raquo;&nbsp;vide&nbsp;dans&nbsp;le&nbsp;document&nbsp;&laquo;&nbsp;symbole&nbsp;&raquo;</li>
+                <li><b>Note</b> Construit&nbsp;avec&nbsp;Xcode&nbsp;26.5,&nbsp;Sparkle&nbsp;2.9.2</li>
+              </ul>
+            </p>]]></description>
+        </item>
+        <item>
             <title>Version 1.9.9</title>
             <sparkle:minimumSystemVersion>10.15</sparkle:minimumSystemVersion>
             <pubDate>Sun, 16 Nov 2025 21:00:39 +0000</pubDate>
