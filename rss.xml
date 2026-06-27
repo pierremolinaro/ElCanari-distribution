@@ -5,6 +5,22 @@
         <description>Most recent changes with links to updates</description>
         <language>en</language>
         <item>
+            <title>Version 1.12.0</title>
+            <sparkle:minimumSystemVersion>12</sparkle:minimumSystemVersion>
+            <pubDate>Sat, 27 Jun 2026 09:09:24 +0000</pubDate>
+            <sparkle:releaseNotesLink>https://pierremolinaro.github.io/ElCanari-distribution/release-notes.html</sparkle:releaseNotesLink>
+            <enclosure url="https://raw.githubusercontent.com/pierremolinaro/ElCanari-distribution/master/ElCanari-1.12.0.dmg" type="application/octet-stream" sparkle:edSignature="qLGu9CT0ISQ2407p1s+athKPuPGdr9SQ53gxZDN+VBp2ilpJx93IHrcvA/4UKpXbplOJYYH0rnVv/iJ1/QzCAw==" sparkle:version="1.12.0" length="16457404" sparkle:installationType="application"></enclosure>
+            <description><![CDATA[<p>
+              Version minimum macOS : 12<br/>
+              <ul>
+                <li><b>Bug Fix</b> Correction&nbsp;exportation&nbsp;des&nbsp;vias&nbsp;dans&nbsp;un&nbsp;fichier&nbsp;DSN</li>
+                <li><b>Change</b> Version&nbsp;syst&egrave;me&nbsp;minimum&nbsp;:&nbsp;12&nbsp;(Monterey)</li>
+                <li><b>Change</b> Uniquement&nbsp;pour&nbsp;puce&nbsp;Apple</li>
+                <li><b>Note</b> Construit&nbsp;avec&nbsp;Xcode&nbsp;26.7&nbsp;beta&nbsp;2,&nbsp;Sparkle&nbsp;2.9.3</li>
+              </ul>
+            </p>]]></description>
+        </item>
+        <item>
             <title>Version 1.9.10</title>
             <sparkle:minimumSystemVersion>10.15</sparkle:minimumSystemVersion>
             <pubDate>Sun, 17 May 2026 19:16:55 +0000</pubDate>

@@ -1,0 +1,20 @@
+{
+  "news" : [
+
+  ],
+  "edSignature" : "qLGu9CT0ISQ2407p1s+athKPuPGdr9SQ53gxZDN+VBp2ilpJx93IHrcvA\/4UKpXbplOJYYH0rnVv\/iJ1\/QzCAw==",
+  "bugfixes" : [
+    "Correction exportation des vias dans un fichier DSN"
+  ],
+  "length" : "16457404",
+  "osmin" : "12",
+  "date" : "2026-06-27T09:09:24Z",
+  "notes" : [
+    "Construit avec Xcode 26.7 beta 2, Sparkle 2.9.3"
+  ],
+  "contents" : "application",
+  "changes" : [
+    "Version système minimum : 12 (Monterey)",
+    "Uniquement pour puce Apple"
+  ]
+}
