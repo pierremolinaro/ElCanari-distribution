@@ -1,0 +1,19 @@
+{
+  "date" : "2026-11-17T21:06:43Z",
+  "osmin" : "12",
+  "changes" : [
+
+  ],
+  "edSignature" : "ouNv6x6OFnKy4N\/94w0CkmtIYpWCJHpHhCYlbJ5nf3LiJlFvo9sBgtk+qiErSfnqg0us8PbRdxLiRXb0tMhRBA==",
+  "news" : [
+
+  ],
+  "contents" : "application",
+  "bugfixes" : [
+    "Correction plantage lors d'une mise à jour d'un composant"
+  ],
+  "length" : "16434253",
+  "notes" : [
+    "Construit avec Xcode 27.3 beta, Sparkle 2.10.1"
+  ]
+}
