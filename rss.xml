@@ -5,6 +5,21 @@
         <description>Most recent changes with links to updates</description>
         <language>en</language>
         <item>
+            <title>Version 1.12.3</title>
+            <sparkle:minimumSystemVersion>12</sparkle:minimumSystemVersion>
+            <pubDate>Thu, 26 Nov 2026 09:27:22 +0000</pubDate>
+            <sparkle:releaseNotesLink>https://pierremolinaro.github.io/ElCanari-distribution/release-notes.html</sparkle:releaseNotesLink>
+            <enclosure url="https://raw.githubusercontent.com/pierremolinaro/ElCanari-distribution/master/ElCanari-1.12.3.dmg" type="application/octet-stream" sparkle:edSignature="JQWk+GKGHe+4S2s6M+4QuTEKNOdyKCE/L+wCH/BfpQN0VIcMlaotoqEF8x2LPJZCZHcculAC6vnLNwIg4696Cg==" sparkle:version="1.12.3" length="16437037" sparkle:installationType="application"></enclosure>
+            <description><![CDATA[<p>
+              Version minimum macOS : 12<br/>
+              <ul>
+                <li><b>Bug Fix</b> Correction&nbsp;des&nbsp;copier&nbsp;/&nbsp;coller</li>
+                <li><b>Bug Fix</b> Correction&nbsp;de&nbsp;la&nbsp;taille&nbsp;du&nbsp;&laquo;&nbsp;Contextual&nbsp;Click&nbsp;Diameter&nbsp;&raquo;</li>
+                <li><b>Note</b> Construit&nbsp;avec&nbsp;Xcode&nbsp;27.3&nbsp;beta,&nbsp;Sparkle&nbsp;2.10.1</li>
+              </ul>
+            </p>]]></description>
+        </item>
+        <item>
             <title>Version 1.12.2</title>
             <sparkle:minimumSystemVersion>12</sparkle:minimumSystemVersion>
             <pubDate>Tue, 17 Nov 2026 21:06:43 +0000</pubDate>

@@ -1,0 +1,20 @@
+{
+  "notes" : [
+    "Construit avec Xcode 27.3 beta, Sparkle 2.10.1"
+  ],
+  "changes" : [
+
+  ],
+  "bugfixes" : [
+    "Correction des copier \/ coller",
+    "Correction de la taille du « Contextual Click Diameter »"
+  ],
+  "contents" : "application",
+  "edSignature" : "JQWk+GKGHe+4S2s6M+4QuTEKNOdyKCE\/L+wCH\/BfpQN0VIcMlaotoqEF8x2LPJZCZHcculAC6vnLNwIg4696Cg==",
+  "length" : "16437037",
+  "news" : [
+
+  ],
+  "date" : "2026-11-26T09:27:22Z",
+  "osmin" : "12"
+}
